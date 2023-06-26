@@ -1,0 +1,20 @@
+// Test301
+
+program test301
+
+	int nula;
+	int niz[];
+	
+	
+{
+	void main()	
+	{
+			nula = 0;
+		niz = new int [1];
+	
+		return;
+			
+	}
+}
+
+

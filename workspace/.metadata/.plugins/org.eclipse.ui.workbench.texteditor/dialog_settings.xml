@@ -3,35 +3,35 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
-		<item key="wholeword" value="false"/>
+		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="loadConst"/>
+		<item key="selection" value="return nije postavljen!!"/>
 		<list key="findhistory">
-			<item value="loadconst"/>
-			<item value="load const"/>
-			<item value="load_const"/>
-			<item value="IntFactor"/>
-			<item value="NewVectorExprFactor"/>
-			<item value="DesignatorWithOptList"/>
-			<item value="NonEmptyListaDesi"/>
-			<item value="FactorDesignatorWithActPars"/>
-			<item value="Meth"/>
-			<item value="SemanticVisitor"/>
-			<item value="Print"/>
-			<item value="StatementPrint"/>
-			<item value="PrintStmt"/>
-			<item value="DelimitedStatement"/>
-			<item value="MultipleStatemet"/>
+			<item value="return nije postavljen!!"/>
+			<item value="REYRN"/>
+			<item value="VoidReturnType"/>
+			<item value="MethodDecl"/>
+			<item value="pozvanRetur"/>
+			<item value=" return nije postavljen!!"/>
+			<item value="RETURN"/>
+			<item value="RETUURN"/>
+			<item value="DesiStmtAssignop"/>
+			<item value="NewMatrixFactor"/>
+			<item value="nije tipa int"/>
+			<item value="a"/>
+			<item value="print "/>
+			<item value="globalCount"/>
+			<item value="ConstsList"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1269"/>
-		<item key="DIALOG_Y_ORIGIN" value="278"/>
+		<item key="DIALOG_X_ORIGIN" value="1427"/>
+		<item key="DIALOG_Y_ORIGIN" value="368"/>
 		<item key="DIALOG_WIDTH" value="284"/>
-		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_HEIGHT" value="372"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

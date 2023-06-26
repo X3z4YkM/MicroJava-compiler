@@ -1,0 +1,2860 @@
+INFO  15:26:44,300 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:26:44,609 - #43 program
+INFO  15:26:44,609 - #2 test301
+INFO  15:26:44,609 - #41 const
+INFO  15:26:44,613 - #2 int
+INFO  15:26:44,613 - #2 nula
+INFO  15:26:44,615 - #13 =
+INFO  15:26:44,615 - #3 0
+INFO  15:26:44,615 - #31 ;
+INFO  15:26:44,618 - #41 const
+INFO  15:26:44,618 - #2 int
+INFO  15:26:44,618 - #2 jedan
+INFO  15:26:44,618 - #13 =
+INFO  15:26:44,618 - #3 1
+INFO  15:26:44,618 - #31 ;
+INFO  15:26:44,618 - #41 const
+INFO  15:26:44,618 - #2 int
+INFO  15:26:44,619 - #2 pet
+INFO  15:26:44,619 - #13 =
+INFO  15:26:44,619 - #3 5
+INFO  15:26:44,619 - #31 ;
+INFO  15:26:44,619 - #2 int
+INFO  15:26:44,619 - #2 niz
+INFO  15:26:44,619 - #11 [
+INFO  15:26:44,619 - #10 ]
+INFO  15:26:44,619 - #9 ,
+INFO  15:26:44,619 - #2 niz2
+INFO  15:26:44,619 - #11 [
+INFO  15:26:44,620 - #10 ]
+INFO  15:26:44,620 - #9 ,
+INFO  15:26:44,620 - #2 a
+INFO  15:26:44,620 - #9 ,
+INFO  15:26:44,620 - #2 b
+INFO  15:26:44,620 - #31 ;
+INFO  15:26:44,620 - #2 char
+INFO  15:26:44,620 - #2 nizch
+INFO  15:26:44,620 - #11 [
+INFO  15:26:44,621 - #10 ]
+INFO  15:26:44,621 - #31 ;
+INFO  15:26:44,621 - #2 int
+INFO  15:26:44,621 - #2 mat
+INFO  15:26:44,621 - #11 [
+INFO  15:26:44,621 - #10 ]
+INFO  15:26:44,621 - #11 [
+INFO  15:26:44,621 - #10 ]
+INFO  15:26:44,621 - #31 ;
+INFO  15:26:44,621 - #2 char
+INFO  15:26:44,621 - #2 mat_ch
+INFO  15:26:44,622 - #11 [
+INFO  15:26:44,622 - #10 ]
+INFO  15:26:44,622 - #11 [
+INFO  15:26:44,622 - #10 ]
+INFO  15:26:44,622 - #31 ;
+INFO  15:26:44,622 - #34 {
+INFO  15:26:44,622 - #2 int
+INFO  15:26:44,625 - #2 main
+INFO  15:26:44,625 - #26 (
+INFO  15:26:44,627 - #27 )
+INFO  15:26:44,629 - #2 int
+INFO  15:26:44,631 - #2 bodovi
+INFO  15:26:44,631 - #31 ;
+INFO  15:26:44,631 - #2 bool
+INFO  15:26:44,631 - #2 bt
+INFO  15:26:44,632 - #31 ;
+INFO  15:26:44,632 - #34 {
+INFO  15:26:44,632 - #2 bodovi
+INFO  15:26:44,636 - #13 =
+INFO  15:26:44,641 - #3 0
+INFO  15:26:44,645 - #31 ;
+INFO  15:26:44,645 - #2 bodovi
+INFO  15:26:44,645 - #32 ++
+INFO  15:26:44,646 - #31 ;
+INFO  15:26:44,646 - #2 bodovi
+INFO  15:26:44,646 - #13 =
+INFO  15:26:44,646 - #2 bodovi
+INFO  15:26:44,646 - #20 +
+INFO  15:26:44,646 - #2 jedan
+INFO  15:26:44,650 - #31 ;
+INFO  15:26:44,651 - #2 bodovi
+INFO  15:26:44,651 - #13 =
+INFO  15:26:44,651 - #2 bodovi
+INFO  15:26:44,651 - #22 *
+INFO  15:26:44,651 - #2 pet
+INFO  15:26:44,657 - #31 ;
+INFO  15:26:44,657 - #2 bodovi
+INFO  15:26:44,657 - #33 --
+INFO  15:26:44,657 - #31 ;
+INFO  15:26:44,657 - #38 print
+INFO  15:26:44,657 - #26 (
+INFO  15:26:44,657 - #2 bodovi
+INFO  15:26:44,657 - #27 )
+INFO  15:26:44,660 - #31 ;
+INFO  15:26:44,660 - #2 niz
+INFO  15:26:44,660 - #13 =
+INFO  15:26:44,660 - #25 new
+INFO  15:26:44,660 - #2 int
+INFO  15:26:44,660 - #11 [
+INFO  15:26:44,660 - #3 3
+INFO  15:26:44,661 - #10 ]
+INFO  15:26:44,661 - #31 ;
+INFO  15:26:44,661 - #2 niz
+INFO  15:26:44,661 - #11 [
+INFO  15:26:44,661 - #2 nula
+INFO  15:26:44,666 - #10 ]
+INFO  15:26:44,666 - #13 =
+INFO  15:26:44,666 - #2 jedan
+INFO  15:26:44,666 - #31 ;
+INFO  15:26:44,666 - #2 niz
+INFO  15:26:44,666 - #11 [
+INFO  15:26:44,666 - #3 1
+INFO  15:26:44,666 - #10 ]
+INFO  15:26:44,666 - #13 =
+INFO  15:26:44,666 - #3 2
+INFO  15:26:44,666 - #31 ;
+INFO  15:26:44,667 - #2 niz
+INFO  15:26:44,667 - #11 [
+INFO  15:26:44,667 - #2 niz
+INFO  15:26:44,667 - #11 [
+INFO  15:26:44,667 - #2 jedan
+INFO  15:26:44,667 - #10 ]
+INFO  15:26:44,667 - #10 ]
+INFO  15:26:44,667 - #13 =
+INFO  15:26:44,667 - #2 niz
+INFO  15:26:44,667 - #11 [
+INFO  15:26:44,667 - #2 niz
+INFO  15:26:44,667 - #11 [
+INFO  15:26:44,667 - #3 0
+INFO  15:26:44,667 - #10 ]
+INFO  15:26:44,667 - #10 ]
+INFO  15:26:44,668 - #22 *
+INFO  15:26:44,668 - #3 3
+INFO  15:26:44,668 - #31 ;
+INFO  15:26:44,668 - #2 bodovi
+INFO  15:26:44,668 - #13 =
+INFO  15:26:44,668 - #2 niz
+INFO  15:26:44,668 - #11 [
+INFO  15:26:44,668 - #3 2
+INFO  15:26:44,668 - #10 ]
+INFO  15:26:44,668 - #24 /
+INFO  15:26:44,668 - #2 niz
+INFO  15:26:44,670 - #11 [
+INFO  15:26:44,670 - #3 0
+INFO  15:26:44,671 - #10 ]
+INFO  15:26:44,671 - #31 ;
+INFO  15:26:44,671 - #38 print
+INFO  15:26:44,671 - #26 (
+INFO  15:26:44,671 - #2 bodovi
+INFO  15:26:44,671 - #27 )
+INFO  15:26:44,671 - #31 ;
+INFO  15:26:44,671 - #38 print
+INFO  15:26:44,671 - #26 (
+INFO  15:26:44,671 - #2 niz
+INFO  15:26:44,671 - #11 [
+INFO  15:26:44,671 - #3 2
+INFO  15:26:44,671 - #10 ]
+INFO  15:26:44,671 - #27 )
+INFO  15:26:44,671 - #31 ;
+INFO  15:26:44,671 - #2 mat
+INFO  15:26:44,671 - #13 =
+INFO  15:26:44,671 - #25 new
+INFO  15:26:44,671 - #2 int
+INFO  15:26:44,671 - #11 [
+INFO  15:26:44,671 - #3 2
+INFO  15:26:44,672 - #10 ]
+INFO  15:26:44,672 - #11 [
+INFO  15:26:44,672 - #3 2
+INFO  15:26:44,672 - #10 ]
+INFO  15:26:44,672 - #31 ;
+INFO  15:26:44,672 - #2 mat
+INFO  15:26:44,672 - #11 [
+INFO  15:26:44,672 - #3 0
+INFO  15:26:44,672 - #10 ]
+INFO  15:26:44,672 - #11 [
+INFO  15:26:44,672 - #3 0
+INFO  15:26:44,672 - #10 ]
+INFO  15:26:44,672 - #13 =
+INFO  15:26:44,672 - #2 niz
+INFO  15:26:44,672 - #11 [
+INFO  15:26:44,672 - #2 nula
+INFO  15:26:44,672 - #10 ]
+INFO  15:26:44,672 - #31 ;
+INFO  15:26:44,673 - #2 mat
+INFO  15:26:44,673 - #11 [
+INFO  15:26:44,673 - #3 0
+INFO  15:26:44,673 - #10 ]
+INFO  15:26:44,673 - #11 [
+INFO  15:26:44,673 - #2 mat
+INFO  15:26:44,673 - #11 [
+INFO  15:26:44,673 - #3 0
+INFO  15:26:44,673 - #10 ]
+INFO  15:26:44,673 - #11 [
+INFO  15:26:44,673 - #3 0
+INFO  15:26:44,673 - #10 ]
+INFO  15:26:44,673 - #10 ]
+INFO  15:26:44,673 - #13 =
+INFO  15:26:44,673 - #3 2
+INFO  15:26:44,673 - #31 ;
+INFO  15:26:44,673 - #2 mat
+INFO  15:26:44,673 - #11 [
+INFO  15:26:44,673 - #3 1
+INFO  15:26:44,674 - #10 ]
+INFO  15:26:44,674 - #11 [
+INFO  15:26:44,674 - #2 jedan
+INFO  15:26:44,674 - #21 -
+INFO  15:26:44,674 - #2 niz
+INFO  15:26:44,676 - #11 [
+INFO  15:26:44,676 - #3 0
+INFO  15:26:44,676 - #10 ]
+INFO  15:26:44,676 - #10 ]
+INFO  15:26:44,677 - #13 =
+INFO  15:26:44,677 - #3 5
+INFO  15:26:44,677 - #31 ;
+INFO  15:26:44,677 - #2 mat
+INFO  15:26:44,677 - #11 [
+INFO  15:26:44,677 - #3 1
+INFO  15:26:44,677 - #10 ]
+INFO  15:26:44,677 - #11 [
+INFO  15:26:44,677 - #3 1
+INFO  15:26:44,677 - #10 ]
+INFO  15:26:44,677 - #13 =
+INFO  15:26:44,677 - #2 mat
+INFO  15:26:44,677 - #11 [
+INFO  15:26:44,677 - #3 0
+INFO  15:26:44,677 - #10 ]
+INFO  15:26:44,677 - #11 [
+INFO  15:26:44,677 - #3 0
+INFO  15:26:44,677 - #10 ]
+INFO  15:26:44,677 - #22 *
+INFO  15:26:44,677 - #2 mat
+INFO  15:26:44,677 - #11 [
+INFO  15:26:44,677 - #3 0
+INFO  15:26:44,677 - #10 ]
+INFO  15:26:44,677 - #11 [
+INFO  15:26:44,677 - #3 1
+INFO  15:26:44,677 - #10 ]
+INFO  15:26:44,678 - #31 ;
+INFO  15:26:44,678 - #38 print
+INFO  15:26:44,678 - #26 (
+INFO  15:26:44,678 - #2 mat
+INFO  15:26:44,678 - #11 [
+INFO  15:26:44,678 - #3 1
+INFO  15:26:44,678 - #10 ]
+INFO  15:26:44,678 - #11 [
+INFO  15:26:44,678 - #3 0
+INFO  15:26:44,678 - #10 ]
+INFO  15:26:44,678 - #27 )
+INFO  15:26:44,678 - #31 ;
+INFO  15:26:44,678 - #38 print
+INFO  15:26:44,678 - #26 (
+INFO  15:26:44,678 - #2 mat
+INFO  15:26:44,678 - #11 [
+INFO  15:26:44,678 - #3 1
+INFO  15:26:44,678 - #10 ]
+INFO  15:26:44,678 - #11 [
+INFO  15:26:44,678 - #3 1
+INFO  15:26:44,678 - #10 ]
+INFO  15:26:44,678 - #27 )
+INFO  15:26:44,678 - #31 ;
+INFO  15:26:44,678 - #2 nizch
+INFO  15:26:44,679 - #13 =
+INFO  15:26:44,679 - #25 new
+INFO  15:26:44,679 - #2 char
+INFO  15:26:44,679 - #11 [
+INFO  15:26:44,679 - #3 3
+INFO  15:26:44,679 - #10 ]
+INFO  15:26:44,679 - #31 ;
+INFO  15:26:44,679 - #2 nizch
+INFO  15:26:44,679 - #11 [
+INFO  15:26:44,679 - #3 0
+INFO  15:26:44,679 - #10 ]
+INFO  15:26:44,679 - #13 =
+INFO  15:26:44,679 - #5 a
+INFO  15:26:44,679 - #31 ;
+INFO  15:26:44,679 - #2 nizch
+INFO  15:26:44,679 - #11 [
+INFO  15:26:44,679 - #2 jedan
+INFO  15:26:44,679 - #10 ]
+INFO  15:26:44,680 - #13 =
+INFO  15:26:44,680 - #5 b
+INFO  15:26:44,680 - #31 ;
+INFO  15:26:44,680 - #2 nizch
+INFO  15:26:44,680 - #11 [
+INFO  15:26:44,680 - #2 pet
+INFO  15:26:44,680 - #21 -
+INFO  15:26:44,680 - #3 3
+INFO  15:26:44,680 - #10 ]
+INFO  15:26:44,680 - #13 =
+INFO  15:26:44,680 - #5 c
+INFO  15:26:44,680 - #31 ;
+INFO  15:26:44,680 - #38 print
+INFO  15:26:44,680 - #26 (
+INFO  15:26:44,680 - #2 nizch
+INFO  15:26:44,680 - #11 [
+INFO  15:26:44,680 - #3 1
+INFO  15:26:44,680 - #10 ]
+INFO  15:26:44,680 - #27 )
+INFO  15:26:44,680 - #31 ;
+INFO  15:26:44,680 - #38 print
+INFO  15:26:44,680 - #26 (
+INFO  15:26:44,680 - #2 nizch
+INFO  15:26:44,680 - #11 [
+INFO  15:26:44,680 - #2 jedan
+INFO  15:26:44,680 - #22 *
+INFO  15:26:44,680 - #3 2
+INFO  15:26:44,680 - #10 ]
+INFO  15:26:44,680 - #27 )
+INFO  15:26:44,680 - #31 ;
+INFO  15:26:44,680 - #2 mat_ch
+INFO  15:26:44,680 - #13 =
+INFO  15:26:44,680 - #25 new
+INFO  15:26:44,680 - #2 char
+INFO  15:26:44,680 - #11 [
+INFO  15:26:44,680 - #3 3
+INFO  15:26:44,681 - #10 ]
+INFO  15:26:44,681 - #11 [
+INFO  15:26:44,681 - #3 3
+INFO  15:26:44,681 - #10 ]
+INFO  15:26:44,681 - #31 ;
+INFO  15:26:44,681 - #2 mat_ch
+INFO  15:26:44,681 - #11 [
+INFO  15:26:44,681 - #3 0
+INFO  15:26:44,681 - #10 ]
+INFO  15:26:44,681 - #11 [
+INFO  15:26:44,681 - #3 0
+INFO  15:26:44,681 - #10 ]
+INFO  15:26:44,681 - #13 =
+INFO  15:26:44,681 - #5 m
+INFO  15:26:44,681 - #31 ;
+INFO  15:26:44,681 - #2 mat_ch
+INFO  15:26:44,681 - #11 [
+INFO  15:26:44,681 - #3 1
+INFO  15:26:44,681 - #10 ]
+INFO  15:26:44,681 - #11 [
+INFO  15:26:44,681 - #3 0
+INFO  15:26:44,681 - #10 ]
+INFO  15:26:44,681 - #13 =
+INFO  15:26:44,681 - #2 mat_ch
+INFO  15:26:44,681 - #11 [
+INFO  15:26:44,681 - #3 0
+INFO  15:26:44,681 - #10 ]
+INFO  15:26:44,681 - #11 [
+INFO  15:26:44,681 - #3 0
+INFO  15:26:44,681 - #10 ]
+INFO  15:26:44,681 - #31 ;
+INFO  15:26:44,681 - #2 mat_ch
+INFO  15:26:44,681 - #11 [
+INFO  15:26:44,681 - #3 0
+INFO  15:26:44,681 - #10 ]
+INFO  15:26:44,681 - #11 [
+INFO  15:26:44,682 - #3 0
+INFO  15:26:44,682 - #10 ]
+INFO  15:26:44,682 - #13 =
+INFO  15:26:44,682 - #5 k
+INFO  15:26:44,682 - #31 ;
+INFO  15:26:44,682 - #38 print
+INFO  15:26:44,682 - #26 (
+INFO  15:26:44,682 - #2 mat_ch
+INFO  15:26:44,682 - #11 [
+INFO  15:26:44,682 - #3 0
+INFO  15:26:44,682 - #10 ]
+INFO  15:26:44,682 - #11 [
+INFO  15:26:44,682 - #3 0
+INFO  15:26:44,682 - #10 ]
+INFO  15:26:44,682 - #27 )
+INFO  15:26:44,682 - #31 ;
+INFO  15:26:44,682 - #38 print
+INFO  15:26:44,682 - #26 (
+INFO  15:26:44,682 - #2 eol
+INFO  15:26:44,682 - #27 )
+INFO  15:26:44,682 - #31 ;
+INFO  15:26:44,682 - #38 print
+INFO  15:26:44,682 - #26 (
+INFO  15:26:44,682 - #2 mat_ch
+INFO  15:26:44,682 - #11 [
+INFO  15:26:44,682 - #3 1
+INFO  15:26:44,682 - #10 ]
+INFO  15:26:44,682 - #11 [
+INFO  15:26:44,682 - #3 0
+INFO  15:26:44,682 - #10 ]
+INFO  15:26:44,682 - #27 )
+INFO  15:26:44,682 - #31 ;
+INFO  15:26:44,682 - #39 read
+INFO  15:26:44,682 - #26 (
+INFO  15:26:44,682 - #2 bodovi
+INFO  15:26:44,682 - #27 )
+INFO  15:26:44,683 - #31 ;
+INFO  15:26:44,683 - #39 read
+INFO  15:26:44,683 - #26 (
+INFO  15:26:44,683 - #2 mat
+INFO  15:26:44,683 - #11 [
+INFO  15:26:44,683 - #3 0
+INFO  15:26:44,683 - #10 ]
+INFO  15:26:44,683 - #11 [
+INFO  15:26:44,683 - #3 0
+INFO  15:26:44,683 - #10 ]
+INFO  15:26:44,683 - #27 )
+INFO  15:26:44,683 - #31 ;
+INFO  15:26:44,683 - #2 bodovi
+INFO  15:26:44,683 - #13 =
+INFO  15:26:44,683 - #21 -
+INFO  15:26:44,683 - #2 bodovi
+INFO  15:26:44,683 - #20 +
+INFO  15:26:44,683 - #26 (
+INFO  15:26:44,683 - #2 pet
+INFO  15:26:44,683 - #22 *
+INFO  15:26:44,683 - #2 a
+INFO  15:26:44,683 - #24 /
+INFO  15:26:44,683 - #3 2
+INFO  15:26:44,683 - #21 -
+INFO  15:26:44,683 - #2 jedan
+INFO  15:26:44,683 - #27 )
+INFO  15:26:44,683 - #22 *
+INFO  15:26:44,683 - #2 bodovi
+INFO  15:26:44,684 - #21 -
+INFO  15:26:44,684 - #26 (
+INFO  15:26:44,684 - #3 3
+INFO  15:26:44,684 - #23 %
+INFO  15:26:44,684 - #3 2
+INFO  15:26:44,687 - #20 +
+INFO  15:26:44,687 - #3 3
+INFO  15:26:44,687 - #22 *
+INFO  15:26:44,687 - #3 2
+INFO  15:26:44,687 - #21 -
+INFO  15:26:44,687 - #3 3
+INFO  15:26:44,687 - #27 )
+INFO  15:26:44,687 - #31 ;
+INFO  15:26:44,687 - #38 print
+INFO  15:26:44,687 - #26 (
+INFO  15:26:44,687 - #2 bodovi
+INFO  15:26:44,687 - #27 )
+INFO  15:26:44,687 - #31 ;
+INFO  15:26:44,687 - #38 print
+INFO  15:26:44,688 - #26 (
+INFO  15:26:44,688 - #2 eol
+INFO  15:26:44,688 - #27 )
+INFO  15:26:44,688 - #31 ;
+INFO  15:26:44,688 - #38 print
+INFO  15:26:44,688 - #26 (
+INFO  15:26:44,688 - #2 mat_ch
+INFO  15:26:44,688 - #11 [
+INFO  15:26:44,688 - #3 0
+INFO  15:26:44,688 - #10 ]
+INFO  15:26:44,688 - #11 [
+INFO  15:26:44,688 - #3 0
+INFO  15:26:44,688 - #10 ]
+INFO  15:26:44,688 - #27 )
+INFO  15:26:44,688 - #31 ;
+INFO  15:26:44,688 - #38 print
+INFO  15:26:44,688 - #26 (
+INFO  15:26:44,688 - #2 eol
+INFO  15:26:44,688 - #27 )
+INFO  15:26:44,688 - #31 ;
+INFO  15:26:44,688 - #38 print
+INFO  15:26:44,688 - #26 (
+INFO  15:26:44,688 - #2 mat_ch
+INFO  15:26:44,688 - #11 [
+INFO  15:26:44,688 - #3 1
+INFO  15:26:44,688 - #10 ]
+INFO  15:26:44,688 - #11 [
+INFO  15:26:44,688 - #3 0
+INFO  15:26:44,688 - #10 ]
+INFO  15:26:44,688 - #27 )
+INFO  15:26:44,688 - #31 ;
+INFO  15:26:44,688 - #38 print
+INFO  15:26:44,688 - #26 (
+INFO  15:26:44,688 - #2 eol
+INFO  15:26:44,688 - #27 )
+INFO  15:26:44,688 - #31 ;
+INFO  15:26:44,688 - #38 print
+INFO  15:26:44,688 - #26 (
+INFO  15:26:44,688 - #2 mat
+INFO  15:26:44,689 - #11 [
+INFO  15:26:44,689 - #3 0
+INFO  15:26:44,689 - #10 ]
+INFO  15:26:44,689 - #11 [
+INFO  15:26:44,689 - #3 0
+INFO  15:26:44,689 - #10 ]
+INFO  15:26:44,689 - #27 )
+INFO  15:26:44,689 - #31 ;
+INFO  15:26:44,689 - #8 return
+INFO  15:26:44,689 - #3 1
+INFO  15:26:44,689 - #31 ;
+INFO  15:26:44,689 - #35 }
+INFO  15:26:44,689 - #35 }
+INFO  15:26:44,720 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NonEmptyDeclList(
+    NonEmptyDeclList(
+      NonEmptyDeclList(
+        NonEmptyDeclList(
+          NonEmptyDeclList(
+            NonEmptyDeclList(
+              NonEmptyDeclList(
+                EmptyDeclList(
+                ) [EmptyDeclList]
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  SingleElemConstList(
+                    ConstElem(
+                     nula
+                      IntLiteral(
+                       0
+                      ) [IntLiteral]
+                    ) [ConstElem]
+                  ) [SingleElemConstList]
+                ) [ConstDecl]
+              ) [NonEmptyDeclList]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                SingleElemConstList(
+                  ConstElem(
+                   jedan
+                    IntLiteral(
+                     1
+                    ) [IntLiteral]
+                  ) [ConstElem]
+                ) [SingleElemConstList]
+              ) [ConstDecl]
+            ) [NonEmptyDeclList]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleElemConstList(
+                ConstElem(
+                 pet
+                  IntLiteral(
+                   5
+                  ) [IntLiteral]
+                ) [ConstElem]
+              ) [SingleElemConstList]
+            ) [ConstDecl]
+          ) [NonEmptyDeclList]
+          GlobalDecl(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              GlobalVectorList(
+                GlobalVectorList(
+                  GlobalVectorList(
+                    GlobalVectorElem(
+                      VectorGlobalVar(
+                       niz
+                      ) [VectorGlobalVar]
+                    ) [GlobalVectorElem]
+                    VectorGlobalVar(
+                     niz2
+                    ) [VectorGlobalVar]
+                  ) [GlobalVectorList]
+                  ScalGlobalVar(
+                   a
+                  ) [ScalGlobalVar]
+                ) [GlobalVectorList]
+                ScalGlobalVar(
+                 b
+                ) [ScalGlobalVar]
+              ) [GlobalVectorList]
+            ) [VarDecl]
+          ) [GlobalDecl]
+        ) [NonEmptyDeclList]
+        GlobalDecl(
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            GlobalVectorElem(
+              VectorGlobalVar(
+               nizch
+              ) [VectorGlobalVar]
+            ) [GlobalVectorElem]
+          ) [VarDecl]
+        ) [GlobalDecl]
+      ) [NonEmptyDeclList]
+      GlobalDecl(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          GlobalVectorElem(
+            MatrixGlobalVar(
+             mat
+            ) [MatrixGlobalVar]
+          ) [GlobalVectorElem]
+        ) [VarDecl]
+      ) [GlobalDecl]
+    ) [NonEmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        GlobalVectorElem(
+          MatrixGlobalVar(
+           mat_ch
+          ) [MatrixGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      NonVoidReturnType(
+        Type(
+         int
+        ) [Type]
+      ) [NonVoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NonEmptyVarDeclList(
+        NonEmptyVarDeclList(
+          EmptyVarDeclList(
+          ) [EmptyVarDeclList]
+          VarDeclElemWithVarList(
+            Type(
+             int
+            ) [Type]
+            VarListOneEelem(
+              VarElem2(
+               bodovi
+              ) [VarElem2]
+            ) [VarListOneEelem]
+          ) [VarDeclElemWithVarList]
+        ) [NonEmptyVarDeclList]
+        VarDeclElemWithVarList(
+          Type(
+           bool
+          ) [Type]
+          VarListOneEelem(
+            VarElem2(
+             bt
+            ) [VarElem2]
+          ) [VarListOneEelem]
+        ) [VarDeclElemWithVarList]
+      ) [NonEmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          NonEmptyStatementList(
+            NonEmptyStatementList(
+              NonEmptyStatementList(
+                NonEmptyStatementList(
+                  NonEmptyStatementList(
+                    NonEmptyStatementList(
+                      NonEmptyStatementList(
+                        NonEmptyStatementList(
+                          NonEmptyStatementList(
+                            NonEmptyStatementList(
+                              NonEmptyStatementList(
+                                NonEmptyStatementList(
+                                  NonEmptyStatementList(
+                                    NonEmptyStatementList(
+                                      NonEmptyStatementList(
+                                        NonEmptyStatementList(
+                                          NonEmptyStatementList(
+                                            NonEmptyStatementList(
+                                              NonEmptyStatementList(
+                                                NonEmptyStatementList(
+                                                  NonEmptyStatementList(
+                                                    NonEmptyStatementList(
+                                                      NonEmptyStatementList(
+                                                        NonEmptyStatementList(
+                                                          NonEmptyStatementList(
+                                                            NonEmptyStatementList(
+                                                              NonEmptyStatementList(
+                                                                NonEmptyStatementList(
+                                                                  NonEmptyStatementList(
+                                                                    NonEmptyStatementList(
+                                                                      NonEmptyStatementList(
+                                                                        NonEmptyStatementList(
+                                                                          NonEmptyStatementList(
+                                                                            NonEmptyStatementList(
+                                                                              NonEmptyStatementList(
+                                                                                NonEmptyStatementList(
+                                                                                  NonEmptyStatementList(
+                                                                                    NonEmptyStatementList(
+                                                                                      NonEmptyStatementList(
+                                                                                        NonEmptyStatementList(
+                                                                                          NonEmptyStatementList(
+                                                                                            NonEmptyStatementList(
+                                                                                              EmptyStatementList(
+                                                                                              ) [EmptyStatementList]
+                                                                                              OneSingleStatement(
+                                                                                                DesignatorSingleStatement(
+                                                                                                  DesiStmtAssignop(
+                                                                                                    DesignatorWithOptList(
+                                                                                                      FakeIdent(
+                                                                                                       bodovi
+                                                                                                      ) [FakeIdent]
+                                                                                                      EmptyDesiList(
+                                                                                                      ) [EmptyDesiList]
+                                                                                                    ) [DesignatorWithOptList]
+                                                                                                    EqualAssignop(
+                                                                                                    ) [EqualAssignop]
+                                                                                                    ExprEPExpr(
+                                                                                                      TermExpr(
+                                                                                                        FactorTerm(
+                                                                                                          IntFactor(
+                                                                                                           0
+                                                                                                          ) [IntFactor]
+                                                                                                        ) [FactorTerm]
+                                                                                                      ) [TermExpr]
+                                                                                                    ) [ExprEPExpr]
+                                                                                                  ) [DesiStmtAssignop]
+                                                                                                ) [DesignatorSingleStatement]
+                                                                                              ) [OneSingleStatement]
+                                                                                            ) [NonEmptyStatementList]
+                                                                                            OneSingleStatement(
+                                                                                              DesignatorSingleStatement(
+                                                                                                DesiStmtINC(
+                                                                                                  DesignatorWithOptList(
+                                                                                                    FakeIdent(
+                                                                                                     bodovi
+                                                                                                    ) [FakeIdent]
+                                                                                                    EmptyDesiList(
+                                                                                                    ) [EmptyDesiList]
+                                                                                                  ) [DesignatorWithOptList]
+                                                                                                ) [DesiStmtINC]
+                                                                                              ) [DesignatorSingleStatement]
+                                                                                            ) [OneSingleStatement]
+                                                                                          ) [NonEmptyStatementList]
+                                                                                          OneSingleStatement(
+                                                                                            DesignatorSingleStatement(
+                                                                                              DesiStmtAssignop(
+                                                                                                DesignatorWithOptList(
+                                                                                                  FakeIdent(
+                                                                                                   bodovi
+                                                                                                  ) [FakeIdent]
+                                                                                                  EmptyDesiList(
+                                                                                                  ) [EmptyDesiList]
+                                                                                                ) [DesignatorWithOptList]
+                                                                                                EqualAssignop(
+                                                                                                ) [EqualAssignop]
+                                                                                                ExprEPExpr(
+                                                                                                  AddopExpr(
+                                                                                                    TermExpr(
+                                                                                                      FactorTerm(
+                                                                                                        FactorDesignator(
+                                                                                                          DesignatorWithOptList(
+                                                                                                            FakeIdent(
+                                                                                                             bodovi
+                                                                                                            ) [FakeIdent]
+                                                                                                            EmptyDesiList(
+                                                                                                            ) [EmptyDesiList]
+                                                                                                          ) [DesignatorWithOptList]
+                                                                                                        ) [FactorDesignator]
+                                                                                                      ) [FactorTerm]
+                                                                                                    ) [TermExpr]
+                                                                                                    PlusAddop(
+                                                                                                    ) [PlusAddop]
+                                                                                                    FactorTerm(
+                                                                                                      FactorDesignator(
+                                                                                                        DesignatorWithOptList(
+                                                                                                          FakeIdent(
+                                                                                                           jedan
+                                                                                                          ) [FakeIdent]
+                                                                                                          EmptyDesiList(
+                                                                                                          ) [EmptyDesiList]
+                                                                                                        ) [DesignatorWithOptList]
+                                                                                                      ) [FactorDesignator]
+                                                                                                    ) [FactorTerm]
+                                                                                                  ) [AddopExpr]
+                                                                                                ) [ExprEPExpr]
+                                                                                              ) [DesiStmtAssignop]
+                                                                                            ) [DesignatorSingleStatement]
+                                                                                          ) [OneSingleStatement]
+                                                                                        ) [NonEmptyStatementList]
+                                                                                        OneSingleStatement(
+                                                                                          DesignatorSingleStatement(
+                                                                                            DesiStmtAssignop(
+                                                                                              DesignatorWithOptList(
+                                                                                                FakeIdent(
+                                                                                                 bodovi
+                                                                                                ) [FakeIdent]
+                                                                                                EmptyDesiList(
+                                                                                                ) [EmptyDesiList]
+                                                                                              ) [DesignatorWithOptList]
+                                                                                              EqualAssignop(
+                                                                                              ) [EqualAssignop]
+                                                                                              ExprEPExpr(
+                                                                                                TermExpr(
+                                                                                                  MulopTerm(
+                                                                                                    FactorTerm(
+                                                                                                      FactorDesignator(
+                                                                                                        DesignatorWithOptList(
+                                                                                                          FakeIdent(
+                                                                                                           bodovi
+                                                                                                          ) [FakeIdent]
+                                                                                                          EmptyDesiList(
+                                                                                                          ) [EmptyDesiList]
+                                                                                                        ) [DesignatorWithOptList]
+                                                                                                      ) [FactorDesignator]
+                                                                                                    ) [FactorTerm]
+                                                                                                    MulMulop(
+                                                                                                    ) [MulMulop]
+                                                                                                    FactorDesignator(
+                                                                                                      DesignatorWithOptList(
+                                                                                                        FakeIdent(
+                                                                                                         pet
+                                                                                                        ) [FakeIdent]
+                                                                                                        EmptyDesiList(
+                                                                                                        ) [EmptyDesiList]
+                                                                                                      ) [DesignatorWithOptList]
+                                                                                                    ) [FactorDesignator]
+                                                                                                  ) [MulopTerm]
+                                                                                                ) [TermExpr]
+                                                                                              ) [ExprEPExpr]
+                                                                                            ) [DesiStmtAssignop]
+                                                                                          ) [DesignatorSingleStatement]
+                                                                                        ) [OneSingleStatement]
+                                                                                      ) [NonEmptyStatementList]
+                                                                                      OneSingleStatement(
+                                                                                        DesignatorSingleStatement(
+                                                                                          DesiStmtDEC(
+                                                                                            DesignatorWithOptList(
+                                                                                              FakeIdent(
+                                                                                               bodovi
+                                                                                              ) [FakeIdent]
+                                                                                              EmptyDesiList(
+                                                                                              ) [EmptyDesiList]
+                                                                                            ) [DesignatorWithOptList]
+                                                                                          ) [DesiStmtDEC]
+                                                                                        ) [DesignatorSingleStatement]
+                                                                                      ) [OneSingleStatement]
+                                                                                    ) [NonEmptyStatementList]
+                                                                                    OneSingleStatement(
+                                                                                      PrintStmt(
+                                                                                        TermExpr(
+                                                                                          FactorTerm(
+                                                                                            FactorDesignator(
+                                                                                              DesignatorWithOptList(
+                                                                                                FakeIdent(
+                                                                                                 bodovi
+                                                                                                ) [FakeIdent]
+                                                                                                EmptyDesiList(
+                                                                                                ) [EmptyDesiList]
+                                                                                              ) [DesignatorWithOptList]
+                                                                                            ) [FactorDesignator]
+                                                                                          ) [FactorTerm]
+                                                                                        ) [TermExpr]
+                                                                                        SinglStmComaNo(
+                                                                                        ) [SinglStmComaNo]
+                                                                                      ) [PrintStmt]
+                                                                                    ) [OneSingleStatement]
+                                                                                  ) [NonEmptyStatementList]
+                                                                                  OneSingleStatement(
+                                                                                    DesignatorSingleStatement(
+                                                                                      DesiStmtAssignop(
+                                                                                        DesignatorWithOptList(
+                                                                                          FakeIdent(
+                                                                                           niz
+                                                                                          ) [FakeIdent]
+                                                                                          EmptyDesiList(
+                                                                                          ) [EmptyDesiList]
+                                                                                        ) [DesignatorWithOptList]
+                                                                                        EqualAssignop(
+                                                                                        ) [EqualAssignop]
+                                                                                        ExprEPExpr(
+                                                                                          TermExpr(
+                                                                                            FactorTerm(
+                                                                                              NewVectorExprFactor(
+                                                                                                Type(
+                                                                                                 int
+                                                                                                ) [Type]
+                                                                                                TermExpr(
+                                                                                                  FactorTerm(
+                                                                                                    IntFactor(
+                                                                                                     3
+                                                                                                    ) [IntFactor]
+                                                                                                  ) [FactorTerm]
+                                                                                                ) [TermExpr]
+                                                                                              ) [NewVectorExprFactor]
+                                                                                            ) [FactorTerm]
+                                                                                          ) [TermExpr]
+                                                                                        ) [ExprEPExpr]
+                                                                                      ) [DesiStmtAssignop]
+                                                                                    ) [DesignatorSingleStatement]
+                                                                                  ) [OneSingleStatement]
+                                                                                ) [NonEmptyStatementList]
+                                                                                OneSingleStatement(
+                                                                                  DesignatorSingleStatement(
+                                                                                    DesiStmtAssignop(
+                                                                                      DesignatorWithOptList(
+                                                                                        FakeIdent(
+                                                                                         niz
+                                                                                        ) [FakeIdent]
+                                                                                        NonEmptyListaDesi(
+                                                                                          EmptyDesiList(
+                                                                                          ) [EmptyDesiList]
+                                                                                          DesignatorLExprR(
+                                                                                            AEADLBracket(
+                                                                                            ) [AEADLBracket]
+                                                                                            TermExpr(
+                                                                                              FactorTerm(
+                                                                                                FactorDesignator(
+                                                                                                  DesignatorWithOptList(
+                                                                                                    FakeIdent(
+                                                                                                     nula
+                                                                                                    ) [FakeIdent]
+                                                                                                    EmptyDesiList(
+                                                                                                    ) [EmptyDesiList]
+                                                                                                  ) [DesignatorWithOptList]
+                                                                                                ) [FactorDesignator]
+                                                                                              ) [FactorTerm]
+                                                                                            ) [TermExpr]
+                                                                                          ) [DesignatorLExprR]
+                                                                                        ) [NonEmptyListaDesi]
+                                                                                      ) [DesignatorWithOptList]
+                                                                                      EqualAssignop(
+                                                                                      ) [EqualAssignop]
+                                                                                      ExprEPExpr(
+                                                                                        TermExpr(
+                                                                                          FactorTerm(
+                                                                                            FactorDesignator(
+                                                                                              DesignatorWithOptList(
+                                                                                                FakeIdent(
+                                                                                                 jedan
+                                                                                                ) [FakeIdent]
+                                                                                                EmptyDesiList(
+                                                                                                ) [EmptyDesiList]
+                                                                                              ) [DesignatorWithOptList]
+                                                                                            ) [FactorDesignator]
+                                                                                          ) [FactorTerm]
+                                                                                        ) [TermExpr]
+                                                                                      ) [ExprEPExpr]
+                                                                                    ) [DesiStmtAssignop]
+                                                                                  ) [DesignatorSingleStatement]
+                                                                                ) [OneSingleStatement]
+                                                                              ) [NonEmptyStatementList]
+                                                                              OneSingleStatement(
+                                                                                DesignatorSingleStatement(
+                                                                                  DesiStmtAssignop(
+                                                                                    DesignatorWithOptList(
+                                                                                      FakeIdent(
+                                                                                       niz
+                                                                                      ) [FakeIdent]
+                                                                                      NonEmptyListaDesi(
+                                                                                        EmptyDesiList(
+                                                                                        ) [EmptyDesiList]
+                                                                                        DesignatorLExprR(
+                                                                                          AEADLBracket(
+                                                                                          ) [AEADLBracket]
+                                                                                          TermExpr(
+                                                                                            FactorTerm(
+                                                                                              IntFactor(
+                                                                                               1
+                                                                                              ) [IntFactor]
+                                                                                            ) [FactorTerm]
+                                                                                          ) [TermExpr]
+                                                                                        ) [DesignatorLExprR]
+                                                                                      ) [NonEmptyListaDesi]
+                                                                                    ) [DesignatorWithOptList]
+                                                                                    EqualAssignop(
+                                                                                    ) [EqualAssignop]
+                                                                                    ExprEPExpr(
+                                                                                      TermExpr(
+                                                                                        FactorTerm(
+                                                                                          IntFactor(
+                                                                                           2
+                                                                                          ) [IntFactor]
+                                                                                        ) [FactorTerm]
+                                                                                      ) [TermExpr]
+                                                                                    ) [ExprEPExpr]
+                                                                                  ) [DesiStmtAssignop]
+                                                                                ) [DesignatorSingleStatement]
+                                                                              ) [OneSingleStatement]
+                                                                            ) [NonEmptyStatementList]
+                                                                            OneSingleStatement(
+                                                                              DesignatorSingleStatement(
+                                                                                DesiStmtAssignop(
+                                                                                  DesignatorWithOptList(
+                                                                                    FakeIdent(
+                                                                                     niz
+                                                                                    ) [FakeIdent]
+                                                                                    NonEmptyListaDesi(
+                                                                                      EmptyDesiList(
+                                                                                      ) [EmptyDesiList]
+                                                                                      DesignatorLExprR(
+                                                                                        AEADLBracket(
+                                                                                        ) [AEADLBracket]
+                                                                                        TermExpr(
+                                                                                          FactorTerm(
+                                                                                            FactorDesignator(
+                                                                                              DesignatorWithOptList(
+                                                                                                FakeIdent(
+                                                                                                 niz
+                                                                                                ) [FakeIdent]
+                                                                                                NonEmptyListaDesi(
+                                                                                                  EmptyDesiList(
+                                                                                                  ) [EmptyDesiList]
+                                                                                                  DesignatorLExprR(
+                                                                                                    AEADLBracket(
+                                                                                                    ) [AEADLBracket]
+                                                                                                    TermExpr(
+                                                                                                      FactorTerm(
+                                                                                                        FactorDesignator(
+                                                                                                          DesignatorWithOptList(
+                                                                                                            FakeIdent(
+                                                                                                             jedan
+                                                                                                            ) [FakeIdent]
+                                                                                                            EmptyDesiList(
+                                                                                                            ) [EmptyDesiList]
+                                                                                                          ) [DesignatorWithOptList]
+                                                                                                        ) [FactorDesignator]
+                                                                                                      ) [FactorTerm]
+                                                                                                    ) [TermExpr]
+                                                                                                  ) [DesignatorLExprR]
+                                                                                                ) [NonEmptyListaDesi]
+                                                                                              ) [DesignatorWithOptList]
+                                                                                            ) [FactorDesignator]
+                                                                                          ) [FactorTerm]
+                                                                                        ) [TermExpr]
+                                                                                      ) [DesignatorLExprR]
+                                                                                    ) [NonEmptyListaDesi]
+                                                                                  ) [DesignatorWithOptList]
+                                                                                  EqualAssignop(
+                                                                                  ) [EqualAssignop]
+                                                                                  ExprEPExpr(
+                                                                                    TermExpr(
+                                                                                      MulopTerm(
+                                                                                        FactorTerm(
+                                                                                          FactorDesignator(
+                                                                                            DesignatorWithOptList(
+                                                                                              FakeIdent(
+                                                                                               niz
+                                                                                              ) [FakeIdent]
+                                                                                              NonEmptyListaDesi(
+                                                                                                EmptyDesiList(
+                                                                                                ) [EmptyDesiList]
+                                                                                                DesignatorLExprR(
+                                                                                                  AEADLBracket(
+                                                                                                  ) [AEADLBracket]
+                                                                                                  TermExpr(
+                                                                                                    FactorTerm(
+                                                                                                      FactorDesignator(
+                                                                                                        DesignatorWithOptList(
+                                                                                                          FakeIdent(
+                                                                                                           niz
+                                                                                                          ) [FakeIdent]
+                                                                                                          NonEmptyListaDesi(
+                                                                                                            EmptyDesiList(
+                                                                                                            ) [EmptyDesiList]
+                                                                                                            DesignatorLExprR(
+                                                                                                              AEADLBracket(
+                                                                                                              ) [AEADLBracket]
+                                                                                                              TermExpr(
+                                                                                                                FactorTerm(
+                                                                                                                  IntFactor(
+                                                                                                                   0
+                                                                                                                  ) [IntFactor]
+                                                                                                                ) [FactorTerm]
+                                                                                                              ) [TermExpr]
+                                                                                                            ) [DesignatorLExprR]
+                                                                                                          ) [NonEmptyListaDesi]
+                                                                                                        ) [DesignatorWithOptList]
+                                                                                                      ) [FactorDesignator]
+                                                                                                    ) [FactorTerm]
+                                                                                                  ) [TermExpr]
+                                                                                                ) [DesignatorLExprR]
+                                                                                              ) [NonEmptyListaDesi]
+                                                                                            ) [DesignatorWithOptList]
+                                                                                          ) [FactorDesignator]
+                                                                                        ) [FactorTerm]
+                                                                                        MulMulop(
+                                                                                        ) [MulMulop]
+                                                                                        IntFactor(
+                                                                                         3
+                                                                                        ) [IntFactor]
+                                                                                      ) [MulopTerm]
+                                                                                    ) [TermExpr]
+                                                                                  ) [ExprEPExpr]
+                                                                                ) [DesiStmtAssignop]
+                                                                              ) [DesignatorSingleStatement]
+                                                                            ) [OneSingleStatement]
+                                                                          ) [NonEmptyStatementList]
+                                                                          OneSingleStatement(
+                                                                            DesignatorSingleStatement(
+                                                                              DesiStmtAssignop(
+                                                                                DesignatorWithOptList(
+                                                                                  FakeIdent(
+                                                                                   bodovi
+                                                                                  ) [FakeIdent]
+                                                                                  EmptyDesiList(
+                                                                                  ) [EmptyDesiList]
+                                                                                ) [DesignatorWithOptList]
+                                                                                EqualAssignop(
+                                                                                ) [EqualAssignop]
+                                                                                ExprEPExpr(
+                                                                                  TermExpr(
+                                                                                    MulopTerm(
+                                                                                      FactorTerm(
+                                                                                        FactorDesignator(
+                                                                                          DesignatorWithOptList(
+                                                                                            FakeIdent(
+                                                                                             niz
+                                                                                            ) [FakeIdent]
+                                                                                            NonEmptyListaDesi(
+                                                                                              EmptyDesiList(
+                                                                                              ) [EmptyDesiList]
+                                                                                              DesignatorLExprR(
+                                                                                                AEADLBracket(
+                                                                                                ) [AEADLBracket]
+                                                                                                TermExpr(
+                                                                                                  FactorTerm(
+                                                                                                    IntFactor(
+                                                                                                     2
+                                                                                                    ) [IntFactor]
+                                                                                                  ) [FactorTerm]
+                                                                                                ) [TermExpr]
+                                                                                              ) [DesignatorLExprR]
+                                                                                            ) [NonEmptyListaDesi]
+                                                                                          ) [DesignatorWithOptList]
+                                                                                        ) [FactorDesignator]
+                                                                                      ) [FactorTerm]
+                                                                                      DivMulop(
+                                                                                      ) [DivMulop]
+                                                                                      FactorDesignator(
+                                                                                        DesignatorWithOptList(
+                                                                                          FakeIdent(
+                                                                                           niz
+                                                                                          ) [FakeIdent]
+                                                                                          NonEmptyListaDesi(
+                                                                                            EmptyDesiList(
+                                                                                            ) [EmptyDesiList]
+                                                                                            DesignatorLExprR(
+                                                                                              AEADLBracket(
+                                                                                              ) [AEADLBracket]
+                                                                                              TermExpr(
+                                                                                                FactorTerm(
+                                                                                                  IntFactor(
+                                                                                                   0
+                                                                                                  ) [IntFactor]
+                                                                                                ) [FactorTerm]
+                                                                                              ) [TermExpr]
+                                                                                            ) [DesignatorLExprR]
+                                                                                          ) [NonEmptyListaDesi]
+                                                                                        ) [DesignatorWithOptList]
+                                                                                      ) [FactorDesignator]
+                                                                                    ) [MulopTerm]
+                                                                                  ) [TermExpr]
+                                                                                ) [ExprEPExpr]
+                                                                              ) [DesiStmtAssignop]
+                                                                            ) [DesignatorSingleStatement]
+                                                                          ) [OneSingleStatement]
+                                                                        ) [NonEmptyStatementList]
+                                                                        OneSingleStatement(
+                                                                          PrintStmt(
+                                                                            TermExpr(
+                                                                              FactorTerm(
+                                                                                FactorDesignator(
+                                                                                  DesignatorWithOptList(
+                                                                                    FakeIdent(
+                                                                                     bodovi
+                                                                                    ) [FakeIdent]
+                                                                                    EmptyDesiList(
+                                                                                    ) [EmptyDesiList]
+                                                                                  ) [DesignatorWithOptList]
+                                                                                ) [FactorDesignator]
+                                                                              ) [FactorTerm]
+                                                                            ) [TermExpr]
+                                                                            SinglStmComaNo(
+                                                                            ) [SinglStmComaNo]
+                                                                          ) [PrintStmt]
+                                                                        ) [OneSingleStatement]
+                                                                      ) [NonEmptyStatementList]
+                                                                      OneSingleStatement(
+                                                                        PrintStmt(
+                                                                          TermExpr(
+                                                                            FactorTerm(
+                                                                              FactorDesignator(
+                                                                                DesignatorWithOptList(
+                                                                                  FakeIdent(
+                                                                                   niz
+                                                                                  ) [FakeIdent]
+                                                                                  NonEmptyListaDesi(
+                                                                                    EmptyDesiList(
+                                                                                    ) [EmptyDesiList]
+                                                                                    DesignatorLExprR(
+                                                                                      AEADLBracket(
+                                                                                      ) [AEADLBracket]
+                                                                                      TermExpr(
+                                                                                        FactorTerm(
+                                                                                          IntFactor(
+                                                                                           2
+                                                                                          ) [IntFactor]
+                                                                                        ) [FactorTerm]
+                                                                                      ) [TermExpr]
+                                                                                    ) [DesignatorLExprR]
+                                                                                  ) [NonEmptyListaDesi]
+                                                                                ) [DesignatorWithOptList]
+                                                                              ) [FactorDesignator]
+                                                                            ) [FactorTerm]
+                                                                          ) [TermExpr]
+                                                                          SinglStmComaNo(
+                                                                          ) [SinglStmComaNo]
+                                                                        ) [PrintStmt]
+                                                                      ) [OneSingleStatement]
+                                                                    ) [NonEmptyStatementList]
+                                                                    OneSingleStatement(
+                                                                      DesignatorSingleStatement(
+                                                                        DesiStmtAssignop(
+                                                                          DesignatorWithOptList(
+                                                                            FakeIdent(
+                                                                             mat
+                                                                            ) [FakeIdent]
+                                                                            EmptyDesiList(
+                                                                            ) [EmptyDesiList]
+                                                                          ) [DesignatorWithOptList]
+                                                                          EqualAssignop(
+                                                                          ) [EqualAssignop]
+                                                                          ExprEPExpr(
+                                                                            TermExpr(
+                                                                              FactorTerm(
+                                                                                NewMatrixFactor(
+                                                                                  Type(
+                                                                                   int
+                                                                                  ) [Type]
+                                                                                  TermExpr(
+                                                                                    FactorTerm(
+                                                                                      IntFactor(
+                                                                                       2
+                                                                                      ) [IntFactor]
+                                                                                    ) [FactorTerm]
+                                                                                  ) [TermExpr]
+                                                                                  TermExpr(
+                                                                                    FactorTerm(
+                                                                                      IntFactor(
+                                                                                       2
+                                                                                      ) [IntFactor]
+                                                                                    ) [FactorTerm]
+                                                                                  ) [TermExpr]
+                                                                                ) [NewMatrixFactor]
+                                                                              ) [FactorTerm]
+                                                                            ) [TermExpr]
+                                                                          ) [ExprEPExpr]
+                                                                        ) [DesiStmtAssignop]
+                                                                      ) [DesignatorSingleStatement]
+                                                                    ) [OneSingleStatement]
+                                                                  ) [NonEmptyStatementList]
+                                                                  OneSingleStatement(
+                                                                    DesignatorSingleStatement(
+                                                                      DesiStmtAssignop(
+                                                                        DesignatorWithOptList(
+                                                                          FakeIdent(
+                                                                           mat
+                                                                          ) [FakeIdent]
+                                                                          NonEmptyListaDesi(
+                                                                            NonEmptyListaDesi(
+                                                                              EmptyDesiList(
+                                                                              ) [EmptyDesiList]
+                                                                              DesignatorLExprR(
+                                                                                AEADLBracket(
+                                                                                ) [AEADLBracket]
+                                                                                TermExpr(
+                                                                                  FactorTerm(
+                                                                                    IntFactor(
+                                                                                     0
+                                                                                    ) [IntFactor]
+                                                                                  ) [FactorTerm]
+                                                                                ) [TermExpr]
+                                                                              ) [DesignatorLExprR]
+                                                                            ) [NonEmptyListaDesi]
+                                                                            DesignatorLExprR(
+                                                                              AEADLBracket(
+                                                                              ) [AEADLBracket]
+                                                                              TermExpr(
+                                                                                FactorTerm(
+                                                                                  IntFactor(
+                                                                                   0
+                                                                                  ) [IntFactor]
+                                                                                ) [FactorTerm]
+                                                                              ) [TermExpr]
+                                                                            ) [DesignatorLExprR]
+                                                                          ) [NonEmptyListaDesi]
+                                                                        ) [DesignatorWithOptList]
+                                                                        EqualAssignop(
+                                                                        ) [EqualAssignop]
+                                                                        ExprEPExpr(
+                                                                          TermExpr(
+                                                                            FactorTerm(
+                                                                              FactorDesignator(
+                                                                                DesignatorWithOptList(
+                                                                                  FakeIdent(
+                                                                                   niz
+                                                                                  ) [FakeIdent]
+                                                                                  NonEmptyListaDesi(
+                                                                                    EmptyDesiList(
+                                                                                    ) [EmptyDesiList]
+                                                                                    DesignatorLExprR(
+                                                                                      AEADLBracket(
+                                                                                      ) [AEADLBracket]
+                                                                                      TermExpr(
+                                                                                        FactorTerm(
+                                                                                          FactorDesignator(
+                                                                                            DesignatorWithOptList(
+                                                                                              FakeIdent(
+                                                                                               nula
+                                                                                              ) [FakeIdent]
+                                                                                              EmptyDesiList(
+                                                                                              ) [EmptyDesiList]
+                                                                                            ) [DesignatorWithOptList]
+                                                                                          ) [FactorDesignator]
+                                                                                        ) [FactorTerm]
+                                                                                      ) [TermExpr]
+                                                                                    ) [DesignatorLExprR]
+                                                                                  ) [NonEmptyListaDesi]
+                                                                                ) [DesignatorWithOptList]
+                                                                              ) [FactorDesignator]
+                                                                            ) [FactorTerm]
+                                                                          ) [TermExpr]
+                                                                        ) [ExprEPExpr]
+                                                                      ) [DesiStmtAssignop]
+                                                                    ) [DesignatorSingleStatement]
+                                                                  ) [OneSingleStatement]
+                                                                ) [NonEmptyStatementList]
+                                                                OneSingleStatement(
+                                                                  DesignatorSingleStatement(
+                                                                    DesiStmtAssignop(
+                                                                      DesignatorWithOptList(
+                                                                        FakeIdent(
+                                                                         mat
+                                                                        ) [FakeIdent]
+                                                                        NonEmptyListaDesi(
+                                                                          NonEmptyListaDesi(
+                                                                            EmptyDesiList(
+                                                                            ) [EmptyDesiList]
+                                                                            DesignatorLExprR(
+                                                                              AEADLBracket(
+                                                                              ) [AEADLBracket]
+                                                                              TermExpr(
+                                                                                FactorTerm(
+                                                                                  IntFactor(
+                                                                                   0
+                                                                                  ) [IntFactor]
+                                                                                ) [FactorTerm]
+                                                                              ) [TermExpr]
+                                                                            ) [DesignatorLExprR]
+                                                                          ) [NonEmptyListaDesi]
+                                                                          DesignatorLExprR(
+                                                                            AEADLBracket(
+                                                                            ) [AEADLBracket]
+                                                                            TermExpr(
+                                                                              FactorTerm(
+                                                                                FactorDesignator(
+                                                                                  DesignatorWithOptList(
+                                                                                    FakeIdent(
+                                                                                     mat
+                                                                                    ) [FakeIdent]
+                                                                                    NonEmptyListaDesi(
+                                                                                      NonEmptyListaDesi(
+                                                                                        EmptyDesiList(
+                                                                                        ) [EmptyDesiList]
+                                                                                        DesignatorLExprR(
+                                                                                          AEADLBracket(
+                                                                                          ) [AEADLBracket]
+                                                                                          TermExpr(
+                                                                                            FactorTerm(
+                                                                                              IntFactor(
+                                                                                               0
+                                                                                              ) [IntFactor]
+                                                                                            ) [FactorTerm]
+                                                                                          ) [TermExpr]
+                                                                                        ) [DesignatorLExprR]
+                                                                                      ) [NonEmptyListaDesi]
+                                                                                      DesignatorLExprR(
+                                                                                        AEADLBracket(
+                                                                                        ) [AEADLBracket]
+                                                                                        TermExpr(
+                                                                                          FactorTerm(
+                                                                                            IntFactor(
+                                                                                             0
+                                                                                            ) [IntFactor]
+                                                                                          ) [FactorTerm]
+                                                                                        ) [TermExpr]
+                                                                                      ) [DesignatorLExprR]
+                                                                                    ) [NonEmptyListaDesi]
+                                                                                  ) [DesignatorWithOptList]
+                                                                                ) [FactorDesignator]
+                                                                              ) [FactorTerm]
+                                                                            ) [TermExpr]
+                                                                          ) [DesignatorLExprR]
+                                                                        ) [NonEmptyListaDesi]
+                                                                      ) [DesignatorWithOptList]
+                                                                      EqualAssignop(
+                                                                      ) [EqualAssignop]
+                                                                      ExprEPExpr(
+                                                                        TermExpr(
+                                                                          FactorTerm(
+                                                                            IntFactor(
+                                                                             2
+                                                                            ) [IntFactor]
+                                                                          ) [FactorTerm]
+                                                                        ) [TermExpr]
+                                                                      ) [ExprEPExpr]
+                                                                    ) [DesiStmtAssignop]
+                                                                  ) [DesignatorSingleStatement]
+                                                                ) [OneSingleStatement]
+                                                              ) [NonEmptyStatementList]
+                                                              OneSingleStatement(
+                                                                DesignatorSingleStatement(
+                                                                  DesiStmtAssignop(
+                                                                    DesignatorWithOptList(
+                                                                      FakeIdent(
+                                                                       mat
+                                                                      ) [FakeIdent]
+                                                                      NonEmptyListaDesi(
+                                                                        NonEmptyListaDesi(
+                                                                          EmptyDesiList(
+                                                                          ) [EmptyDesiList]
+                                                                          DesignatorLExprR(
+                                                                            AEADLBracket(
+                                                                            ) [AEADLBracket]
+                                                                            TermExpr(
+                                                                              FactorTerm(
+                                                                                IntFactor(
+                                                                                 1
+                                                                                ) [IntFactor]
+                                                                              ) [FactorTerm]
+                                                                            ) [TermExpr]
+                                                                          ) [DesignatorLExprR]
+                                                                        ) [NonEmptyListaDesi]
+                                                                        DesignatorLExprR(
+                                                                          AEADLBracket(
+                                                                          ) [AEADLBracket]
+                                                                          AddopExpr(
+                                                                            TermExpr(
+                                                                              FactorTerm(
+                                                                                FactorDesignator(
+                                                                                  DesignatorWithOptList(
+                                                                                    FakeIdent(
+                                                                                     jedan
+                                                                                    ) [FakeIdent]
+                                                                                    EmptyDesiList(
+                                                                                    ) [EmptyDesiList]
+                                                                                  ) [DesignatorWithOptList]
+                                                                                ) [FactorDesignator]
+                                                                              ) [FactorTerm]
+                                                                            ) [TermExpr]
+                                                                            MinusAddop(
+                                                                            ) [MinusAddop]
+                                                                            FactorTerm(
+                                                                              FactorDesignator(
+                                                                                DesignatorWithOptList(
+                                                                                  FakeIdent(
+                                                                                   niz
+                                                                                  ) [FakeIdent]
+                                                                                  NonEmptyListaDesi(
+                                                                                    EmptyDesiList(
+                                                                                    ) [EmptyDesiList]
+                                                                                    DesignatorLExprR(
+                                                                                      AEADLBracket(
+                                                                                      ) [AEADLBracket]
+                                                                                      TermExpr(
+                                                                                        FactorTerm(
+                                                                                          IntFactor(
+                                                                                           0
+                                                                                          ) [IntFactor]
+                                                                                        ) [FactorTerm]
+                                                                                      ) [TermExpr]
+                                                                                    ) [DesignatorLExprR]
+                                                                                  ) [NonEmptyListaDesi]
+                                                                                ) [DesignatorWithOptList]
+                                                                              ) [FactorDesignator]
+                                                                            ) [FactorTerm]
+                                                                          ) [AddopExpr]
+                                                                        ) [DesignatorLExprR]
+                                                                      ) [NonEmptyListaDesi]
+                                                                    ) [DesignatorWithOptList]
+                                                                    EqualAssignop(
+                                                                    ) [EqualAssignop]
+                                                                    ExprEPExpr(
+                                                                      TermExpr(
+                                                                        FactorTerm(
+                                                                          IntFactor(
+                                                                           5
+                                                                          ) [IntFactor]
+                                                                        ) [FactorTerm]
+                                                                      ) [TermExpr]
+                                                                    ) [ExprEPExpr]
+                                                                  ) [DesiStmtAssignop]
+                                                                ) [DesignatorSingleStatement]
+                                                              ) [OneSingleStatement]
+                                                            ) [NonEmptyStatementList]
+                                                            OneSingleStatement(
+                                                              DesignatorSingleStatement(
+                                                                DesiStmtAssignop(
+                                                                  DesignatorWithOptList(
+                                                                    FakeIdent(
+                                                                     mat
+                                                                    ) [FakeIdent]
+                                                                    NonEmptyListaDesi(
+                                                                      NonEmptyListaDesi(
+                                                                        EmptyDesiList(
+                                                                        ) [EmptyDesiList]
+                                                                        DesignatorLExprR(
+                                                                          AEADLBracket(
+                                                                          ) [AEADLBracket]
+                                                                          TermExpr(
+                                                                            FactorTerm(
+                                                                              IntFactor(
+                                                                               1
+                                                                              ) [IntFactor]
+                                                                            ) [FactorTerm]
+                                                                          ) [TermExpr]
+                                                                        ) [DesignatorLExprR]
+                                                                      ) [NonEmptyListaDesi]
+                                                                      DesignatorLExprR(
+                                                                        AEADLBracket(
+                                                                        ) [AEADLBracket]
+                                                                        TermExpr(
+                                                                          FactorTerm(
+                                                                            IntFactor(
+                                                                             1
+                                                                            ) [IntFactor]
+                                                                          ) [FactorTerm]
+                                                                        ) [TermExpr]
+                                                                      ) [DesignatorLExprR]
+                                                                    ) [NonEmptyListaDesi]
+                                                                  ) [DesignatorWithOptList]
+                                                                  EqualAssignop(
+                                                                  ) [EqualAssignop]
+                                                                  ExprEPExpr(
+                                                                    TermExpr(
+                                                                      MulopTerm(
+                                                                        FactorTerm(
+                                                                          FactorDesignator(
+                                                                            DesignatorWithOptList(
+                                                                              FakeIdent(
+                                                                               mat
+                                                                              ) [FakeIdent]
+                                                                              NonEmptyListaDesi(
+                                                                                NonEmptyListaDesi(
+                                                                                  EmptyDesiList(
+                                                                                  ) [EmptyDesiList]
+                                                                                  DesignatorLExprR(
+                                                                                    AEADLBracket(
+                                                                                    ) [AEADLBracket]
+                                                                                    TermExpr(
+                                                                                      FactorTerm(
+                                                                                        IntFactor(
+                                                                                         0
+                                                                                        ) [IntFactor]
+                                                                                      ) [FactorTerm]
+                                                                                    ) [TermExpr]
+                                                                                  ) [DesignatorLExprR]
+                                                                                ) [NonEmptyListaDesi]
+                                                                                DesignatorLExprR(
+                                                                                  AEADLBracket(
+                                                                                  ) [AEADLBracket]
+                                                                                  TermExpr(
+                                                                                    FactorTerm(
+                                                                                      IntFactor(
+                                                                                       0
+                                                                                      ) [IntFactor]
+                                                                                    ) [FactorTerm]
+                                                                                  ) [TermExpr]
+                                                                                ) [DesignatorLExprR]
+                                                                              ) [NonEmptyListaDesi]
+                                                                            ) [DesignatorWithOptList]
+                                                                          ) [FactorDesignator]
+                                                                        ) [FactorTerm]
+                                                                        MulMulop(
+                                                                        ) [MulMulop]
+                                                                        FactorDesignator(
+                                                                          DesignatorWithOptList(
+                                                                            FakeIdent(
+                                                                             mat
+                                                                            ) [FakeIdent]
+                                                                            NonEmptyListaDesi(
+                                                                              NonEmptyListaDesi(
+                                                                                EmptyDesiList(
+                                                                                ) [EmptyDesiList]
+                                                                                DesignatorLExprR(
+                                                                                  AEADLBracket(
+                                                                                  ) [AEADLBracket]
+                                                                                  TermExpr(
+                                                                                    FactorTerm(
+                                                                                      IntFactor(
+                                                                                       0
+                                                                                      ) [IntFactor]
+                                                                                    ) [FactorTerm]
+                                                                                  ) [TermExpr]
+                                                                                ) [DesignatorLExprR]
+                                                                              ) [NonEmptyListaDesi]
+                                                                              DesignatorLExprR(
+                                                                                AEADLBracket(
+                                                                                ) [AEADLBracket]
+                                                                                TermExpr(
+                                                                                  FactorTerm(
+                                                                                    IntFactor(
+                                                                                     1
+                                                                                    ) [IntFactor]
+                                                                                  ) [FactorTerm]
+                                                                                ) [TermExpr]
+                                                                              ) [DesignatorLExprR]
+                                                                            ) [NonEmptyListaDesi]
+                                                                          ) [DesignatorWithOptList]
+                                                                        ) [FactorDesignator]
+                                                                      ) [MulopTerm]
+                                                                    ) [TermExpr]
+                                                                  ) [ExprEPExpr]
+                                                                ) [DesiStmtAssignop]
+                                                              ) [DesignatorSingleStatement]
+                                                            ) [OneSingleStatement]
+                                                          ) [NonEmptyStatementList]
+                                                          OneSingleStatement(
+                                                            PrintStmt(
+                                                              TermExpr(
+                                                                FactorTerm(
+                                                                  FactorDesignator(
+                                                                    DesignatorWithOptList(
+                                                                      FakeIdent(
+                                                                       mat
+                                                                      ) [FakeIdent]
+                                                                      NonEmptyListaDesi(
+                                                                        NonEmptyListaDesi(
+                                                                          EmptyDesiList(
+                                                                          ) [EmptyDesiList]
+                                                                          DesignatorLExprR(
+                                                                            AEADLBracket(
+                                                                            ) [AEADLBracket]
+                                                                            TermExpr(
+                                                                              FactorTerm(
+                                                                                IntFactor(
+                                                                                 1
+                                                                                ) [IntFactor]
+                                                                              ) [FactorTerm]
+                                                                            ) [TermExpr]
+                                                                          ) [DesignatorLExprR]
+                                                                        ) [NonEmptyListaDesi]
+                                                                        DesignatorLExprR(
+                                                                          AEADLBracket(
+                                                                          ) [AEADLBracket]
+                                                                          TermExpr(
+                                                                            FactorTerm(
+                                                                              IntFactor(
+                                                                               0
+                                                                              ) [IntFactor]
+                                                                            ) [FactorTerm]
+                                                                          ) [TermExpr]
+                                                                        ) [DesignatorLExprR]
+                                                                      ) [NonEmptyListaDesi]
+                                                                    ) [DesignatorWithOptList]
+                                                                  ) [FactorDesignator]
+                                                                ) [FactorTerm]
+                                                              ) [TermExpr]
+                                                              SinglStmComaNo(
+                                                              ) [SinglStmComaNo]
+                                                            ) [PrintStmt]
+                                                          ) [OneSingleStatement]
+                                                        ) [NonEmptyStatementList]
+                                                        OneSingleStatement(
+                                                          PrintStmt(
+                                                            TermExpr(
+                                                              FactorTerm(
+                                                                FactorDesignator(
+                                                                  DesignatorWithOptList(
+                                                                    FakeIdent(
+                                                                     mat
+                                                                    ) [FakeIdent]
+                                                                    NonEmptyListaDesi(
+                                                                      NonEmptyListaDesi(
+                                                                        EmptyDesiList(
+                                                                        ) [EmptyDesiList]
+                                                                        DesignatorLExprR(
+                                                                          AEADLBracket(
+                                                                          ) [AEADLBracket]
+                                                                          TermExpr(
+                                                                            FactorTerm(
+                                                                              IntFactor(
+                                                                               1
+                                                                              ) [IntFactor]
+                                                                            ) [FactorTerm]
+                                                                          ) [TermExpr]
+                                                                        ) [DesignatorLExprR]
+                                                                      ) [NonEmptyListaDesi]
+                                                                      DesignatorLExprR(
+                                                                        AEADLBracket(
+                                                                        ) [AEADLBracket]
+                                                                        TermExpr(
+                                                                          FactorTerm(
+                                                                            IntFactor(
+                                                                             1
+                                                                            ) [IntFactor]
+                                                                          ) [FactorTerm]
+                                                                        ) [TermExpr]
+                                                                      ) [DesignatorLExprR]
+                                                                    ) [NonEmptyListaDesi]
+                                                                  ) [DesignatorWithOptList]
+                                                                ) [FactorDesignator]
+                                                              ) [FactorTerm]
+                                                            ) [TermExpr]
+                                                            SinglStmComaNo(
+                                                            ) [SinglStmComaNo]
+                                                          ) [PrintStmt]
+                                                        ) [OneSingleStatement]
+                                                      ) [NonEmptyStatementList]
+                                                      OneSingleStatement(
+                                                        DesignatorSingleStatement(
+                                                          DesiStmtAssignop(
+                                                            DesignatorWithOptList(
+                                                              FakeIdent(
+                                                               nizch
+                                                              ) [FakeIdent]
+                                                              EmptyDesiList(
+                                                              ) [EmptyDesiList]
+                                                            ) [DesignatorWithOptList]
+                                                            EqualAssignop(
+                                                            ) [EqualAssignop]
+                                                            ExprEPExpr(
+                                                              TermExpr(
+                                                                FactorTerm(
+                                                                  NewVectorExprFactor(
+                                                                    Type(
+                                                                     char
+                                                                    ) [Type]
+                                                                    TermExpr(
+                                                                      FactorTerm(
+                                                                        IntFactor(
+                                                                         3
+                                                                        ) [IntFactor]
+                                                                      ) [FactorTerm]
+                                                                    ) [TermExpr]
+                                                                  ) [NewVectorExprFactor]
+                                                                ) [FactorTerm]
+                                                              ) [TermExpr]
+                                                            ) [ExprEPExpr]
+                                                          ) [DesiStmtAssignop]
+                                                        ) [DesignatorSingleStatement]
+                                                      ) [OneSingleStatement]
+                                                    ) [NonEmptyStatementList]
+                                                    OneSingleStatement(
+                                                      DesignatorSingleStatement(
+                                                        DesiStmtAssignop(
+                                                          DesignatorWithOptList(
+                                                            FakeIdent(
+                                                             nizch
+                                                            ) [FakeIdent]
+                                                            NonEmptyListaDesi(
+                                                              EmptyDesiList(
+                                                              ) [EmptyDesiList]
+                                                              DesignatorLExprR(
+                                                                AEADLBracket(
+                                                                ) [AEADLBracket]
+                                                                TermExpr(
+                                                                  FactorTerm(
+                                                                    IntFactor(
+                                                                     0
+                                                                    ) [IntFactor]
+                                                                  ) [FactorTerm]
+                                                                ) [TermExpr]
+                                                              ) [DesignatorLExprR]
+                                                            ) [NonEmptyListaDesi]
+                                                          ) [DesignatorWithOptList]
+                                                          EqualAssignop(
+                                                          ) [EqualAssignop]
+                                                          ExprEPExpr(
+                                                            TermExpr(
+                                                              FactorTerm(
+                                                                CharFactor(
+                                                                 a
+                                                                ) [CharFactor]
+                                                              ) [FactorTerm]
+                                                            ) [TermExpr]
+                                                          ) [ExprEPExpr]
+                                                        ) [DesiStmtAssignop]
+                                                      ) [DesignatorSingleStatement]
+                                                    ) [OneSingleStatement]
+                                                  ) [NonEmptyStatementList]
+                                                  OneSingleStatement(
+                                                    DesignatorSingleStatement(
+                                                      DesiStmtAssignop(
+                                                        DesignatorWithOptList(
+                                                          FakeIdent(
+                                                           nizch
+                                                          ) [FakeIdent]
+                                                          NonEmptyListaDesi(
+                                                            EmptyDesiList(
+                                                            ) [EmptyDesiList]
+                                                            DesignatorLExprR(
+                                                              AEADLBracket(
+                                                              ) [AEADLBracket]
+                                                              TermExpr(
+                                                                FactorTerm(
+                                                                  FactorDesignator(
+                                                                    DesignatorWithOptList(
+                                                                      FakeIdent(
+                                                                       jedan
+                                                                      ) [FakeIdent]
+                                                                      EmptyDesiList(
+                                                                      ) [EmptyDesiList]
+                                                                    ) [DesignatorWithOptList]
+                                                                  ) [FactorDesignator]
+                                                                ) [FactorTerm]
+                                                              ) [TermExpr]
+                                                            ) [DesignatorLExprR]
+                                                          ) [NonEmptyListaDesi]
+                                                        ) [DesignatorWithOptList]
+                                                        EqualAssignop(
+                                                        ) [EqualAssignop]
+                                                        ExprEPExpr(
+                                                          TermExpr(
+                                                            FactorTerm(
+                                                              CharFactor(
+                                                               b
+                                                              ) [CharFactor]
+                                                            ) [FactorTerm]
+                                                          ) [TermExpr]
+                                                        ) [ExprEPExpr]
+                                                      ) [DesiStmtAssignop]
+                                                    ) [DesignatorSingleStatement]
+                                                  ) [OneSingleStatement]
+                                                ) [NonEmptyStatementList]
+                                                OneSingleStatement(
+                                                  DesignatorSingleStatement(
+                                                    DesiStmtAssignop(
+                                                      DesignatorWithOptList(
+                                                        FakeIdent(
+                                                         nizch
+                                                        ) [FakeIdent]
+                                                        NonEmptyListaDesi(
+                                                          EmptyDesiList(
+                                                          ) [EmptyDesiList]
+                                                          DesignatorLExprR(
+                                                            AEADLBracket(
+                                                            ) [AEADLBracket]
+                                                            AddopExpr(
+                                                              TermExpr(
+                                                                FactorTerm(
+                                                                  FactorDesignator(
+                                                                    DesignatorWithOptList(
+                                                                      FakeIdent(
+                                                                       pet
+                                                                      ) [FakeIdent]
+                                                                      EmptyDesiList(
+                                                                      ) [EmptyDesiList]
+                                                                    ) [DesignatorWithOptList]
+                                                                  ) [FactorDesignator]
+                                                                ) [FactorTerm]
+                                                              ) [TermExpr]
+                                                              MinusAddop(
+                                                              ) [MinusAddop]
+                                                              FactorTerm(
+                                                                IntFactor(
+                                                                 3
+                                                                ) [IntFactor]
+                                                              ) [FactorTerm]
+                                                            ) [AddopExpr]
+                                                          ) [DesignatorLExprR]
+                                                        ) [NonEmptyListaDesi]
+                                                      ) [DesignatorWithOptList]
+                                                      EqualAssignop(
+                                                      ) [EqualAssignop]
+                                                      ExprEPExpr(
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            CharFactor(
+                                                             c
+                                                            ) [CharFactor]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                      ) [ExprEPExpr]
+                                                    ) [DesiStmtAssignop]
+                                                  ) [DesignatorSingleStatement]
+                                                ) [OneSingleStatement]
+                                              ) [NonEmptyStatementList]
+                                              OneSingleStatement(
+                                                PrintStmt(
+                                                  TermExpr(
+                                                    FactorTerm(
+                                                      FactorDesignator(
+                                                        DesignatorWithOptList(
+                                                          FakeIdent(
+                                                           nizch
+                                                          ) [FakeIdent]
+                                                          NonEmptyListaDesi(
+                                                            EmptyDesiList(
+                                                            ) [EmptyDesiList]
+                                                            DesignatorLExprR(
+                                                              AEADLBracket(
+                                                              ) [AEADLBracket]
+                                                              TermExpr(
+                                                                FactorTerm(
+                                                                  IntFactor(
+                                                                   1
+                                                                  ) [IntFactor]
+                                                                ) [FactorTerm]
+                                                              ) [TermExpr]
+                                                            ) [DesignatorLExprR]
+                                                          ) [NonEmptyListaDesi]
+                                                        ) [DesignatorWithOptList]
+                                                      ) [FactorDesignator]
+                                                    ) [FactorTerm]
+                                                  ) [TermExpr]
+                                                  SinglStmComaNo(
+                                                  ) [SinglStmComaNo]
+                                                ) [PrintStmt]
+                                              ) [OneSingleStatement]
+                                            ) [NonEmptyStatementList]
+                                            OneSingleStatement(
+                                              PrintStmt(
+                                                TermExpr(
+                                                  FactorTerm(
+                                                    FactorDesignator(
+                                                      DesignatorWithOptList(
+                                                        FakeIdent(
+                                                         nizch
+                                                        ) [FakeIdent]
+                                                        NonEmptyListaDesi(
+                                                          EmptyDesiList(
+                                                          ) [EmptyDesiList]
+                                                          DesignatorLExprR(
+                                                            AEADLBracket(
+                                                            ) [AEADLBracket]
+                                                            TermExpr(
+                                                              MulopTerm(
+                                                                FactorTerm(
+                                                                  FactorDesignator(
+                                                                    DesignatorWithOptList(
+                                                                      FakeIdent(
+                                                                       jedan
+                                                                      ) [FakeIdent]
+                                                                      EmptyDesiList(
+                                                                      ) [EmptyDesiList]
+                                                                    ) [DesignatorWithOptList]
+                                                                  ) [FactorDesignator]
+                                                                ) [FactorTerm]
+                                                                MulMulop(
+                                                                ) [MulMulop]
+                                                                IntFactor(
+                                                                 2
+                                                                ) [IntFactor]
+                                                              ) [MulopTerm]
+                                                            ) [TermExpr]
+                                                          ) [DesignatorLExprR]
+                                                        ) [NonEmptyListaDesi]
+                                                      ) [DesignatorWithOptList]
+                                                    ) [FactorDesignator]
+                                                  ) [FactorTerm]
+                                                ) [TermExpr]
+                                                SinglStmComaNo(
+                                                ) [SinglStmComaNo]
+                                              ) [PrintStmt]
+                                            ) [OneSingleStatement]
+                                          ) [NonEmptyStatementList]
+                                          OneSingleStatement(
+                                            DesignatorSingleStatement(
+                                              DesiStmtAssignop(
+                                                DesignatorWithOptList(
+                                                  FakeIdent(
+                                                   mat_ch
+                                                  ) [FakeIdent]
+                                                  EmptyDesiList(
+                                                  ) [EmptyDesiList]
+                                                ) [DesignatorWithOptList]
+                                                EqualAssignop(
+                                                ) [EqualAssignop]
+                                                ExprEPExpr(
+                                                  TermExpr(
+                                                    FactorTerm(
+                                                      NewMatrixFactor(
+                                                        Type(
+                                                         char
+                                                        ) [Type]
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            IntFactor(
+                                                             3
+                                                            ) [IntFactor]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            IntFactor(
+                                                             3
+                                                            ) [IntFactor]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                      ) [NewMatrixFactor]
+                                                    ) [FactorTerm]
+                                                  ) [TermExpr]
+                                                ) [ExprEPExpr]
+                                              ) [DesiStmtAssignop]
+                                            ) [DesignatorSingleStatement]
+                                          ) [OneSingleStatement]
+                                        ) [NonEmptyStatementList]
+                                        OneSingleStatement(
+                                          DesignatorSingleStatement(
+                                            DesiStmtAssignop(
+                                              DesignatorWithOptList(
+                                                FakeIdent(
+                                                 mat_ch
+                                                ) [FakeIdent]
+                                                NonEmptyListaDesi(
+                                                  NonEmptyListaDesi(
+                                                    EmptyDesiList(
+                                                    ) [EmptyDesiList]
+                                                    DesignatorLExprR(
+                                                      AEADLBracket(
+                                                      ) [AEADLBracket]
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          IntFactor(
+                                                           0
+                                                          ) [IntFactor]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                    ) [DesignatorLExprR]
+                                                  ) [NonEmptyListaDesi]
+                                                  DesignatorLExprR(
+                                                    AEADLBracket(
+                                                    ) [AEADLBracket]
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        IntFactor(
+                                                         0
+                                                        ) [IntFactor]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [DesignatorLExprR]
+                                                ) [NonEmptyListaDesi]
+                                              ) [DesignatorWithOptList]
+                                              EqualAssignop(
+                                              ) [EqualAssignop]
+                                              ExprEPExpr(
+                                                TermExpr(
+                                                  FactorTerm(
+                                                    CharFactor(
+                                                     m
+                                                    ) [CharFactor]
+                                                  ) [FactorTerm]
+                                                ) [TermExpr]
+                                              ) [ExprEPExpr]
+                                            ) [DesiStmtAssignop]
+                                          ) [DesignatorSingleStatement]
+                                        ) [OneSingleStatement]
+                                      ) [NonEmptyStatementList]
+                                      OneSingleStatement(
+                                        DesignatorSingleStatement(
+                                          DesiStmtAssignop(
+                                            DesignatorWithOptList(
+                                              FakeIdent(
+                                               mat_ch
+                                              ) [FakeIdent]
+                                              NonEmptyListaDesi(
+                                                NonEmptyListaDesi(
+                                                  EmptyDesiList(
+                                                  ) [EmptyDesiList]
+                                                  DesignatorLExprR(
+                                                    AEADLBracket(
+                                                    ) [AEADLBracket]
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        IntFactor(
+                                                         1
+                                                        ) [IntFactor]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [DesignatorLExprR]
+                                                ) [NonEmptyListaDesi]
+                                                DesignatorLExprR(
+                                                  AEADLBracket(
+                                                  ) [AEADLBracket]
+                                                  TermExpr(
+                                                    FactorTerm(
+                                                      IntFactor(
+                                                       0
+                                                      ) [IntFactor]
+                                                    ) [FactorTerm]
+                                                  ) [TermExpr]
+                                                ) [DesignatorLExprR]
+                                              ) [NonEmptyListaDesi]
+                                            ) [DesignatorWithOptList]
+                                            EqualAssignop(
+                                            ) [EqualAssignop]
+                                            ExprEPExpr(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  FactorDesignator(
+                                                    DesignatorWithOptList(
+                                                      FakeIdent(
+                                                       mat_ch
+                                                      ) [FakeIdent]
+                                                      NonEmptyListaDesi(
+                                                        NonEmptyListaDesi(
+                                                          EmptyDesiList(
+                                                          ) [EmptyDesiList]
+                                                          DesignatorLExprR(
+                                                            AEADLBracket(
+                                                            ) [AEADLBracket]
+                                                            TermExpr(
+                                                              FactorTerm(
+                                                                IntFactor(
+                                                                 0
+                                                                ) [IntFactor]
+                                                              ) [FactorTerm]
+                                                            ) [TermExpr]
+                                                          ) [DesignatorLExprR]
+                                                        ) [NonEmptyListaDesi]
+                                                        DesignatorLExprR(
+                                                          AEADLBracket(
+                                                          ) [AEADLBracket]
+                                                          TermExpr(
+                                                            FactorTerm(
+                                                              IntFactor(
+                                                               0
+                                                              ) [IntFactor]
+                                                            ) [FactorTerm]
+                                                          ) [TermExpr]
+                                                        ) [DesignatorLExprR]
+                                                      ) [NonEmptyListaDesi]
+                                                    ) [DesignatorWithOptList]
+                                                  ) [FactorDesignator]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [ExprEPExpr]
+                                          ) [DesiStmtAssignop]
+                                        ) [DesignatorSingleStatement]
+                                      ) [OneSingleStatement]
+                                    ) [NonEmptyStatementList]
+                                    OneSingleStatement(
+                                      DesignatorSingleStatement(
+                                        DesiStmtAssignop(
+                                          DesignatorWithOptList(
+                                            FakeIdent(
+                                             mat_ch
+                                            ) [FakeIdent]
+                                            NonEmptyListaDesi(
+                                              NonEmptyListaDesi(
+                                                EmptyDesiList(
+                                                ) [EmptyDesiList]
+                                                DesignatorLExprR(
+                                                  AEADLBracket(
+                                                  ) [AEADLBracket]
+                                                  TermExpr(
+                                                    FactorTerm(
+                                                      IntFactor(
+                                                       0
+                                                      ) [IntFactor]
+                                                    ) [FactorTerm]
+                                                  ) [TermExpr]
+                                                ) [DesignatorLExprR]
+                                              ) [NonEmptyListaDesi]
+                                              DesignatorLExprR(
+                                                AEADLBracket(
+                                                ) [AEADLBracket]
+                                                TermExpr(
+                                                  FactorTerm(
+                                                    IntFactor(
+                                                     0
+                                                    ) [IntFactor]
+                                                  ) [FactorTerm]
+                                                ) [TermExpr]
+                                              ) [DesignatorLExprR]
+                                            ) [NonEmptyListaDesi]
+                                          ) [DesignatorWithOptList]
+                                          EqualAssignop(
+                                          ) [EqualAssignop]
+                                          ExprEPExpr(
+                                            TermExpr(
+                                              FactorTerm(
+                                                CharFactor(
+                                                 k
+                                                ) [CharFactor]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                          ) [ExprEPExpr]
+                                        ) [DesiStmtAssignop]
+                                      ) [DesignatorSingleStatement]
+                                    ) [OneSingleStatement]
+                                  ) [NonEmptyStatementList]
+                                  OneSingleStatement(
+                                    PrintStmt(
+                                      TermExpr(
+                                        FactorTerm(
+                                          FactorDesignator(
+                                            DesignatorWithOptList(
+                                              FakeIdent(
+                                               mat_ch
+                                              ) [FakeIdent]
+                                              NonEmptyListaDesi(
+                                                NonEmptyListaDesi(
+                                                  EmptyDesiList(
+                                                  ) [EmptyDesiList]
+                                                  DesignatorLExprR(
+                                                    AEADLBracket(
+                                                    ) [AEADLBracket]
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        IntFactor(
+                                                         0
+                                                        ) [IntFactor]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [DesignatorLExprR]
+                                                ) [NonEmptyListaDesi]
+                                                DesignatorLExprR(
+                                                  AEADLBracket(
+                                                  ) [AEADLBracket]
+                                                  TermExpr(
+                                                    FactorTerm(
+                                                      IntFactor(
+                                                       0
+                                                      ) [IntFactor]
+                                                    ) [FactorTerm]
+                                                  ) [TermExpr]
+                                                ) [DesignatorLExprR]
+                                              ) [NonEmptyListaDesi]
+                                            ) [DesignatorWithOptList]
+                                          ) [FactorDesignator]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                      SinglStmComaNo(
+                                      ) [SinglStmComaNo]
+                                    ) [PrintStmt]
+                                  ) [OneSingleStatement]
+                                ) [NonEmptyStatementList]
+                                OneSingleStatement(
+                                  PrintStmt(
+                                    TermExpr(
+                                      FactorTerm(
+                                        FactorDesignator(
+                                          DesignatorWithOptList(
+                                            FakeIdent(
+                                             eol
+                                            ) [FakeIdent]
+                                            EmptyDesiList(
+                                            ) [EmptyDesiList]
+                                          ) [DesignatorWithOptList]
+                                        ) [FactorDesignator]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                    SinglStmComaNo(
+                                    ) [SinglStmComaNo]
+                                  ) [PrintStmt]
+                                ) [OneSingleStatement]
+                              ) [NonEmptyStatementList]
+                              OneSingleStatement(
+                                PrintStmt(
+                                  TermExpr(
+                                    FactorTerm(
+                                      FactorDesignator(
+                                        DesignatorWithOptList(
+                                          FakeIdent(
+                                           mat_ch
+                                          ) [FakeIdent]
+                                          NonEmptyListaDesi(
+                                            NonEmptyListaDesi(
+                                              EmptyDesiList(
+                                              ) [EmptyDesiList]
+                                              DesignatorLExprR(
+                                                AEADLBracket(
+                                                ) [AEADLBracket]
+                                                TermExpr(
+                                                  FactorTerm(
+                                                    IntFactor(
+                                                     1
+                                                    ) [IntFactor]
+                                                  ) [FactorTerm]
+                                                ) [TermExpr]
+                                              ) [DesignatorLExprR]
+                                            ) [NonEmptyListaDesi]
+                                            DesignatorLExprR(
+                                              AEADLBracket(
+                                              ) [AEADLBracket]
+                                              TermExpr(
+                                                FactorTerm(
+                                                  IntFactor(
+                                                   0
+                                                  ) [IntFactor]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [DesignatorLExprR]
+                                          ) [NonEmptyListaDesi]
+                                        ) [DesignatorWithOptList]
+                                      ) [FactorDesignator]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                  SinglStmComaNo(
+                                  ) [SinglStmComaNo]
+                                ) [PrintStmt]
+                              ) [OneSingleStatement]
+                            ) [NonEmptyStatementList]
+                            OneSingleStatement(
+                              ReadStmt(
+                                DesignatorWithOptList(
+                                  FakeIdent(
+                                   bodovi
+                                  ) [FakeIdent]
+                                  EmptyDesiList(
+                                  ) [EmptyDesiList]
+                                ) [DesignatorWithOptList]
+                              ) [ReadStmt]
+                            ) [OneSingleStatement]
+                          ) [NonEmptyStatementList]
+                          OneSingleStatement(
+                            ReadStmt(
+                              DesignatorWithOptList(
+                                FakeIdent(
+                                 mat
+                                ) [FakeIdent]
+                                NonEmptyListaDesi(
+                                  NonEmptyListaDesi(
+                                    EmptyDesiList(
+                                    ) [EmptyDesiList]
+                                    DesignatorLExprR(
+                                      AEADLBracket(
+                                      ) [AEADLBracket]
+                                      TermExpr(
+                                        FactorTerm(
+                                          IntFactor(
+                                           0
+                                          ) [IntFactor]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [DesignatorLExprR]
+                                  ) [NonEmptyListaDesi]
+                                  DesignatorLExprR(
+                                    AEADLBracket(
+                                    ) [AEADLBracket]
+                                    TermExpr(
+                                      FactorTerm(
+                                        IntFactor(
+                                         0
+                                        ) [IntFactor]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [DesignatorLExprR]
+                                ) [NonEmptyListaDesi]
+                              ) [DesignatorWithOptList]
+                            ) [ReadStmt]
+                          ) [OneSingleStatement]
+                        ) [NonEmptyStatementList]
+                        OneSingleStatement(
+                          DesignatorSingleStatement(
+                            DesiStmtAssignop(
+                              DesignatorWithOptList(
+                                FakeIdent(
+                                 bodovi
+                                ) [FakeIdent]
+                                EmptyDesiList(
+                                ) [EmptyDesiList]
+                              ) [DesignatorWithOptList]
+                              EqualAssignop(
+                              ) [EqualAssignop]
+                              ExprEPExpr(
+                                AddopExpr(
+                                  AddopExpr(
+                                    MinusTermExpr(
+                                      FactorTerm(
+                                        FactorDesignator(
+                                          DesignatorWithOptList(
+                                            FakeIdent(
+                                             bodovi
+                                            ) [FakeIdent]
+                                            EmptyDesiList(
+                                            ) [EmptyDesiList]
+                                          ) [DesignatorWithOptList]
+                                        ) [FactorDesignator]
+                                      ) [FactorTerm]
+                                    ) [MinusTermExpr]
+                                    PlusAddop(
+                                    ) [PlusAddop]
+                                    MulopTerm(
+                                      FactorTerm(
+                                        DelimitedFactor(
+                                          AddopExpr(
+                                            TermExpr(
+                                              MulopTerm(
+                                                MulopTerm(
+                                                  FactorTerm(
+                                                    FactorDesignator(
+                                                      DesignatorWithOptList(
+                                                        FakeIdent(
+                                                         pet
+                                                        ) [FakeIdent]
+                                                        EmptyDesiList(
+                                                        ) [EmptyDesiList]
+                                                      ) [DesignatorWithOptList]
+                                                    ) [FactorDesignator]
+                                                  ) [FactorTerm]
+                                                  MulMulop(
+                                                  ) [MulMulop]
+                                                  FactorDesignator(
+                                                    DesignatorWithOptList(
+                                                      FakeIdent(
+                                                       a
+                                                      ) [FakeIdent]
+                                                      EmptyDesiList(
+                                                      ) [EmptyDesiList]
+                                                    ) [DesignatorWithOptList]
+                                                  ) [FactorDesignator]
+                                                ) [MulopTerm]
+                                                DivMulop(
+                                                ) [DivMulop]
+                                                IntFactor(
+                                                 2
+                                                ) [IntFactor]
+                                              ) [MulopTerm]
+                                            ) [TermExpr]
+                                            MinusAddop(
+                                            ) [MinusAddop]
+                                            FactorTerm(
+                                              FactorDesignator(
+                                                DesignatorWithOptList(
+                                                  FakeIdent(
+                                                   jedan
+                                                  ) [FakeIdent]
+                                                  EmptyDesiList(
+                                                  ) [EmptyDesiList]
+                                                ) [DesignatorWithOptList]
+                                              ) [FactorDesignator]
+                                            ) [FactorTerm]
+                                          ) [AddopExpr]
+                                        ) [DelimitedFactor]
+                                      ) [FactorTerm]
+                                      MulMulop(
+                                      ) [MulMulop]
+                                      FactorDesignator(
+                                        DesignatorWithOptList(
+                                          FakeIdent(
+                                           bodovi
+                                          ) [FakeIdent]
+                                          EmptyDesiList(
+                                          ) [EmptyDesiList]
+                                        ) [DesignatorWithOptList]
+                                      ) [FactorDesignator]
+                                    ) [MulopTerm]
+                                  ) [AddopExpr]
+                                  MinusAddop(
+                                  ) [MinusAddop]
+                                  FactorTerm(
+                                    DelimitedFactor(
+                                      AddopExpr(
+                                        AddopExpr(
+                                          TermExpr(
+                                            MulopTerm(
+                                              FactorTerm(
+                                                IntFactor(
+                                                 3
+                                                ) [IntFactor]
+                                              ) [FactorTerm]
+                                              ModMulop(
+                                              ) [ModMulop]
+                                              IntFactor(
+                                               2
+                                              ) [IntFactor]
+                                            ) [MulopTerm]
+                                          ) [TermExpr]
+                                          PlusAddop(
+                                          ) [PlusAddop]
+                                          MulopTerm(
+                                            FactorTerm(
+                                              IntFactor(
+                                               3
+                                              ) [IntFactor]
+                                            ) [FactorTerm]
+                                            MulMulop(
+                                            ) [MulMulop]
+                                            IntFactor(
+                                             2
+                                            ) [IntFactor]
+                                          ) [MulopTerm]
+                                        ) [AddopExpr]
+                                        MinusAddop(
+                                        ) [MinusAddop]
+                                        FactorTerm(
+                                          IntFactor(
+                                           3
+                                          ) [IntFactor]
+                                        ) [FactorTerm]
+                                      ) [AddopExpr]
+                                    ) [DelimitedFactor]
+                                  ) [FactorTerm]
+                                ) [AddopExpr]
+                              ) [ExprEPExpr]
+                            ) [DesiStmtAssignop]
+                          ) [DesignatorSingleStatement]
+                        ) [OneSingleStatement]
+                      ) [NonEmptyStatementList]
+                      OneSingleStatement(
+                        PrintStmt(
+                          TermExpr(
+                            FactorTerm(
+                              FactorDesignator(
+                                DesignatorWithOptList(
+                                  FakeIdent(
+                                   bodovi
+                                  ) [FakeIdent]
+                                  EmptyDesiList(
+                                  ) [EmptyDesiList]
+                                ) [DesignatorWithOptList]
+                              ) [FactorDesignator]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                          SinglStmComaNo(
+                          ) [SinglStmComaNo]
+                        ) [PrintStmt]
+                      ) [OneSingleStatement]
+                    ) [NonEmptyStatementList]
+                    OneSingleStatement(
+                      PrintStmt(
+                        TermExpr(
+                          FactorTerm(
+                            FactorDesignator(
+                              DesignatorWithOptList(
+                                FakeIdent(
+                                 eol
+                                ) [FakeIdent]
+                                EmptyDesiList(
+                                ) [EmptyDesiList]
+                              ) [DesignatorWithOptList]
+                            ) [FactorDesignator]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        SinglStmComaNo(
+                        ) [SinglStmComaNo]
+                      ) [PrintStmt]
+                    ) [OneSingleStatement]
+                  ) [NonEmptyStatementList]
+                  OneSingleStatement(
+                    PrintStmt(
+                      TermExpr(
+                        FactorTerm(
+                          FactorDesignator(
+                            DesignatorWithOptList(
+                              FakeIdent(
+                               mat_ch
+                              ) [FakeIdent]
+                              NonEmptyListaDesi(
+                                NonEmptyListaDesi(
+                                  EmptyDesiList(
+                                  ) [EmptyDesiList]
+                                  DesignatorLExprR(
+                                    AEADLBracket(
+                                    ) [AEADLBracket]
+                                    TermExpr(
+                                      FactorTerm(
+                                        IntFactor(
+                                         0
+                                        ) [IntFactor]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [DesignatorLExprR]
+                                ) [NonEmptyListaDesi]
+                                DesignatorLExprR(
+                                  AEADLBracket(
+                                  ) [AEADLBracket]
+                                  TermExpr(
+                                    FactorTerm(
+                                      IntFactor(
+                                       0
+                                      ) [IntFactor]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                ) [DesignatorLExprR]
+                              ) [NonEmptyListaDesi]
+                            ) [DesignatorWithOptList]
+                          ) [FactorDesignator]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                      SinglStmComaNo(
+                      ) [SinglStmComaNo]
+                    ) [PrintStmt]
+                  ) [OneSingleStatement]
+                ) [NonEmptyStatementList]
+                OneSingleStatement(
+                  PrintStmt(
+                    TermExpr(
+                      FactorTerm(
+                        FactorDesignator(
+                          DesignatorWithOptList(
+                            FakeIdent(
+                             eol
+                            ) [FakeIdent]
+                            EmptyDesiList(
+                            ) [EmptyDesiList]
+                          ) [DesignatorWithOptList]
+                        ) [FactorDesignator]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                    SinglStmComaNo(
+                    ) [SinglStmComaNo]
+                  ) [PrintStmt]
+                ) [OneSingleStatement]
+              ) [NonEmptyStatementList]
+              OneSingleStatement(
+                PrintStmt(
+                  TermExpr(
+                    FactorTerm(
+                      FactorDesignator(
+                        DesignatorWithOptList(
+                          FakeIdent(
+                           mat_ch
+                          ) [FakeIdent]
+                          NonEmptyListaDesi(
+                            NonEmptyListaDesi(
+                              EmptyDesiList(
+                              ) [EmptyDesiList]
+                              DesignatorLExprR(
+                                AEADLBracket(
+                                ) [AEADLBracket]
+                                TermExpr(
+                                  FactorTerm(
+                                    IntFactor(
+                                     1
+                                    ) [IntFactor]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [DesignatorLExprR]
+                            ) [NonEmptyListaDesi]
+                            DesignatorLExprR(
+                              AEADLBracket(
+                              ) [AEADLBracket]
+                              TermExpr(
+                                FactorTerm(
+                                  IntFactor(
+                                   0
+                                  ) [IntFactor]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [DesignatorLExprR]
+                          ) [NonEmptyListaDesi]
+                        ) [DesignatorWithOptList]
+                      ) [FactorDesignator]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                  SinglStmComaNo(
+                  ) [SinglStmComaNo]
+                ) [PrintStmt]
+              ) [OneSingleStatement]
+            ) [NonEmptyStatementList]
+            OneSingleStatement(
+              PrintStmt(
+                TermExpr(
+                  FactorTerm(
+                    FactorDesignator(
+                      DesignatorWithOptList(
+                        FakeIdent(
+                         eol
+                        ) [FakeIdent]
+                        EmptyDesiList(
+                        ) [EmptyDesiList]
+                      ) [DesignatorWithOptList]
+                    ) [FactorDesignator]
+                  ) [FactorTerm]
+                ) [TermExpr]
+                SinglStmComaNo(
+                ) [SinglStmComaNo]
+              ) [PrintStmt]
+            ) [OneSingleStatement]
+          ) [NonEmptyStatementList]
+          OneSingleStatement(
+            PrintStmt(
+              TermExpr(
+                FactorTerm(
+                  FactorDesignator(
+                    DesignatorWithOptList(
+                      FakeIdent(
+                       mat
+                      ) [FakeIdent]
+                      NonEmptyListaDesi(
+                        NonEmptyListaDesi(
+                          EmptyDesiList(
+                          ) [EmptyDesiList]
+                          DesignatorLExprR(
+                            AEADLBracket(
+                            ) [AEADLBracket]
+                            TermExpr(
+                              FactorTerm(
+                                IntFactor(
+                                 0
+                                ) [IntFactor]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [DesignatorLExprR]
+                        ) [NonEmptyListaDesi]
+                        DesignatorLExprR(
+                          AEADLBracket(
+                          ) [AEADLBracket]
+                          TermExpr(
+                            FactorTerm(
+                              IntFactor(
+                               0
+                              ) [IntFactor]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [DesignatorLExprR]
+                      ) [NonEmptyListaDesi]
+                    ) [DesignatorWithOptList]
+                  ) [FactorDesignator]
+                ) [FactorTerm]
+              ) [TermExpr]
+              SinglStmComaNo(
+              ) [SinglStmComaNo]
+            ) [PrintStmt]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnExpr(
+           return
+            TermExpr(
+              FactorTerm(
+                IntFactor(
+                 1
+                ) [IntFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [ReturnExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  15:26:44,729 - ===================================
+INFO  15:26:44,739 -  [nula], Found const nula: int, 0, 0 na liniji 5
+INFO  15:26:44,740 -  [jedan], Found const jedan: int, 1, 0 na liniji 6
+INFO  15:26:44,740 -  [pet], Found const pet: int, 5, 0 na liniji 7
+INFO  15:26:44,740 -  [niz], Found Var niz: Arr of int, 0, 0 na liniji 9
+INFO  15:26:44,740 -  [niz2], Found Var niz2: Arr of int, 1, 0 na liniji 9
+INFO  15:26:44,740 -  [a], Found Var a: int, Adr:2, Level:0 na liniji 9
+INFO  15:26:44,740 -  [b], Found Var b: int, Adr:3, Level:0 na liniji 9
+INFO  15:26:44,740 -  [nizch], Found Var nizch: Arr of char, 4, 0 na liniji 10
+INFO  15:26:44,740 -  [mat], Found Var mat: Matrix of int, Adr:5, Level:0 na liniji 11
+INFO  15:26:44,740 -  [mat_ch], Found Var mat_ch: Matrix of char, Adr:6, Level:0 na liniji 12
+INFO  15:26:44,740 -  [bodovi], Found Var bodovi: int, Adr: 0, Level: 1 na liniji 16
+INFO  15:26:44,740 -  [bt], Found Var bt: bool, Adr: 1, Level: 1 na liniji 17
+INFO  15:26:44,740 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 19
+INFO  15:26:44,740 - [STATEMENT INFO]: pronadjena drodela  [prom: bodovi , prom: 0]!! na liniji 19
+INFO  15:26:44,740 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 20
+INFO  15:26:44,740 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 21
+INFO  15:26:44,740 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 21
+INFO  15:26:44,740 - [STATEMENT INFO]: Found Con jedan: int, Adr: 1, Level: 0 na liniji 21
+INFO  15:26:44,740 - [STATEMENT INFO]: pronadjena drodela  [prom: bodovi , prom: ]!! na liniji 21
+INFO  15:26:44,740 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 22
+INFO  15:26:44,740 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 22
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Con pet: int, Adr: 5, Level: 0 na liniji 22
+INFO  15:26:44,741 - [STATEMENT INFO]: pronadjena drodela  [prom: bodovi , prom: ]!! na liniji 22
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 23
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 24
+INFO  15:26:44,741 - [INFO STATEMENT]: printing!!! na liniji 24
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Var niz: Arr of int, Adr: 0, Level: 0 na liniji 27
+INFO  15:26:44,741 - [STATEMENT INFO]: pronadjena dodela  [niz: niz , niz: new Type[]]!! na liniji 27
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Con nula: int, Adr: 0, Level: 0 na liniji 28
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Elem [niz] na liniji 28
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Con jedan: int, Adr: 1, Level: 0 na liniji 28
+INFO  15:26:44,741 - [STATEMENT INFO]: pronadjena dodela  [niz: niz , prom: jedan]!! na liniji 28
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Elem [niz] na liniji 29
+INFO  15:26:44,741 - [STATEMENT INFO]: pronadjena dodela  [niz: niz , prom: 2]!! na liniji 29
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Con jedan: int, Adr: 1, Level: 0 na liniji 30
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Elem [niz] na liniji 30
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Elem [niz] na liniji 30
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Elem [niz] na liniji 30
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Elem [niz] na liniji 30
+INFO  15:26:44,741 - [STATEMENT INFO]: pronadjena dodela  [niz: niz , niz: ]!! na liniji 30
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 31
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Elem [niz] na liniji 31
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Elem [niz] na liniji 31
+INFO  15:26:44,741 - [STATEMENT INFO]: pronadjena drodela  [prom: bodovi , prom: ]!! na liniji 31
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 32
+INFO  15:26:44,741 - [INFO STATEMENT]: printing!!! na liniji 32
+INFO  15:26:44,741 - [STATEMENT INFO]: Found Elem [niz] na liniji 33
+INFO  15:26:44,742 - [INFO STATEMENT]: printing!!! na liniji 33
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Var mat: Matrix of int, Adr: 5, Level: 0 na liniji 35
+INFO  15:26:44,742 - [STATEMENT INFO]: pronadjena dodela  [matrix: mat , matrix: new Type[][]]!! na liniji 35
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [mat] na liniji 36
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Con nula: int, Adr: 0, Level: 0 na liniji 36
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [niz] na liniji 36
+INFO  15:26:44,742 - [STATEMENT INFO]: pronadjena dodela  [matrix: mat[][] , niz: niz]!! na liniji 36
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [mat] na liniji 37
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [mat] na liniji 37
+INFO  15:26:44,742 - [STATEMENT INFO]: pronadjena dodela  [matrix: mat[0][mat] , prom: 2]!! na liniji 37
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Con jedan: int, Adr: 1, Level: 0 na liniji 38
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [niz] na liniji 38
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [mat] na liniji 38
+INFO  15:26:44,742 - [STATEMENT INFO]: pronadjena dodela  [matrix: mat[1][] , prom: 5]!! na liniji 38
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [mat] na liniji 39
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [mat] na liniji 39
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [mat] na liniji 39
+INFO  15:26:44,742 - [STATEMENT INFO]: pronadjena dodela  [matrix: mat[1][1] , prom: ]!! na liniji 39
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [mat] na liniji 40
+INFO  15:26:44,742 - [INFO STATEMENT]: printing!!! na liniji 40
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [mat] na liniji 41
+INFO  15:26:44,742 - [INFO STATEMENT]: printing!!! na liniji 41
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Var nizch: Arr of char, Adr: 4, Level: 0 na liniji 43
+INFO  15:26:44,742 - [STATEMENT INFO]: pronadjena dodela  [niz: nizch , niz: new Type[]]!! na liniji 43
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [nizch] na liniji 44
+INFO  15:26:44,742 - [STATEMENT INFO]: pronadjena drodela  [prom: nizch , prom: a]!! na liniji 44
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Con jedan: int, Adr: 1, Level: 0 na liniji 45
+INFO  15:26:44,742 - [STATEMENT INFO]: Found Elem [nizch] na liniji 45
+INFO  15:26:44,743 - [STATEMENT INFO]: pronadjena drodela  [prom: nizch , prom: b]!! na liniji 45
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Con pet: int, Adr: 5, Level: 0 na liniji 46
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Elem [nizch] na liniji 46
+INFO  15:26:44,743 - [STATEMENT INFO]: pronadjena drodela  [prom: nizch , prom: c]!! na liniji 46
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Elem [nizch] na liniji 47
+INFO  15:26:44,743 - [INFO STATEMENT]: printing!!! na liniji 47
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Con jedan: int, Adr: 1, Level: 0 na liniji 48
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Elem [nizch] na liniji 48
+INFO  15:26:44,743 - [INFO STATEMENT]: printing!!! na liniji 48
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Var mat_ch: Matrix of char, Adr: 6, Level: 0 na liniji 49
+INFO  15:26:44,743 - [STATEMENT INFO]: pronadjena dodela  [matrix: mat_ch , matrix: new Type[][]]!! na liniji 49
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Elem [mat_ch] na liniji 50
+INFO  15:26:44,743 - [STATEMENT INFO]: pronadjena drodela  [prom: mat_ch , prom: m]!! na liniji 50
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Elem [mat_ch] na liniji 51
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Elem [mat_ch] na liniji 51
+INFO  15:26:44,743 - [STATEMENT INFO]: pronadjena drodela  [prom: mat_ch , prom: mat_ch]!! na liniji 51
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Elem [mat_ch] na liniji 52
+INFO  15:26:44,743 - [STATEMENT INFO]: pronadjena drodela  [prom: mat_ch , prom: k]!! na liniji 52
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Elem [mat_ch] na liniji 55
+INFO  15:26:44,743 - [INFO STATEMENT]: printing!!! na liniji 55
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Con eol: char, Adr: 10, Level: 0 na liniji 56
+INFO  15:26:44,743 - [INFO STATEMENT]: printing!!! na liniji 56
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Elem [mat_ch] na liniji 57
+INFO  15:26:44,743 - [INFO STATEMENT]: printing!!! na liniji 57
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 58
+INFO  15:26:44,743 - [INFO STATEMENT]: reading!!! na liniji 58
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Elem [mat] na liniji 59
+INFO  15:26:44,743 - [INFO STATEMENT]: reading!!! na liniji 59
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 61
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 61
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Con pet: int, Adr: 5, Level: 0 na liniji 61
+INFO  15:26:44,743 - [STATEMENT INFO]: Found Var a: int, Adr: 2, Level: 0 na liniji 61
+INFO  15:26:44,744 - [STATEMENT INFO]: Found Con jedan: int, Adr: 1, Level: 0 na liniji 61
+INFO  15:26:44,744 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 61
+INFO  15:26:44,744 - [STATEMENT INFO]: pronadjena drodela  [prom: bodovi , prom: ]!! na liniji 61
+INFO  15:26:44,744 - [STATEMENT INFO]: Found Var bodovi: int, Adr: 0, Level: 1 na liniji 62
+INFO  15:26:44,744 - [INFO STATEMENT]: printing!!! na liniji 62
+INFO  15:26:44,744 - [STATEMENT INFO]: Found Con eol: char, Adr: 10, Level: 0 na liniji 63
+INFO  15:26:44,744 - [INFO STATEMENT]: printing!!! na liniji 63
+INFO  15:26:44,744 - [STATEMENT INFO]: Found Elem [mat_ch] na liniji 64
+INFO  15:26:44,744 - [INFO STATEMENT]: printing!!! na liniji 64
+INFO  15:26:44,744 - [STATEMENT INFO]: Found Con eol: char, Adr: 10, Level: 0 na liniji 65
+INFO  15:26:44,744 - [INFO STATEMENT]: printing!!! na liniji 65
+INFO  15:26:44,744 - [STATEMENT INFO]: Found Elem [mat_ch] na liniji 66
+INFO  15:26:44,744 - [INFO STATEMENT]: printing!!! na liniji 66
+INFO  15:26:44,744 - [STATEMENT INFO]: Found Con eol: char, Adr: 10, Level: 0 na liniji 67
+INFO  15:26:44,744 - [INFO STATEMENT]: printing!!! na liniji 67
+INFO  15:26:44,744 - [STATEMENT INFO]: Found Elem [mat] na liniji 68
+INFO  15:26:44,744 - [INFO STATEMENT]: printing!!! na liniji 68
+INFO  15:26:44,744 - main kind 3 typ 1 adr -1 lev 2 na liniji 15
+INFO  15:26:44,744 -  Print count calls = 17
+INFO  15:26:44,744 -  Deklarisanih promenljivih ima = 2
+INFO  15:26:44,744 - ===================================
+INFO  15:26:44,769 - Parsiranje je uspesno!!!

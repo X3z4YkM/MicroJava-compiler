@@ -9,6 +9,7 @@ program test301
 	int niz[], niz2[], a, b;
 	char nizch[];
 	int mat[][];
+	char mat_ch [][];
 	
 {
 	void main()	
@@ -45,11 +46,26 @@ program test301
 		nizch[pet - 3] = 'c';
 		print(nizch[1]);
 		print(nizch[jedan * 2]);
-			
+		mat_ch = new char[3][3];
+		mat_ch[0][0] = 'm';
+		mat_ch[1][0] = mat_ch[0][0];
+		mat_ch[0][0] = 'k';
+	
+	
+		print(mat_ch[0][0]);
+		print(eol);
+		print(mat_ch[1][0]);
 		
+		read(mat[0][0])
 		read(bodovi);
 		bodovi = -bodovi + (pet * a / 2 - jedan) * bodovi - (3 % 2 + 3 * 2 - 3); 
 		print(bodovi);
+		print(eol);
+		print(mat_ch[0][0]);
+		print(eol);
+		print(mat_ch[1][0]);
+		print(eol);
+		print(mat[0][0]);
 			
 	}
 }

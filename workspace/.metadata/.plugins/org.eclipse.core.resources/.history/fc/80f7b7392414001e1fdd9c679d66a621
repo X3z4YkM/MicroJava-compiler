@@ -1,0 +1,164 @@
+INFO  14:07:48,679 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:07:49,005 - #43 program
+INFO  14:07:49,005 - #2 test301
+INFO  14:07:49,005 - #41 const
+INFO  14:07:49,010 - #2 int
+INFO  14:07:49,010 - #2 nula
+INFO  14:07:49,012 - #13 =
+INFO  14:07:49,012 - #3 0
+INFO  14:07:49,013 - #31 ;
+INFO  14:07:49,015 - #41 const
+INFO  14:07:49,015 - #2 int
+INFO  14:07:49,016 - #2 jedan
+INFO  14:07:49,016 - #13 =
+INFO  14:07:49,016 - #3 0
+INFO  14:07:49,016 - #31 ;
+INFO  14:07:49,016 - #2 int
+INFO  14:07:49,016 - #2 niz
+INFO  14:07:49,016 - #11 [
+INFO  14:07:49,016 - #10 ]
+INFO  14:07:49,016 - #31 ;
+INFO  14:07:49,017 - #34 {
+INFO  14:07:49,017 - #40 void
+INFO  14:07:49,021 - #2 main
+INFO  14:07:49,024 - #26 (
+INFO  14:07:49,026 - #27 )
+INFO  14:07:49,029 - #34 {
+INFO  14:07:49,031 - #2 niz
+INFO  14:07:49,036 - #13 =
+INFO  14:07:49,041 - #25 new
+INFO  14:07:49,046 - #2 int
+INFO  14:07:49,046 - #11 [
+INFO  14:07:49,046 - #3 1
+INFO  14:07:49,046 - #10 ]
+INFO  14:07:49,046 - #31 ;
+INFO  14:07:49,047 - #8 return
+INFO  14:07:49,047 - #31 ;
+INFO  14:07:49,047 - #35 }
+INFO  14:07:49,047 - #35 }
+INFO  14:07:49,066 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NonEmptyDeclList(
+    NonEmptyDeclList(
+      NonEmptyDeclList(
+        EmptyDeclList(
+        ) [EmptyDeclList]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          SingleElemConstList(
+            ConstElem(
+             nula
+              IntLiteral(
+               0
+              ) [IntLiteral]
+            ) [ConstElem]
+          ) [SingleElemConstList]
+        ) [ConstDecl]
+      ) [NonEmptyDeclList]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleElemConstList(
+          ConstElem(
+           jedan
+            IntLiteral(
+             0
+            ) [IntLiteral]
+          ) [ConstElem]
+        ) [SingleElemConstList]
+      ) [ConstDecl]
+    ) [NonEmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorElem(
+          VectorGlobalVar(
+           niz
+          ) [VectorGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      EmptyVarDeclList(
+      ) [EmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          OneSingleStatement(
+            DesignatorSingleStatement(
+              DesiStmtAssignop(
+                DesignatorWithOptList(
+                  FakeIdent(
+                   niz
+                  ) [FakeIdent]
+                  EmptyDesiList(
+                  ) [EmptyDesiList]
+                ) [DesignatorWithOptList]
+                EqualAssignop(
+                ) [EqualAssignop]
+                ExprEPExpr(
+                  TermExpr(
+                    FactorTerm(
+                      NewVectorExprFactor(
+                        Type(
+                         int
+                        ) [Type]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             1
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [NewVectorExprFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [ExprEPExpr]
+              ) [DesiStmtAssignop]
+            ) [DesignatorSingleStatement]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  14:07:49,067 - ===================================
+INFO  14:07:49,077 -  [nula], Found const nula: int, 0, 0 na liniji 5
+INFO  14:07:49,077 -  [jedan], Found const jedan: int, 0, 0 na liniji 6
+INFO  14:07:49,077 -  [niz], Found Var niz: Arr of int, 2, 0 na liniji 7
+INFO  14:07:49,078 - [STATEMENT INFO]: Found Var niz: Arr of int, Adr: 2, Level: 0 na liniji 14
+INFO  14:07:49,078 - [STATEMENT INFO]: pronadjena dodela  [niz: niz , niz: new Type[]]!! na liniji 14
+INFO  14:07:49,078 - main kind 3 typ 0 adr -1 lev 0 na liniji 11
+INFO  14:07:49,078 -  Print count calls = 0
+INFO  14:07:49,078 -  Deklarisanih promenljivih ima = 0
+INFO  14:07:49,078 - ===================================

@@ -143,7 +143,7 @@ public class SemanticAnalyzer extends VisitorAdaptor
 
 				constNode = MyTable.insert(Obj.Con, obj.getName(), obj.getType());
 				constNode.setAdr(obj.getAdr());
-				globalCount++;
+				// globalCount++;
 				constNode.setLevel(obj.getLevel());
 				report_info(" [" + obj.getName() + "], Found const " + obj.getName() + ": "
 						+ ispisCvora(obj.getType()) + ", " + constNode.getAdr() + ", "
@@ -348,7 +348,7 @@ public class SemanticAnalyzer extends VisitorAdaptor
 	public void visit(MethodEnd methodEnd)
 	{
 		currentMeth.setLevel(MyTable.currentScope.getnVars());
-		if (pozvanRetur == false)
+		if (pozvanRetur == false && !isVoid)
 		{
 			report_error("[ERROR]: return nije postavljen!!", methodEnd);
 			GlobalErrorDetetcted = true;
@@ -1105,13 +1105,14 @@ public class SemanticAnalyzer extends VisitorAdaptor
 				designatorWithOptList.obj = new Obj(Obj.Elem, name, identO.getType());
 			} else if (identO.getType().getKind() == expr.getKind() && expr.equals(MyTable.intType)
 					&& (identO.getType().getKind() != Struct.Array
-							&& identO.getType().getKind() != MyStruct.Matrix))
+							|| identO.getType().getKind() != MyStruct.Matrix))
 			{
 				report_info("[STATEMENT INFO]: Found Elem " + name + "", designatorWithOptList);
 				designatorWithOptList.obj = new Obj(Obj.Elem, name, MyTable.intType);
 
 			} else if (identO.getType().getElemType().getKind() != expr.getKind()
-					&& expr.equals(MyTable.intType) && identO.getType().getKind() == Struct.Array)
+					&& expr.equals(MyTable.intType) && (identO.getType().getKind() == Struct.Array
+							|| identO.getType().getKind() == MyStruct.Matrix))
 			{
 				report_info("[STATEMENT INFO]: Found Elem [" + name + "]", designatorWithOptList);
 				designatorWithOptList.obj = new Obj(Obj.Elem, name, identO.getType().getElemType());

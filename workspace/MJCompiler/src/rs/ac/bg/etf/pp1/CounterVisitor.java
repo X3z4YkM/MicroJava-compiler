@@ -22,7 +22,10 @@ public class CounterVisitor extends VisitorAdaptor {
 		{
 			count++;
 		}
-		
+		public void visit(MatrixGlobalVar matrixGlobalVar)
+		{
+			count++;
+		}
 	}
 	
 	public static class VarCounter extends CounterVisitor
@@ -32,6 +35,10 @@ public class CounterVisitor extends VisitorAdaptor {
 			count++;
 		}
 		public void visit(VarElem2 varElem2)
+		{
+			count++;
+		}
+		public void visit(VarElem3 varElem3)
 		{
 			count++;
 		}

@@ -42,8 +42,6 @@
     <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CounterVisitor.VarCounter"/>
     <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CounterVisitor.FormParamCounter"/>
     <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FactorDesignator"/>
-    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FakeIdent"/>
-    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CodeGenerator"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.StackTraceElement"/>
@@ -52,7 +50,10 @@
     <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.MyTable"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
-    <fullyQualifiedTypeName name="rs.etf.pp1.symboltable.concepts.Struct"/>
-    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.MyStruct"/>
+    <fullyQualifiedTypeName name="sun.security.krb5.internal.crypto.Des"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CodeGenerator"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FakeIdent"/>
     <fullyQualifiedTypeName name="rs.etf.pp1.mj.runtime.Code"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.MyStruct"/>
+    <fullyQualifiedTypeName name="rs.etf.pp1.symboltable.concepts.Struct"/>
 </qualifiedTypeNameHistroy>

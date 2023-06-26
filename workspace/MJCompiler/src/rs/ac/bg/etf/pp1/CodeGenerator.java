@@ -187,8 +187,16 @@ public class CodeGenerator extends VisitorAdaptor
 						Code.put(Code.dup_x2);
 						// stack:.. col, MatAdrr, row, col
 						Code.put(Code.pop);
-						// stack:.. col, MatAdrr, row
-						Code.put(Code.aload);
+						if(designatorWithOptList.obj.getType().getKind() == Struct.Char) 
+						{
+							// stack:.. col, MatAdrr, row
+							Code.put(Code.baload);
+						}else
+						{
+							// stack:.. col, MatAdrr, row
+							Code.put(Code.aload);
+						}
+				
 						// stack:.. col, matAdr_row
 						Code.put(Code.dup_x1);
 						// stack:.. matAdr_row, col, matAdr_row
@@ -257,7 +265,7 @@ public class CodeGenerator extends VisitorAdaptor
 		{
 
 			// stack:.. matAdr_row, col, val
-
+			
 			Code.store(desiStmtAssignop.getDesignator().obj);
 
 		}

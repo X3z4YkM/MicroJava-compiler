@@ -2,6 +2,7 @@ package rs.ac.bg.etf.pp1;
 
 import rs.etf.pp1.symboltable.concepts.Obj;
 import rs.etf.pp1.symboltable.concepts.Struct;
+import rs.etf.pp1.symboltable.structure.SymbolDataStructure;
 
 public class MyStruct extends Struct
 {
@@ -19,6 +20,11 @@ public class MyStruct extends Struct
 		{
 			super.setElementType(elemType);
 		}
+	}
+	
+	public MyStruct(int kind, SymbolDataStructure members) {
+		super(kind);
+		setMembers(members);
 	}
 	
 }

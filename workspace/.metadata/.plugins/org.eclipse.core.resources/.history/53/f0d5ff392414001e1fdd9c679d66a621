@@ -1,0 +1,231 @@
+INFO  13:30:07,160 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:30:07,459 - #43 program
+INFO  13:30:07,460 - #2 test301
+INFO  13:30:07,460 - #2 int
+INFO  13:30:07,464 - #2 niz
+INFO  13:30:07,466 - #11 [
+INFO  13:30:07,466 - #10 ]
+INFO  13:30:07,466 - #9 ,
+INFO  13:30:07,466 - #2 niz2
+INFO  13:30:07,466 - #11 [
+INFO  13:30:07,466 - #10 ]
+INFO  13:30:07,466 - #9 ,
+INFO  13:30:07,466 - #2 a
+INFO  13:30:07,467 - #9 ,
+INFO  13:30:07,467 - #2 b
+INFO  13:30:07,467 - #31 ;
+INFO  13:30:07,467 - #2 char
+INFO  13:30:07,467 - #2 nizch
+INFO  13:30:07,467 - #11 [
+INFO  13:30:07,467 - #10 ]
+INFO  13:30:07,467 - #31 ;
+INFO  13:30:07,467 - #2 int
+INFO  13:30:07,467 - #2 mat
+INFO  13:30:07,468 - #11 [
+INFO  13:30:07,468 - #10 ]
+INFO  13:30:07,468 - #11 [
+INFO  13:30:07,468 - #10 ]
+INFO  13:30:07,468 - #31 ;
+INFO  13:30:07,468 - #34 {
+INFO  13:30:07,468 - #40 void
+INFO  13:30:07,470 - #2 main
+INFO  13:30:07,472 - #26 (
+INFO  13:30:07,474 - #27 )
+INFO  13:30:07,476 - #2 int
+INFO  13:30:07,478 - #2 bodovi
+INFO  13:30:07,478 - #31 ;
+INFO  13:30:07,478 - #2 bool
+INFO  13:30:07,479 - #2 bt
+INFO  13:30:07,479 - #31 ;
+INFO  13:30:07,479 - #34 {
+INFO  13:30:07,479 - #2 mat
+INFO  13:30:07,483 - #13 =
+INFO  13:30:07,487 - #25 new
+INFO  13:30:07,492 - #2 int
+INFO  13:30:07,492 - #11 [
+INFO  13:30:07,492 - #3 1
+INFO  13:30:07,492 - #10 ]
+INFO  13:30:07,492 - #11 [
+INFO  13:30:07,492 - #3 1
+INFO  13:30:07,492 - #10 ]
+INFO  13:30:07,492 - #31 ;
+INFO  13:30:07,493 - #8 return
+INFO  13:30:07,493 - #31 ;
+INFO  13:30:07,493 - #35 }
+INFO  13:30:07,493 - #35 }
+INFO  13:30:07,509 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NonEmptyDeclList(
+    NonEmptyDeclList(
+      NonEmptyDeclList(
+        EmptyDeclList(
+        ) [EmptyDeclList]
+        GlobalDecl(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            GlobalVectorList(
+              GlobalVectorList(
+                GlobalVectorList(
+                  GlobalVectorElem(
+                    VectorGlobalVar(
+                     niz
+                    ) [VectorGlobalVar]
+                  ) [GlobalVectorElem]
+                  VectorGlobalVar(
+                   niz2
+                  ) [VectorGlobalVar]
+                ) [GlobalVectorList]
+                ScalGlobalVar(
+                 a
+                ) [ScalGlobalVar]
+              ) [GlobalVectorList]
+              ScalGlobalVar(
+               b
+              ) [ScalGlobalVar]
+            ) [GlobalVectorList]
+          ) [VarDecl]
+        ) [GlobalDecl]
+      ) [NonEmptyDeclList]
+      GlobalDecl(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          GlobalVectorElem(
+            VectorGlobalVar(
+             nizch
+            ) [VectorGlobalVar]
+          ) [GlobalVectorElem]
+        ) [VarDecl]
+      ) [GlobalDecl]
+    ) [NonEmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorElem(
+          MatrixGlobalVar(
+           mat
+          ) [MatrixGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NonEmptyVarDeclList(
+        NonEmptyVarDeclList(
+          EmptyVarDeclList(
+          ) [EmptyVarDeclList]
+          VarDeclElemWithVarList(
+            Type(
+             int
+            ) [Type]
+            VarListOneEelem(
+              VarElem2(
+               bodovi
+              ) [VarElem2]
+            ) [VarListOneEelem]
+          ) [VarDeclElemWithVarList]
+        ) [NonEmptyVarDeclList]
+        VarDeclElemWithVarList(
+          Type(
+           bool
+          ) [Type]
+          VarListOneEelem(
+            VarElem2(
+             bt
+            ) [VarElem2]
+          ) [VarListOneEelem]
+        ) [VarDeclElemWithVarList]
+      ) [NonEmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          OneSingleStatement(
+            DesignatorSingleStatement(
+              DesiStmtAssignop(
+                DesignatorWithOptList(
+                  FakeIdent(
+                   mat
+                  ) [FakeIdent]
+                  EmptyDesiList(
+                  ) [EmptyDesiList]
+                ) [DesignatorWithOptList]
+                EqualAssignop(
+                ) [EqualAssignop]
+                ExprEPExpr(
+                  TermExpr(
+                    FactorTerm(
+                      NewMatrixFactor(
+                        Type(
+                         int
+                        ) [Type]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             1
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             1
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [NewMatrixFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [ExprEPExpr]
+              ) [DesiStmtAssignop]
+            ) [DesignatorSingleStatement]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  13:30:07,509 - ===================================
+INFO  13:30:07,519 -  [niz], Found Var niz: Arr of int, 0, 0 na liniji 6
+INFO  13:30:07,519 -  [niz2], Found Var niz2: Arr of int, 1, 0 na liniji 6
+INFO  13:30:07,519 -  [a], Found Var a: int, Adr:2, Level:0 na liniji 6
+INFO  13:30:07,519 -  [b], Found Var b: int, Adr:3, Level:0 na liniji 6
+INFO  13:30:07,520 -  [nizch], Found Var nizch: Arr of char, 4, 0 na liniji 7
+INFO  13:30:07,520 -  [mat], Found Var mat: Matrix of int, Adr:5, Level:0 na liniji 8
+INFO  13:30:07,520 -  [bodovi], Found Var bodovi: int, Adr: 0, Level: 1 na liniji 12
+INFO  13:30:07,520 -  [bt], Found Var bt: bool, Adr: 1, Level: 1 na liniji 13
+INFO  13:30:07,520 - [STATEMENT INFO]: Found Var mat: Matrix of int, Adr: 5, Level: 0 na liniji 16
+INFO  13:30:07,520 - [STATEMENT INFO]: pronadjena dodela  [matrix: mat , matrix: new Type[][]]!! na liniji 16
+INFO  13:30:07,520 - main kind 3 typ 0 adr -1 lev 2 na liniji 11
+INFO  13:30:07,521 -  Print count calls = 0
+INFO  13:30:07,521 -  Deklarisanih promenljivih ima = 2
+INFO  13:30:07,521 - ===================================
+INFO  13:31:15,062 - Parsiranje je uspesno!!!
