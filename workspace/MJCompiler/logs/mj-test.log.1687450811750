@@ -1,0 +1,77 @@
+INFO  18:19:15,431 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:19:15,699 - #43 program
+INFO  18:19:15,699 - #2 test_A_successful
+INFO  18:19:15,699 - #2 int
+INFO  18:19:15,703 - #2 b
+INFO  18:19:15,705 - #11 [
+INFO  18:19:15,705 - #10 ]
+INFO  18:19:15,705 - #11 [
+INFO  18:19:15,705 - #10 ]
+INFO  18:19:15,705 - #31 ;
+INFO  18:19:15,705 - #34 {
+INFO  18:19:15,706 - #40 void
+INFO  18:19:15,708 - #2 main
+INFO  18:19:15,710 - #26 (
+INFO  18:19:15,712 - #27 )
+INFO  18:19:15,714 - #34 {
+INFO  18:19:15,716 - #8 return
+INFO  18:19:15,719 - #31 ;
+INFO  18:19:15,719 - #35 }
+INFO  18:19:15,720 - #35 }
+INFO  18:19:15,733 - Program(
+  ProgramName(
+   test_A_successful
+  ) [ProgramName]
+  NonEmptyDeclList(
+    EmptyDeclList(
+    ) [EmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorElem(
+          MatrixGlobalVar(
+           b
+          ) [MatrixGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      EmptyVarDeclList(
+      ) [EmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        EmptyStatementList(
+        ) [EmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  18:19:15,733 - ===================================
+INFO  18:19:15,740 - main kind 3 typ 0 adr -1 lev 0 na liniji 4
+INFO  18:19:15,740 -  Print count calls = 0
+INFO  18:19:15,740 -  Deklarisanih promenljivih ima = 0
+INFO  18:19:15,740 - ===================================
+INFO  18:19:15,760 - Parsiranje je uspesno!!!

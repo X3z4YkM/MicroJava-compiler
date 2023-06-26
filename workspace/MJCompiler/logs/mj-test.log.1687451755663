@@ -1,0 +1,131 @@
+INFO  18:26:35,055 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:26:35,326 - #43 program
+INFO  18:26:35,326 - #2 test_A_successful
+INFO  18:26:35,326 - #2 int
+INFO  18:26:35,330 - #2 b
+INFO  18:26:35,332 - #11 [
+INFO  18:26:35,332 - #10 ]
+INFO  18:26:35,332 - #11 [
+INFO  18:26:35,332 - #10 ]
+INFO  18:26:35,332 - #31 ;
+INFO  18:26:35,332 - #34 {
+INFO  18:26:35,333 - #40 void
+INFO  18:26:35,335 - #2 main
+INFO  18:26:35,337 - #26 (
+INFO  18:26:35,339 - #27 )
+INFO  18:26:35,341 - #34 {
+INFO  18:26:35,342 - #2 b
+INFO  18:26:35,346 - #13 =
+INFO  18:26:35,350 - #25 new
+INFO  18:26:35,353 - #2 int
+INFO  18:26:35,354 - #11 [
+INFO  18:26:35,354 - #3 2
+INFO  18:26:35,354 - #10 ]
+INFO  18:26:35,354 - #11 [
+INFO  18:26:35,354 - #3 3
+INFO  18:26:35,354 - #10 ]
+INFO  18:26:35,354 - #31 ;
+INFO  18:26:35,355 - #8 return
+INFO  18:26:35,355 - #31 ;
+INFO  18:26:35,355 - #35 }
+INFO  18:26:35,355 - #35 }
+INFO  18:26:35,369 - Program(
+  ProgramName(
+   test_A_successful
+  ) [ProgramName]
+  NonEmptyDeclList(
+    EmptyDeclList(
+    ) [EmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorElem(
+          MatrixGlobalVar(
+           b
+          ) [MatrixGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      EmptyVarDeclList(
+      ) [EmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          OneSingleStatement(
+            DesignatorSingleStatement(
+              DesiStmtAssignop(
+                DesignatorWithOptList(
+                  FakeIdent(
+                   b
+                  ) [FakeIdent]
+                  EmptyDesiList(
+                  ) [EmptyDesiList]
+                ) [DesignatorWithOptList]
+                EqualAssignop(
+                ) [EqualAssignop]
+                ExprEPExpr(
+                  TermExpr(
+                    FactorTerm(
+                      NewMatrixFactor(
+                        Type(
+                         int
+                        ) [Type]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             2
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             3
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [NewMatrixFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [ExprEPExpr]
+              ) [DesiStmtAssignop]
+            ) [DesignatorSingleStatement]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  18:26:35,370 - ===================================
+ERROR 18:26:35,376 - [ERROR]: unresolved variable [b] na liniji 5
+INFO  18:26:35,376 - main kind 3 typ 0 adr -1 lev 0 na liniji 4
+INFO  18:26:35,377 -  Print count calls = 0
+INFO  18:26:35,377 -  Deklarisanih promenljivih ima = 0
+INFO  18:26:35,377 - ===================================
+INFO  18:26:35,377 - Parsiranje NIJE uspesno!!!

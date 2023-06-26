@@ -1,0 +1,47 @@
+
+  pos: instruction operands
+     | expressionstack
+-----------------------------
+    0: enter       0 0 
+     | 
+    3: const_5     
+     | 5 
+    4: newarray    1 
+     | 2 
+    6: putstatic   5 
+     | 
+    9: const_3     
+     | 3 
+   10: putstatic   0 
+     | 
+   13: getstatic   5 
+     | 2 
+   16: const_0     
+     | 2 0 
+   17: const_2     
+     | 2 0 2 
+   18: astore      
+Arraylength = 5
+Address = 2
+Index = 0
+Value = 2
+
+     | 
+   19: getstatic   5 
+     | 2 
+   22: const_0     
+     | 2 0 
+   23: aload       
+     | 2 
+   24: putstatic   0 
+     | 
+   27: getstatic   0 
+     | 2 
+   30: const_5     
+     | 2 5 
+   31: print           2
+     | 
+   32: exit        
+     | 
+   33: return      
+Completion took 7 ms

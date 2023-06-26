@@ -1,0 +1,197 @@
+INFO  16:33:37,462 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:33:37,541 - #43 program
+INFO  16:33:37,541 - #2 test_A_successful
+INFO  16:33:37,541 - #2 int
+INFO  16:33:37,542 - #2 b
+INFO  16:33:37,543 - #11 [
+INFO  16:33:37,543 - #10 ]
+INFO  16:33:37,543 - #11 [
+INFO  16:33:37,543 - #10 ]
+INFO  16:33:37,543 - #31 ;
+INFO  16:33:37,544 - #34 {
+INFO  16:33:37,544 - #40 void
+INFO  16:33:37,544 - #2 main
+INFO  16:33:37,545 - #26 (
+INFO  16:33:37,546 - #27 )
+INFO  16:33:37,546 - #34 {
+INFO  16:33:37,547 - #2 b
+INFO  16:33:37,548 - #13 =
+INFO  16:33:37,549 - #25 new
+INFO  16:33:37,550 - #2 int
+INFO  16:33:37,550 - #11 [
+INFO  16:33:37,550 - #3 2
+INFO  16:33:37,550 - #10 ]
+INFO  16:33:37,550 - #11 [
+INFO  16:33:37,550 - #3 3
+INFO  16:33:37,550 - #10 ]
+INFO  16:33:37,550 - #31 ;
+INFO  16:33:37,551 - #2 b
+INFO  16:33:37,551 - #11 [
+INFO  16:33:37,551 - #3 0
+INFO  16:33:37,552 - #10 ]
+INFO  16:33:37,552 - #11 [
+INFO  16:33:37,552 - #3 1
+INFO  16:33:37,552 - #10 ]
+INFO  16:33:37,552 - #13 =
+INFO  16:33:37,552 - #3 2
+INFO  16:33:37,553 - #31 ;
+INFO  16:33:37,553 - #8 return
+INFO  16:33:37,553 - #31 ;
+INFO  16:33:37,553 - #35 }
+INFO  16:33:37,553 - #35 }
+INFO  16:33:37,560 - Program(
+  ProgramName(
+   test_A_successful
+  ) [ProgramName]
+  NonEmptyDeclList(
+    EmptyDeclList(
+    ) [EmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorElem(
+          MatrixGlobalVar(
+           b
+          ) [MatrixGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      EmptyVarDeclList(
+      ) [EmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          NonEmptyStatementList(
+            EmptyStatementList(
+            ) [EmptyStatementList]
+            OneSingleStatement(
+              DesignatorSingleStatement(
+                DesiStmtAssignop(
+                  DesignatorWithOptList(
+                    FakeIdent(
+                     b
+                    ) [FakeIdent]
+                    EmptyDesiList(
+                    ) [EmptyDesiList]
+                  ) [DesignatorWithOptList]
+                  EqualAssignop(
+                  ) [EqualAssignop]
+                  ExprEPExpr(
+                    TermExpr(
+                      FactorTerm(
+                        NewMatrixFactor(
+                          Type(
+                           int
+                          ) [Type]
+                          TermExpr(
+                            FactorTerm(
+                              IntFactor(
+                               2
+                              ) [IntFactor]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                          TermExpr(
+                            FactorTerm(
+                              IntFactor(
+                               3
+                              ) [IntFactor]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [NewMatrixFactor]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [ExprEPExpr]
+                ) [DesiStmtAssignop]
+              ) [DesignatorSingleStatement]
+            ) [OneSingleStatement]
+          ) [NonEmptyStatementList]
+          OneSingleStatement(
+            DesignatorSingleStatement(
+              DesiStmtAssignop(
+                DesignatorWithOptList(
+                  FakeIdent(
+                   b
+                  ) [FakeIdent]
+                  NonEmptyListaDesi(
+                    NonEmptyListaDesi(
+                      EmptyDesiList(
+                      ) [EmptyDesiList]
+                      DesignatorLExprR(
+                        AEADLBracket(
+                        ) [AEADLBracket]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             0
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [DesignatorLExprR]
+                    ) [NonEmptyListaDesi]
+                    DesignatorLExprR(
+                      AEADLBracket(
+                      ) [AEADLBracket]
+                      TermExpr(
+                        FactorTerm(
+                          IntFactor(
+                           1
+                          ) [IntFactor]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [DesignatorLExprR]
+                  ) [NonEmptyListaDesi]
+                ) [DesignatorWithOptList]
+                EqualAssignop(
+                ) [EqualAssignop]
+                ExprEPExpr(
+                  TermExpr(
+                    FactorTerm(
+                      IntFactor(
+                       2
+                      ) [IntFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [ExprEPExpr]
+              ) [DesiStmtAssignop]
+            ) [DesignatorSingleStatement]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  16:33:37,561 - ===================================
+INFO  16:33:37,565 -  [b], Found Var b: Matrix of int, Adr:0, Level:0 na liniji 2
+INFO  16:33:37,565 - [STATEMENT INFO]: Found Var b: Matrix of int, Adr: 0, Level: 0 na liniji 5
+INFO  16:33:37,565 - [STATEMENT INFO]: pronadjena dodela  [matrix: b , matrix: new Type[][]]!! na liniji 5
+INFO  16:33:37,565 - [STATEMENT INFO]: Found Elem [b] na liniji 6
+INFO  16:33:37,565 - [STATEMENT INFO]: pronadjena dodela  [matrix: b[0][1] , prom: 2]!! na liniji 6
+INFO  16:33:37,565 - main kind 3 typ 0 adr -1 lev 0 na liniji 4
+INFO  16:33:37,566 -  Print count calls = 0
+INFO  16:33:37,566 -  Deklarisanih promenljivih ima = 0
+INFO  16:33:37,566 - ===================================
+INFO  16:33:37,588 - Parsiranje je uspesno!!!

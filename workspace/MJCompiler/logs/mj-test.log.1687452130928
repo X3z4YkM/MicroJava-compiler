@@ -1,0 +1,121 @@
+INFO  18:40:55,411 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:40:55,680 - #43 program
+INFO  18:40:55,680 - #2 test_A_successful
+INFO  18:40:55,680 - #2 int
+INFO  18:40:55,684 - #2 b
+INFO  18:40:55,686 - #11 [
+INFO  18:40:55,686 - #10 ]
+INFO  18:40:55,686 - #31 ;
+INFO  18:40:55,686 - #34 {
+INFO  18:40:55,686 - #40 void
+INFO  18:40:55,688 - #2 main
+INFO  18:40:55,690 - #26 (
+INFO  18:40:55,692 - #27 )
+INFO  18:40:55,694 - #34 {
+INFO  18:40:55,696 - #2 b
+INFO  18:40:55,700 - #13 =
+INFO  18:40:55,703 - #25 new
+INFO  18:40:55,707 - #2 int
+INFO  18:40:55,707 - #11 [
+INFO  18:40:55,707 - #3 2
+INFO  18:40:55,707 - #10 ]
+INFO  18:40:55,707 - #31 ;
+INFO  18:40:55,708 - #8 return
+INFO  18:40:55,708 - #31 ;
+INFO  18:40:55,708 - #35 }
+INFO  18:40:55,708 - #35 }
+INFO  18:40:55,722 - Program(
+  ProgramName(
+   test_A_successful
+  ) [ProgramName]
+  NonEmptyDeclList(
+    EmptyDeclList(
+    ) [EmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorElem(
+          VectorGlobalVar(
+           b
+          ) [VectorGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      EmptyVarDeclList(
+      ) [EmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          OneSingleStatement(
+            DesignatorSingleStatement(
+              DesiStmtAssignop(
+                DesignatorWithOptList(
+                  FakeIdent(
+                   b
+                  ) [FakeIdent]
+                  EmptyDesiList(
+                  ) [EmptyDesiList]
+                ) [DesignatorWithOptList]
+                EqualAssignop(
+                ) [EqualAssignop]
+                ExprEPExpr(
+                  TermExpr(
+                    FactorTerm(
+                      NewVectorExprFactor(
+                        Type(
+                         int
+                        ) [Type]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             2
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [NewVectorExprFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [ExprEPExpr]
+              ) [DesiStmtAssignop]
+            ) [DesignatorSingleStatement]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  18:40:55,722 - ===================================
+INFO  18:40:55,729 -  [b], Found Var b: Arr of int, 0, 0 na liniji 2
+INFO  18:40:55,729 - [STATEMENT INFO]: Found Var b: Arr of int, Adr: 0, Level: 0 na liniji 5
+INFO  18:40:55,729 - [STATEMENT INFO]: pronadjena dodela  [niz: b , niz: new Type[]]!! na liniji 5
+INFO  18:40:55,729 - main kind 3 typ 0 adr -1 lev 0 na liniji 4
+INFO  18:40:55,730 -  Print count calls = 0
+INFO  18:40:55,730 -  Deklarisanih promenljivih ima = 0
+INFO  18:40:55,730 - ===================================
+INFO  18:40:55,751 - Parsiranje je uspesno!!!

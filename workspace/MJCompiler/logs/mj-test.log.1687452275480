@@ -1,0 +1,250 @@
+INFO  18:43:27,159 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:43:27,458 - #43 program
+INFO  18:43:27,458 - #2 test_A_successful
+INFO  18:43:27,458 - #2 int
+INFO  18:43:27,463 - #2 b
+INFO  18:43:27,465 - #11 [
+INFO  18:43:27,465 - #10 ]
+INFO  18:43:27,465 - #11 [
+INFO  18:43:27,466 - #10 ]
+INFO  18:43:27,466 - #31 ;
+INFO  18:43:27,466 - #34 {
+INFO  18:43:27,466 - #40 void
+INFO  18:43:27,469 - #2 main
+INFO  18:43:27,471 - #26 (
+INFO  18:43:27,473 - #27 )
+INFO  18:43:27,475 - #34 {
+INFO  18:43:27,478 - #2 b
+INFO  18:43:27,482 - #13 =
+INFO  18:43:27,487 - #25 new
+INFO  18:43:27,492 - #2 int
+INFO  18:43:27,492 - #11 [
+INFO  18:43:27,492 - #3 2
+INFO  18:43:27,492 - #10 ]
+INFO  18:43:27,492 - #11 [
+INFO  18:43:27,492 - #3 2
+INFO  18:43:27,492 - #10 ]
+INFO  18:43:27,492 - #31 ;
+INFO  18:43:27,493 - #8 return
+INFO  18:43:27,493 - #31 ;
+INFO  18:43:27,493 - #35 }
+INFO  18:43:27,493 - #35 }
+INFO  18:43:27,511 - Program(
+  ProgramName(
+   test_A_successful
+  ) [ProgramName]
+  NonEmptyDeclList(
+    EmptyDeclList(
+    ) [EmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorElem(
+          MatrixGlobalVar(
+           b
+          ) [MatrixGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      EmptyVarDeclList(
+      ) [EmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          OneSingleStatement(
+            DesignatorSingleStatement(
+              DesiStmtAssignop(
+                DesignatorWithOptList(
+                  FakeIdent(
+                   b
+                  ) [FakeIdent]
+                  EmptyDesiList(
+                  ) [EmptyDesiList]
+                ) [DesignatorWithOptList]
+                EqualAssignop(
+                ) [EqualAssignop]
+                ExprEPExpr(
+                  TermExpr(
+                    FactorTerm(
+                      NewMatrixFactor(
+                        Type(
+                         int
+                        ) [Type]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             2
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             2
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [NewMatrixFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [ExprEPExpr]
+              ) [DesiStmtAssignop]
+            ) [DesignatorSingleStatement]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  18:43:27,512 - ===================================
+INFO  18:44:23,315 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:44:23,603 - #43 program
+INFO  18:44:23,604 - #2 test_A_successful
+INFO  18:44:23,604 - #2 int
+INFO  18:44:23,608 - #2 b
+INFO  18:44:23,610 - #11 [
+INFO  18:44:23,610 - #10 ]
+INFO  18:44:23,610 - #11 [
+INFO  18:44:23,610 - #10 ]
+INFO  18:44:23,610 - #31 ;
+INFO  18:44:23,610 - #34 {
+INFO  18:44:23,610 - #40 void
+INFO  18:44:23,613 - #2 main
+INFO  18:44:23,615 - #26 (
+INFO  18:44:23,617 - #27 )
+INFO  18:44:23,619 - #34 {
+INFO  18:44:23,621 - #2 b
+INFO  18:44:23,624 - #13 =
+INFO  18:44:23,629 - #25 new
+INFO  18:44:23,633 - #2 int
+INFO  18:44:23,633 - #11 [
+INFO  18:44:23,633 - #3 2
+INFO  18:44:23,633 - #10 ]
+INFO  18:44:23,634 - #11 [
+INFO  18:44:23,634 - #3 2
+INFO  18:44:23,634 - #10 ]
+INFO  18:44:23,634 - #31 ;
+INFO  18:44:23,634 - #8 return
+INFO  18:44:23,635 - #31 ;
+INFO  18:44:23,635 - #35 }
+INFO  18:44:23,635 - #35 }
+INFO  18:44:23,650 - Program(
+  ProgramName(
+   test_A_successful
+  ) [ProgramName]
+  NonEmptyDeclList(
+    EmptyDeclList(
+    ) [EmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorElem(
+          MatrixGlobalVar(
+           b
+          ) [MatrixGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      EmptyVarDeclList(
+      ) [EmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          OneSingleStatement(
+            DesignatorSingleStatement(
+              DesiStmtAssignop(
+                DesignatorWithOptList(
+                  FakeIdent(
+                   b
+                  ) [FakeIdent]
+                  EmptyDesiList(
+                  ) [EmptyDesiList]
+                ) [DesignatorWithOptList]
+                EqualAssignop(
+                ) [EqualAssignop]
+                ExprEPExpr(
+                  TermExpr(
+                    FactorTerm(
+                      NewMatrixFactor(
+                        Type(
+                         int
+                        ) [Type]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             2
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             2
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [NewMatrixFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [ExprEPExpr]
+              ) [DesiStmtAssignop]
+            ) [DesignatorSingleStatement]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  18:44:23,651 - ===================================

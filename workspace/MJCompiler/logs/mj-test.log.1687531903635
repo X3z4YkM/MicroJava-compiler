@@ -1,0 +1,143 @@
+INFO  16:49:29,334 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:49:29,640 - #43 program
+INFO  16:49:29,640 - #2 test_A_successful
+INFO  16:49:29,640 - #2 int
+INFO  16:49:29,645 - #2 b
+INFO  16:49:29,647 - #11 [
+INFO  16:49:29,647 - #10 ]
+INFO  16:49:29,647 - #11 [
+INFO  16:49:29,647 - #10 ]
+INFO  16:49:29,648 - #31 ;
+INFO  16:49:29,648 - #34 {
+INFO  16:49:29,648 - #40 void
+INFO  16:49:29,651 - #2 main
+INFO  16:49:29,653 - #26 (
+INFO  16:49:29,655 - #27 )
+INFO  16:49:29,657 - #2 int
+INFO  16:49:29,659 - #2 s
+INFO  16:49:29,659 - #31 ;
+INFO  16:49:29,660 - #34 {
+INFO  16:49:29,660 - #2 b
+INFO  16:49:29,664 - #13 =
+INFO  16:49:29,669 - #25 new
+INFO  16:49:29,673 - #2 int
+INFO  16:49:29,673 - #11 [
+INFO  16:49:29,674 - #3 3
+INFO  16:49:29,674 - #10 ]
+INFO  16:49:29,674 - #11 [
+INFO  16:49:29,674 - #3 2
+INFO  16:49:29,674 - #10 ]
+INFO  16:49:29,674 - #31 ;
+INFO  16:49:29,675 - #8 return
+INFO  16:49:29,675 - #31 ;
+INFO  16:49:29,675 - #35 }
+INFO  16:49:29,675 - #35 }
+INFO  16:49:29,691 - Program(
+  ProgramName(
+   test_A_successful
+  ) [ProgramName]
+  NonEmptyDeclList(
+    EmptyDeclList(
+    ) [EmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorElem(
+          MatrixGlobalVar(
+           b
+          ) [MatrixGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NonEmptyVarDeclList(
+        EmptyVarDeclList(
+        ) [EmptyVarDeclList]
+        VarDeclElemWithVarList(
+          Type(
+           int
+          ) [Type]
+          VarListOneEelem(
+            VarElem2(
+             s
+            ) [VarElem2]
+          ) [VarListOneEelem]
+        ) [VarDeclElemWithVarList]
+      ) [NonEmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          OneSingleStatement(
+            DesignatorSingleStatement(
+              DesiStmtAssignop(
+                DesignatorWithOptList(
+                  FakeIdent(
+                   b
+                  ) [FakeIdent]
+                  EmptyDesiList(
+                  ) [EmptyDesiList]
+                ) [DesignatorWithOptList]
+                EqualAssignop(
+                ) [EqualAssignop]
+                ExprEPExpr(
+                  TermExpr(
+                    FactorTerm(
+                      NewMatrixFactor(
+                        Type(
+                         int
+                        ) [Type]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             3
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             2
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [NewMatrixFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [ExprEPExpr]
+              ) [DesiStmtAssignop]
+            ) [DesignatorSingleStatement]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  16:49:29,691 - ===================================
+INFO  16:49:29,707 -  [b], Found Var b: Matrix of int, Adr:0, Level:0 na liniji 2
+INFO  16:49:29,708 -  [s], Found Var s: int, Adr: 0, Level: 1 na liniji 4
+INFO  16:49:29,708 - [STATEMENT INFO]: Found Var b: Matrix of int, Adr: 0, Level: 0 na liniji 5

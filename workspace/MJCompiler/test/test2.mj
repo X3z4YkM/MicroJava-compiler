@@ -1,0 +1,16 @@
+program test_A_successful
+    int b[];
+	int d[], e;
+	bool state;
+{
+    void main()int s, s2,s3[];  {
+       state = false;
+	s = 3;
+	d =  new int[4];
+	d[3] = s+4*5;
+	s++;
+	d[s-3]=0;
+	print(d[3]);
+        return;
+    }
+}

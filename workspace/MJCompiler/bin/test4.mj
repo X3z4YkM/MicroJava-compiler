@@ -1,0 +1,23 @@
+program test_A_successful
+    int a, b[];
+	char d[], e;
+	bool state;
+{
+    int main()int s, s2,s3[];  {
+     
+	state = true;
+	read(a);
+	b = new int[10];
+	read(b[1]);
+	read(e);
+	d = new  char[10];
+	read(d[3]);
+	print(d[3]);
+	print(e);
+	print(a);
+	print(b[1]);	
+	a++;
+	b[1]--;
+        return b[1]+a *2;
+    }
+}

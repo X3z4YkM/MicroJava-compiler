@@ -1,0 +1,11 @@
+program test_A_successful
+  int b[][];
+	
+{
+    void main()int niz[]; {
+     	b = new int[4][6];
+     	niz = new int [10];
+     	niz[0] = 10;
+		return;
+    }
+}

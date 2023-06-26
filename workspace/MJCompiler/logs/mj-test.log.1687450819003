@@ -1,0 +1,20 @@
+INFO  18:20:11,765 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:20:11,773 - #43 program
+INFO  18:20:11,773 - #2 test_A_successful
+INFO  18:20:11,773 - #2 int
+INFO  18:20:11,773 - #2 b
+INFO  18:20:11,773 - #11 [
+INFO  18:20:11,773 - #10 ]
+INFO  18:20:11,774 - #11 [
+INFO  18:20:11,774 - #10 ]
+INFO  18:20:11,774 - #31 ;
+INFO  18:20:11,774 - #34 {
+INFO  18:20:11,774 - #40 void
+INFO  18:20:11,774 - #2 main
+INFO  18:20:11,774 - #26 (
+INFO  18:20:11,774 - #27 )
+INFO  18:20:11,774 - #34 {
+INFO  18:20:11,774 - #8 return
+INFO  18:20:11,774 - #31 ;
+INFO  18:20:11,774 - #35 }
+INFO  18:20:11,774 - #35 }

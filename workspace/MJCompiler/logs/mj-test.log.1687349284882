@@ -1,0 +1,354 @@
+INFO  14:02:39,748 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:02:40,050 - #43 program
+INFO  14:02:40,050 - #2 test_A_successful
+INFO  14:02:40,050 - #2 int
+INFO  14:02:40,055 - #2 a
+INFO  14:02:40,057 - #9 ,
+INFO  14:02:40,058 - #2 b
+INFO  14:02:40,058 - #9 ,
+INFO  14:02:40,058 - #2 c
+INFO  14:02:40,058 - #9 ,
+INFO  14:02:40,058 - #2 d
+INFO  14:02:40,058 - #9 ,
+INFO  14:02:40,058 - #2 e
+INFO  14:02:40,058 - #9 ,
+INFO  14:02:40,058 - #2 intArray
+INFO  14:02:40,058 - #11 [
+INFO  14:02:40,058 - #10 ]
+INFO  14:02:40,059 - #9 ,
+INFO  14:02:40,059 - #2 niz
+INFO  14:02:40,059 - #11 [
+INFO  14:02:40,059 - #10 ]
+INFO  14:02:40,059 - #9 ,
+INFO  14:02:40,059 - #2 nizTmp
+INFO  14:02:40,059 - #11 [
+INFO  14:02:40,059 - #10 ]
+INFO  14:02:40,059 - #9 ,
+INFO  14:02:40,059 - #2 nizIndex
+INFO  14:02:40,059 - #11 [
+INFO  14:02:40,059 - #10 ]
+INFO  14:02:40,059 - #31 ;
+INFO  14:02:40,059 - #34 {
+INFO  14:02:40,060 - #40 void
+INFO  14:02:40,062 - #2 main
+INFO  14:02:40,064 - #26 (
+INFO  14:02:40,067 - #27 )
+INFO  14:02:40,069 - #34 {
+INFO  14:02:40,071 - #2 intArray
+INFO  14:02:40,075 - #13 =
+INFO  14:02:40,080 - #25 new
+INFO  14:02:40,084 - #2 int
+INFO  14:02:40,084 - #11 [
+INFO  14:02:40,084 - #3 5
+INFO  14:02:40,084 - #10 ]
+INFO  14:02:40,085 - #31 ;
+INFO  14:02:40,085 - #2 a
+INFO  14:02:40,085 - #13 =
+INFO  14:02:40,085 - #3 3
+INFO  14:02:40,085 - #31 ;
+INFO  14:02:40,085 - #2 intArray
+INFO  14:02:40,086 - #11 [
+INFO  14:02:40,086 - #3 0
+INFO  14:02:40,090 - #10 ]
+INFO  14:02:40,090 - #13 =
+INFO  14:02:40,091 - #3 2
+INFO  14:02:40,091 - #31 ;
+INFO  14:02:40,091 - #2 a
+INFO  14:02:40,091 - #13 =
+INFO  14:02:40,091 - #2 intArray
+INFO  14:02:40,091 - #11 [
+INFO  14:02:40,091 - #3 0
+INFO  14:02:40,091 - #10 ]
+INFO  14:02:40,091 - #31 ;
+INFO  14:02:40,091 - #38 print
+INFO  14:02:40,091 - #26 (
+INFO  14:02:40,091 - #2 a
+INFO  14:02:40,091 - #27 )
+INFO  14:02:40,094 - #31 ;
+INFO  14:02:40,094 - #8 return
+INFO  14:02:40,094 - #31 ;
+INFO  14:02:40,094 - #35 }
+INFO  14:02:40,094 - #35 }
+INFO  14:02:40,110 - Program(
+  ProgramName(
+   test_A_successful
+  ) [ProgramName]
+  NonEmptyDeclList(
+    EmptyDeclList(
+    ) [EmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorList(
+          GlobalVectorList(
+            GlobalVectorList(
+              GlobalVectorList(
+                GlobalVectorList(
+                  GlobalVectorList(
+                    GlobalVectorList(
+                      GlobalVectorList(
+                        GlobalVectorElem(
+                          ScalGlobalVar(
+                           a
+                          ) [ScalGlobalVar]
+                        ) [GlobalVectorElem]
+                        ScalGlobalVar(
+                         b
+                        ) [ScalGlobalVar]
+                      ) [GlobalVectorList]
+                      ScalGlobalVar(
+                       c
+                      ) [ScalGlobalVar]
+                    ) [GlobalVectorList]
+                    ScalGlobalVar(
+                     d
+                    ) [ScalGlobalVar]
+                  ) [GlobalVectorList]
+                  ScalGlobalVar(
+                   e
+                  ) [ScalGlobalVar]
+                ) [GlobalVectorList]
+                VectorGlobalVar(
+                 intArray
+                ) [VectorGlobalVar]
+              ) [GlobalVectorList]
+              VectorGlobalVar(
+               niz
+              ) [VectorGlobalVar]
+            ) [GlobalVectorList]
+            VectorGlobalVar(
+             nizTmp
+            ) [VectorGlobalVar]
+          ) [GlobalVectorList]
+          VectorGlobalVar(
+           nizIndex
+          ) [VectorGlobalVar]
+        ) [GlobalVectorList]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      EmptyVarDeclList(
+      ) [EmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          NonEmptyStatementList(
+            NonEmptyStatementList(
+              NonEmptyStatementList(
+                NonEmptyStatementList(
+                  EmptyStatementList(
+                  ) [EmptyStatementList]
+                  OneSingleStatement(
+                    DesignatorSingleStatement(
+                      DesiStmtAssignop(
+                        DesignatorWithOptList(
+                          FakeIdent(
+                           intArray
+                          ) [FakeIdent]
+                          EmptyDesiList(
+                          ) [EmptyDesiList]
+                        ) [DesignatorWithOptList]
+                        EqualAssignop(
+                        ) [EqualAssignop]
+                        ExprEPExpr(
+                          TermExpr(
+                            FactorTerm(
+                              NewVectorExprFactor(
+                                Type(
+                                 int
+                                ) [Type]
+                                TermExpr(
+                                  FactorTerm(
+                                    IntFactor(
+                                     5
+                                    ) [IntFactor]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [NewVectorExprFactor]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [ExprEPExpr]
+                      ) [DesiStmtAssignop]
+                    ) [DesignatorSingleStatement]
+                  ) [OneSingleStatement]
+                ) [NonEmptyStatementList]
+                OneSingleStatement(
+                  DesignatorSingleStatement(
+                    DesiStmtAssignop(
+                      DesignatorWithOptList(
+                        FakeIdent(
+                         a
+                        ) [FakeIdent]
+                        EmptyDesiList(
+                        ) [EmptyDesiList]
+                      ) [DesignatorWithOptList]
+                      EqualAssignop(
+                      ) [EqualAssignop]
+                      ExprEPExpr(
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             3
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [ExprEPExpr]
+                    ) [DesiStmtAssignop]
+                  ) [DesignatorSingleStatement]
+                ) [OneSingleStatement]
+              ) [NonEmptyStatementList]
+              OneSingleStatement(
+                DesignatorSingleStatement(
+                  DesiStmtAssignop(
+                    DesignatorWithOptList(
+                      FakeIdent(
+                       intArray
+                      ) [FakeIdent]
+                      NonEmptyListaDesi(
+                        EmptyDesiList(
+                        ) [EmptyDesiList]
+                        DesignatorLExprR(
+                          AEADLBracket(
+                          ) [AEADLBracket]
+                          TermExpr(
+                            FactorTerm(
+                              IntFactor(
+                               0
+                              ) [IntFactor]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [DesignatorLExprR]
+                      ) [NonEmptyListaDesi]
+                    ) [DesignatorWithOptList]
+                    EqualAssignop(
+                    ) [EqualAssignop]
+                    ExprEPExpr(
+                      TermExpr(
+                        FactorTerm(
+                          IntFactor(
+                           2
+                          ) [IntFactor]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [ExprEPExpr]
+                  ) [DesiStmtAssignop]
+                ) [DesignatorSingleStatement]
+              ) [OneSingleStatement]
+            ) [NonEmptyStatementList]
+            OneSingleStatement(
+              DesignatorSingleStatement(
+                DesiStmtAssignop(
+                  DesignatorWithOptList(
+                    FakeIdent(
+                     a
+                    ) [FakeIdent]
+                    EmptyDesiList(
+                    ) [EmptyDesiList]
+                  ) [DesignatorWithOptList]
+                  EqualAssignop(
+                  ) [EqualAssignop]
+                  ExprEPExpr(
+                    TermExpr(
+                      FactorTerm(
+                        FactorDesignator(
+                          DesignatorWithOptList(
+                            FakeIdent(
+                             intArray
+                            ) [FakeIdent]
+                            NonEmptyListaDesi(
+                              EmptyDesiList(
+                              ) [EmptyDesiList]
+                              DesignatorLExprR(
+                                AEADLBracket(
+                                ) [AEADLBracket]
+                                TermExpr(
+                                  FactorTerm(
+                                    IntFactor(
+                                     0
+                                    ) [IntFactor]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [DesignatorLExprR]
+                            ) [NonEmptyListaDesi]
+                          ) [DesignatorWithOptList]
+                        ) [FactorDesignator]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [ExprEPExpr]
+                ) [DesiStmtAssignop]
+              ) [DesignatorSingleStatement]
+            ) [OneSingleStatement]
+          ) [NonEmptyStatementList]
+          OneSingleStatement(
+            PrintStmt(
+              TermExpr(
+                FactorTerm(
+                  FactorDesignator(
+                    DesignatorWithOptList(
+                      FakeIdent(
+                       a
+                      ) [FakeIdent]
+                      EmptyDesiList(
+                      ) [EmptyDesiList]
+                    ) [DesignatorWithOptList]
+                  ) [FactorDesignator]
+                ) [FactorTerm]
+              ) [TermExpr]
+              SinglStmComaNo(
+              ) [SinglStmComaNo]
+            ) [PrintStmt]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  14:02:40,110 - ===================================
+INFO  14:02:40,118 -  [a], Found Var a: int, Adr:0, Level:0 na liniji 2
+INFO  14:02:40,118 -  [b], Found Var b: int, Adr:1, Level:0 na liniji 2
+INFO  14:02:40,118 -  [c], Found Var c: int, Adr:2, Level:0 na liniji 2
+INFO  14:02:40,118 -  [d], Found Var d: int, Adr:3, Level:0 na liniji 2
+INFO  14:02:40,118 -  [e], Found Var e: int, Adr:4, Level:0 na liniji 2
+INFO  14:02:40,119 -  [intArray], Found Var intArray: Arr of int, 5, 0 na liniji 2
+INFO  14:02:40,119 -  [niz], Found Var niz: Arr of int, 6, 0 na liniji 2
+INFO  14:02:40,119 -  [nizTmp], Found Var nizTmp: Arr of int, 7, 0 na liniji 2
+INFO  14:02:40,119 -  [nizIndex], Found Var nizIndex: Arr of int, 8, 0 na liniji 2
+INFO  14:02:40,119 - [STATEMENT INFO]: Found Var intArray: Arr of int, Adr: 5, Level: 0 na liniji 5
+INFO  14:02:40,119 - [STATEMENT INFO]: pronadjena dodela  [niz: intArray , niz: new Type[]]!! na liniji 5
+INFO  14:02:40,119 - [STATEMENT INFO]: Found Var a: int, Adr: 0, Level: 0 na liniji 6
+INFO  14:02:40,119 - [STATEMENT INFO]: pronadjena dodela [prom: a , prom: 3]!! na liniji 6
+INFO  14:02:40,119 - [STATEMENT INFO]: Found Elem [intArray] na liniji 7
+INFO  14:02:40,119 - [STATEMENT INFO]: pronadjena dodela  [niz: intArray , prom: 2]!! na liniji 7
+INFO  14:02:40,120 - [STATEMENT INFO]: Found Var a: int, Adr: 0, Level: 0 na liniji 8
+INFO  14:02:40,120 - [STATEMENT INFO]: Found Elem [intArray] na liniji 8
+INFO  14:02:40,120 - [STATEMENT INFO]: pronadjena dodela [prom: a , niz: intArray]!! na liniji 8
+INFO  14:02:40,120 - [STATEMENT INFO]: Found Var a: int, Adr: 0, Level: 0 na liniji 9
+INFO  14:02:40,120 - [INFO STATEMENT]: printing!!! na liniji 9
+INFO  14:02:40,120 - main kind 3 typ 0 adr -1 lev 0 na liniji 4
+INFO  14:02:40,120 -  Print count calls = 1
+INFO  14:02:40,120 -  Deklarisanih promenljivih ima = 0
+INFO  14:02:40,120 - ===================================
+INFO  14:02:40,142 - Parsiranje je uspesno!!!

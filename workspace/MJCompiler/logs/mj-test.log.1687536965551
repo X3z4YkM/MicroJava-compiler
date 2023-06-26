@@ -1,0 +1,1711 @@
+INFO  18:14:37,790 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:14:38,058 - #43 program
+INFO  18:14:38,059 - #2 test302
+INFO  18:14:38,059 - #41 const
+INFO  18:14:38,063 - #2 int
+INFO  18:14:38,063 - #2 jedan
+INFO  18:14:38,065 - #13 =
+INFO  18:14:38,065 - #3 1
+INFO  18:14:38,065 - #31 ;
+INFO  18:14:38,067 - #2 int
+INFO  18:14:38,067 - #2 i
+INFO  18:14:38,067 - #31 ;
+INFO  18:14:38,067 - #2 bool
+INFO  18:14:38,068 - #2 ibool
+INFO  18:14:38,068 - #31 ;
+INFO  18:14:38,068 - #2 int
+INFO  18:14:38,068 - #2 niz2
+INFO  18:14:38,068 - #11 [
+INFO  18:14:38,068 - #10 ]
+INFO  18:14:38,068 - #31 ;
+INFO  18:14:38,068 - #2 int
+INFO  18:14:38,068 - #2 niz
+INFO  18:14:38,068 - #11 [
+INFO  18:14:38,068 - #10 ]
+INFO  18:14:38,069 - #31 ;
+INFO  18:14:38,069 - #2 int
+INFO  18:14:38,069 - #2 a
+INFO  18:14:38,069 - #9 ,
+INFO  18:14:38,069 - #2 curr
+INFO  18:14:38,069 - #31 ;
+INFO  18:14:38,069 - #34 {
+INFO  18:14:38,069 - #40 void
+INFO  18:14:38,071 - #2 main
+INFO  18:14:38,073 - #26 (
+INFO  18:14:38,075 - #27 )
+INFO  18:14:38,077 - #34 {
+INFO  18:14:38,079 - #36 if
+INFO  18:14:38,083 - #26 (
+INFO  18:14:38,083 - #3 1
+INFO  18:14:38,083 - #14 !=
+INFO  18:14:38,083 - #3 1
+INFO  18:14:38,087 - #27 )
+INFO  18:14:38,087 - #38 print
+INFO  18:14:38,088 - #26 (
+INFO  18:14:38,088 - #21 -
+INFO  18:14:38,088 - #3 6
+INFO  18:14:38,088 - #27 )
+INFO  18:14:38,090 - #31 ;
+INFO  18:14:38,090 - #28 else
+INFO  18:14:38,090 - #38 print
+INFO  18:14:38,090 - #26 (
+INFO  18:14:38,090 - #3 0
+INFO  18:14:38,090 - #27 )
+INFO  18:14:38,090 - #31 ;
+INFO  18:14:38,090 - #2 ibool
+INFO  18:14:38,091 - #13 =
+INFO  18:14:38,095 - #4 false
+INFO  18:14:38,098 - #31 ;
+INFO  18:14:38,099 - #2 i
+INFO  18:14:38,099 - #13 =
+INFO  18:14:38,099 - #3 0
+INFO  18:14:38,099 - #31 ;
+INFO  18:14:38,099 - #37 while
+INFO  18:14:38,099 - #26 (
+INFO  18:14:38,099 - #2 i
+INFO  18:14:38,099 - #18 <
+INFO  18:14:38,099 - #3 5
+INFO  18:14:38,101 - #27 )
+INFO  18:14:38,101 - #34 {
+INFO  18:14:38,101 - #36 if
+INFO  18:14:38,102 - #26 (
+INFO  18:14:38,102 - #2 i
+INFO  18:14:38,102 - #15 ==
+INFO  18:14:38,102 - #3 2
+INFO  18:14:38,104 - #27 )
+INFO  18:14:38,104 - #2 ibool
+INFO  18:14:38,104 - #13 =
+INFO  18:14:38,104 - #4 true
+INFO  18:14:38,104 - #31 ;
+INFO  18:14:38,104 - #2 i
+INFO  18:14:38,104 - #32 ++
+INFO  18:14:38,104 - #31 ;
+INFO  18:14:38,104 - #35 }
+INFO  18:14:38,104 - #36 if
+INFO  18:14:38,105 - #26 (
+INFO  18:14:38,105 - #2 ibool
+INFO  18:14:38,105 - #27 )
+INFO  18:14:38,105 - #36 if
+INFO  18:14:38,105 - #26 (
+INFO  18:14:38,105 - #2 i
+INFO  18:14:38,105 - #15 ==
+INFO  18:14:38,105 - #3 5
+INFO  18:14:38,105 - #27 )
+INFO  18:14:38,105 - #38 print
+INFO  18:14:38,105 - #26 (
+INFO  18:14:38,105 - #3 1
+INFO  18:14:38,105 - #27 )
+INFO  18:14:38,105 - #31 ;
+INFO  18:14:38,106 - #28 else
+INFO  18:14:38,106 - #38 print
+INFO  18:14:38,106 - #26 (
+INFO  18:14:38,106 - #21 -
+INFO  18:14:38,106 - #3 1
+INFO  18:14:38,106 - #27 )
+INFO  18:14:38,106 - #31 ;
+INFO  18:14:38,107 - #2 a
+INFO  18:14:38,107 - #13 =
+INFO  18:14:38,107 - #3 2
+INFO  18:14:38,107 - #31 ;
+INFO  18:14:38,107 - #2 niz
+INFO  18:14:38,107 - #13 =
+INFO  18:14:38,107 - #25 new
+INFO  18:14:38,107 - #2 int
+INFO  18:14:38,107 - #11 [
+INFO  18:14:38,107 - #3 3
+INFO  18:14:38,107 - #10 ]
+INFO  18:14:38,107 - #31 ;
+INFO  18:14:38,107 - #2 niz
+INFO  18:14:38,107 - #11 [
+INFO  18:14:38,108 - #3 0
+INFO  18:14:38,111 - #10 ]
+INFO  18:14:38,111 - #13 =
+INFO  18:14:38,112 - #3 1
+INFO  18:14:38,112 - #22 *
+INFO  18:14:38,112 - #2 a
+INFO  18:14:38,115 - #31 ;
+INFO  18:14:38,116 - #2 niz
+INFO  18:14:38,116 - #11 [
+INFO  18:14:38,116 - #3 1
+INFO  18:14:38,116 - #10 ]
+INFO  18:14:38,116 - #13 =
+INFO  18:14:38,116 - #3 2
+INFO  18:14:38,116 - #22 *
+INFO  18:14:38,116 - #2 a
+INFO  18:14:38,116 - #31 ;
+INFO  18:14:38,116 - #2 niz
+INFO  18:14:38,116 - #11 [
+INFO  18:14:38,116 - #3 2
+INFO  18:14:38,116 - #10 ]
+INFO  18:14:38,116 - #13 =
+INFO  18:14:38,116 - #2 niz
+INFO  18:14:38,117 - #11 [
+INFO  18:14:38,117 - #3 1
+INFO  18:14:38,117 - #10 ]
+INFO  18:14:38,117 - #22 *
+INFO  18:14:38,117 - #2 a
+INFO  18:14:38,117 - #20 +
+INFO  18:14:38,117 - #3 1
+INFO  18:14:38,121 - #31 ;
+INFO  18:14:38,121 - #36 if
+INFO  18:14:38,121 - #26 (
+INFO  18:14:38,121 - #3 1
+INFO  18:14:38,121 - #29 ||
+INFO  18:14:38,121 - #2 niz
+INFO  18:14:38,121 - #11 [
+INFO  18:14:38,121 - #3 2
+INFO  18:14:38,121 - #10 ]
+INFO  18:14:38,121 - #15 ==
+INFO  18:14:38,121 - #3 4
+INFO  18:14:38,121 - #27 )
+INFO  18:14:38,121 - #38 print
+INFO  18:14:38,121 - #26 (
+INFO  18:14:38,122 - #2 ord
+INFO  18:14:38,122 - #26 (
+INFO  18:14:38,122 - #5 A
+INFO  18:14:38,125 - #27 )
+INFO  18:14:38,125 - #27 )
+INFO  18:14:38,129 - #31 ;
+INFO  18:14:38,129 - #28 else
+INFO  18:14:38,129 - #38 print
+INFO  18:14:38,129 - #26 (
+INFO  18:14:38,129 - #2 ord
+INFO  18:14:38,129 - #26 (
+INFO  18:14:38,129 - #5 a
+INFO  18:14:38,129 - #27 )
+INFO  18:14:38,130 - #27 )
+INFO  18:14:38,130 - #31 ;
+INFO  18:14:38,130 - #38 print
+INFO  18:14:38,130 - #26 (
+INFO  18:14:38,130 - #2 eol
+INFO  18:14:38,130 - #27 )
+INFO  18:14:38,130 - #31 ;
+INFO  18:14:38,130 - #2 i
+INFO  18:14:38,130 - #13 =
+INFO  18:14:38,130 - #3 0
+INFO  18:14:38,130 - #31 ;
+INFO  18:14:38,130 - #37 while
+INFO  18:14:38,130 - #26 (
+INFO  18:14:38,130 - #2 i
+INFO  18:14:38,130 - #18 <
+INFO  18:14:38,130 - #3 10
+INFO  18:14:38,130 - #27 )
+INFO  18:14:38,130 - #34 {
+INFO  18:14:38,130 - #36 if
+INFO  18:14:38,131 - #26 (
+INFO  18:14:38,131 - #2 i
+INFO  18:14:38,131 - #15 ==
+INFO  18:14:38,131 - #3 3
+INFO  18:14:38,131 - #27 )
+INFO  18:14:38,131 - #34 {
+INFO  18:14:38,131 - #2 i
+INFO  18:14:38,131 - #32 ++
+INFO  18:14:38,131 - #31 ;
+INFO  18:14:38,131 - #7 continue
+INFO  18:14:38,131 - #31 ;
+INFO  18:14:38,131 - #35 }
+INFO  18:14:38,131 - #36 if
+INFO  18:14:38,131 - #26 (
+INFO  18:14:38,131 - #2 i
+INFO  18:14:38,131 - #15 ==
+INFO  18:14:38,131 - #3 4
+INFO  18:14:38,131 - #27 )
+INFO  18:14:38,131 - #6 break
+INFO  18:14:38,132 - #31 ;
+INFO  18:14:38,132 - #35 }
+INFO  18:14:38,132 - #36 if
+INFO  18:14:38,132 - #26 (
+INFO  18:14:38,132 - #2 i
+INFO  18:14:38,132 - #15 ==
+INFO  18:14:38,132 - #3 3
+INFO  18:14:38,132 - #27 )
+INFO  18:14:38,132 - #38 print
+INFO  18:14:38,132 - #26 (
+INFO  18:14:38,132 - #21 -
+INFO  18:14:38,132 - #3 4
+INFO  18:14:38,132 - #27 )
+INFO  18:14:38,132 - #31 ;
+INFO  18:14:38,132 - #28 else
+INFO  18:14:38,132 - #38 print
+INFO  18:14:38,132 - #26 (
+INFO  18:14:38,132 - #3 4
+INFO  18:14:38,132 - #27 )
+INFO  18:14:38,133 - #31 ;
+INFO  18:14:38,133 - #2 a
+INFO  18:14:38,133 - #13 =
+INFO  18:14:38,133 - #3 3
+INFO  18:14:38,133 - #31 ;
+INFO  18:14:38,133 - #2 i
+INFO  18:14:38,133 - #13 =
+INFO  18:14:38,133 - #3 0
+INFO  18:14:38,133 - #31 ;
+INFO  18:14:38,133 - #37 while
+INFO  18:14:38,133 - #26 (
+INFO  18:14:38,133 - #2 i
+INFO  18:14:38,133 - #18 <
+INFO  18:14:38,133 - #3 3
+INFO  18:14:38,133 - #27 )
+INFO  18:14:38,133 - #34 {
+INFO  18:14:38,133 - #2 niz
+INFO  18:14:38,133 - #11 [
+INFO  18:14:38,133 - #2 i
+INFO  18:14:38,133 - #10 ]
+INFO  18:14:38,133 - #13 =
+INFO  18:14:38,133 - #2 niz
+INFO  18:14:38,133 - #11 [
+INFO  18:14:38,133 - #2 i
+INFO  18:14:38,133 - #10 ]
+INFO  18:14:38,134 - #22 *
+INFO  18:14:38,134 - #3 2
+INFO  18:14:38,134 - #22 *
+INFO  18:14:38,134 - #2 a
+INFO  18:14:38,134 - #31 ;
+INFO  18:14:38,134 - #2 i
+INFO  18:14:38,134 - #32 ++
+INFO  18:14:38,134 - #31 ;
+INFO  18:14:38,134 - #35 }
+INFO  18:14:38,134 - #2 i
+INFO  18:14:38,134 - #13 =
+INFO  18:14:38,134 - #3 0
+INFO  18:14:38,134 - #31 ;
+INFO  18:14:38,134 - #37 while
+INFO  18:14:38,134 - #26 (
+INFO  18:14:38,134 - #2 i
+INFO  18:14:38,134 - #18 <
+INFO  18:14:38,134 - #3 3
+INFO  18:14:38,134 - #27 )
+INFO  18:14:38,134 - #34 {
+INFO  18:14:38,134 - #2 i
+INFO  18:14:38,134 - #32 ++
+INFO  18:14:38,134 - #31 ;
+INFO  18:14:38,134 - #35 }
+INFO  18:14:38,134 - #8 return
+INFO  18:14:38,134 - #31 ;
+INFO  18:14:38,134 - #35 }
+INFO  18:14:38,135 - #35 }
+INFO  18:14:38,153 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NonEmptyDeclList(
+    NonEmptyDeclList(
+      NonEmptyDeclList(
+        NonEmptyDeclList(
+          NonEmptyDeclList(
+            NonEmptyDeclList(
+              EmptyDeclList(
+              ) [EmptyDeclList]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                SingleElemConstList(
+                  ConstElem(
+                   jedan
+                    IntLiteral(
+                     1
+                    ) [IntLiteral]
+                  ) [ConstElem]
+                ) [SingleElemConstList]
+              ) [ConstDecl]
+            ) [NonEmptyDeclList]
+            GlobalDecl(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                GlobalVectorElem(
+                  ScalGlobalVar(
+                   i
+                  ) [ScalGlobalVar]
+                ) [GlobalVectorElem]
+              ) [VarDecl]
+            ) [GlobalDecl]
+          ) [NonEmptyDeclList]
+          GlobalDecl(
+            VarDecl(
+              Type(
+               bool
+              ) [Type]
+              GlobalVectorElem(
+                ScalGlobalVar(
+                 ibool
+                ) [ScalGlobalVar]
+              ) [GlobalVectorElem]
+            ) [VarDecl]
+          ) [GlobalDecl]
+        ) [NonEmptyDeclList]
+        GlobalDecl(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            GlobalVectorElem(
+              VectorGlobalVar(
+               niz2
+              ) [VectorGlobalVar]
+            ) [GlobalVectorElem]
+          ) [VarDecl]
+        ) [GlobalDecl]
+      ) [NonEmptyDeclList]
+      GlobalDecl(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          GlobalVectorElem(
+            VectorGlobalVar(
+             niz
+            ) [VectorGlobalVar]
+          ) [GlobalVectorElem]
+        ) [VarDecl]
+      ) [GlobalDecl]
+    ) [NonEmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorList(
+          GlobalVectorElem(
+            ScalGlobalVar(
+             a
+            ) [ScalGlobalVar]
+          ) [GlobalVectorElem]
+          ScalGlobalVar(
+           curr
+          ) [ScalGlobalVar]
+        ) [GlobalVectorList]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      EmptyVarDeclList(
+      ) [EmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          NonEmptyStatementList(
+            NonEmptyStatementList(
+              NonEmptyStatementList(
+                NonEmptyStatementList(
+                  NonEmptyStatementList(
+                    NonEmptyStatementList(
+                      NonEmptyStatementList(
+                        NonEmptyStatementList(
+                          NonEmptyStatementList(
+                            NonEmptyStatementList(
+                              NonEmptyStatementList(
+                                NonEmptyStatementList(
+                                  NonEmptyStatementList(
+                                    NonEmptyStatementList(
+                                      NonEmptyStatementList(
+                                        NonEmptyStatementList(
+                                          NonEmptyStatementList(
+                                            NonEmptyStatementList(
+                                              NonEmptyStatementList(
+                                                EmptyStatementList(
+                                                ) [EmptyStatementList]
+                                                OneSingleStatement(
+                                                  IfElseStmt(
+                                                    ConditionEpCondition(
+                                                      ConditionTermCondition(
+                                                        CondFactCondTerm(
+                                                          ExprRelopExprCondFact(
+                                                            TermExpr(
+                                                              FactorTerm(
+                                                                IntFactor(
+                                                                 1
+                                                                ) [IntFactor]
+                                                              ) [FactorTerm]
+                                                            ) [TermExpr]
+                                                            NeqRelop(
+                                                            ) [NeqRelop]
+                                                            TermExpr(
+                                                              FactorTerm(
+                                                                IntFactor(
+                                                                 1
+                                                                ) [IntFactor]
+                                                              ) [FactorTerm]
+                                                            ) [TermExpr]
+                                                          ) [ExprRelopExprCondFact]
+                                                        ) [CondFactCondTerm]
+                                                      ) [ConditionTermCondition]
+                                                    ) [ConditionEpCondition]
+                                                    OneSingleStatement(
+                                                      PrintStmt(
+                                                        MinusTermExpr(
+                                                          FactorTerm(
+                                                            IntFactor(
+                                                             6
+                                                            ) [IntFactor]
+                                                          ) [FactorTerm]
+                                                        ) [MinusTermExpr]
+                                                        SinglStmComaNo(
+                                                        ) [SinglStmComaNo]
+                                                      ) [PrintStmt]
+                                                    ) [OneSingleStatement]
+                                                    OneSingleStatement(
+                                                      PrintStmt(
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            IntFactor(
+                                                             0
+                                                            ) [IntFactor]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                        SinglStmComaNo(
+                                                        ) [SinglStmComaNo]
+                                                      ) [PrintStmt]
+                                                    ) [OneSingleStatement]
+                                                  ) [IfElseStmt]
+                                                ) [OneSingleStatement]
+                                              ) [NonEmptyStatementList]
+                                              OneSingleStatement(
+                                                DesignatorSingleStatement(
+                                                  DesiStmtAssignop(
+                                                    DesignatorWithOptList(
+                                                      FakeIdent(
+                                                       ibool
+                                                      ) [FakeIdent]
+                                                      EmptyDesiList(
+                                                      ) [EmptyDesiList]
+                                                    ) [DesignatorWithOptList]
+                                                    EqualAssignop(
+                                                    ) [EqualAssignop]
+                                                    ExprEPExpr(
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          BoolFactor(
+                                                           false
+                                                          ) [BoolFactor]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                    ) [ExprEPExpr]
+                                                  ) [DesiStmtAssignop]
+                                                ) [DesignatorSingleStatement]
+                                              ) [OneSingleStatement]
+                                            ) [NonEmptyStatementList]
+                                            OneSingleStatement(
+                                              DesignatorSingleStatement(
+                                                DesiStmtAssignop(
+                                                  DesignatorWithOptList(
+                                                    FakeIdent(
+                                                     i
+                                                    ) [FakeIdent]
+                                                    EmptyDesiList(
+                                                    ) [EmptyDesiList]
+                                                  ) [DesignatorWithOptList]
+                                                  EqualAssignop(
+                                                  ) [EqualAssignop]
+                                                  ExprEPExpr(
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        IntFactor(
+                                                         0
+                                                        ) [IntFactor]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [ExprEPExpr]
+                                                ) [DesiStmtAssignop]
+                                              ) [DesignatorSingleStatement]
+                                            ) [OneSingleStatement]
+                                          ) [NonEmptyStatementList]
+                                          OneSingleStatement(
+                                            WhileStmt(
+                                              ConditionTermCondition(
+                                                CondFactCondTerm(
+                                                  ExprRelopExprCondFact(
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        FactorDesignator(
+                                                          DesignatorWithOptList(
+                                                            FakeIdent(
+                                                             i
+                                                            ) [FakeIdent]
+                                                            EmptyDesiList(
+                                                            ) [EmptyDesiList]
+                                                          ) [DesignatorWithOptList]
+                                                        ) [FactorDesignator]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                    LtRelop(
+                                                    ) [LtRelop]
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        IntFactor(
+                                                         5
+                                                        ) [IntFactor]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [ExprRelopExprCondFact]
+                                                ) [CondFactCondTerm]
+                                              ) [ConditionTermCondition]
+                                              OneSingleStatement(
+                                                DelimitedStatement(
+                                                  MultipleStatemet(
+                                                    NonEmptyStatementList(
+                                                      NonEmptyStatementList(
+                                                        EmptyStatementList(
+                                                        ) [EmptyStatementList]
+                                                        OneSingleStatement(
+                                                          IfStmt(
+                                                            ConditionEpCondition(
+                                                              ConditionTermCondition(
+                                                                CondFactCondTerm(
+                                                                  ExprRelopExprCondFact(
+                                                                    TermExpr(
+                                                                      FactorTerm(
+                                                                        FactorDesignator(
+                                                                          DesignatorWithOptList(
+                                                                            FakeIdent(
+                                                                             i
+                                                                            ) [FakeIdent]
+                                                                            EmptyDesiList(
+                                                                            ) [EmptyDesiList]
+                                                                          ) [DesignatorWithOptList]
+                                                                        ) [FactorDesignator]
+                                                                      ) [FactorTerm]
+                                                                    ) [TermExpr]
+                                                                    LogeqRelop(
+                                                                    ) [LogeqRelop]
+                                                                    TermExpr(
+                                                                      FactorTerm(
+                                                                        IntFactor(
+                                                                         2
+                                                                        ) [IntFactor]
+                                                                      ) [FactorTerm]
+                                                                    ) [TermExpr]
+                                                                  ) [ExprRelopExprCondFact]
+                                                                ) [CondFactCondTerm]
+                                                              ) [ConditionTermCondition]
+                                                            ) [ConditionEpCondition]
+                                                            OneSingleStatement(
+                                                              DesignatorSingleStatement(
+                                                                DesiStmtAssignop(
+                                                                  DesignatorWithOptList(
+                                                                    FakeIdent(
+                                                                     ibool
+                                                                    ) [FakeIdent]
+                                                                    EmptyDesiList(
+                                                                    ) [EmptyDesiList]
+                                                                  ) [DesignatorWithOptList]
+                                                                  EqualAssignop(
+                                                                  ) [EqualAssignop]
+                                                                  ExprEPExpr(
+                                                                    TermExpr(
+                                                                      FactorTerm(
+                                                                        BoolFactor(
+                                                                         true
+                                                                        ) [BoolFactor]
+                                                                      ) [FactorTerm]
+                                                                    ) [TermExpr]
+                                                                  ) [ExprEPExpr]
+                                                                ) [DesiStmtAssignop]
+                                                              ) [DesignatorSingleStatement]
+                                                            ) [OneSingleStatement]
+                                                          ) [IfStmt]
+                                                        ) [OneSingleStatement]
+                                                      ) [NonEmptyStatementList]
+                                                      OneSingleStatement(
+                                                        DesignatorSingleStatement(
+                                                          DesiStmtINC(
+                                                            DesignatorWithOptList(
+                                                              FakeIdent(
+                                                               i
+                                                              ) [FakeIdent]
+                                                              EmptyDesiList(
+                                                              ) [EmptyDesiList]
+                                                            ) [DesignatorWithOptList]
+                                                          ) [DesiStmtINC]
+                                                        ) [DesignatorSingleStatement]
+                                                      ) [OneSingleStatement]
+                                                    ) [NonEmptyStatementList]
+                                                  ) [MultipleStatemet]
+                                                ) [DelimitedStatement]
+                                              ) [OneSingleStatement]
+                                            ) [WhileStmt]
+                                          ) [OneSingleStatement]
+                                        ) [NonEmptyStatementList]
+                                        OneSingleStatement(
+                                          IfStmt(
+                                            ConditionEpCondition(
+                                              ConditionTermCondition(
+                                                CondFactCondTerm(
+                                                  ExprCondFact(
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        FactorDesignator(
+                                                          DesignatorWithOptList(
+                                                            FakeIdent(
+                                                             ibool
+                                                            ) [FakeIdent]
+                                                            EmptyDesiList(
+                                                            ) [EmptyDesiList]
+                                                          ) [DesignatorWithOptList]
+                                                        ) [FactorDesignator]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [ExprCondFact]
+                                                ) [CondFactCondTerm]
+                                              ) [ConditionTermCondition]
+                                            ) [ConditionEpCondition]
+                                            OneSingleStatement(
+                                              IfElseStmt(
+                                                ConditionEpCondition(
+                                                  ConditionTermCondition(
+                                                    CondFactCondTerm(
+                                                      ExprRelopExprCondFact(
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            FactorDesignator(
+                                                              DesignatorWithOptList(
+                                                                FakeIdent(
+                                                                 i
+                                                                ) [FakeIdent]
+                                                                EmptyDesiList(
+                                                                ) [EmptyDesiList]
+                                                              ) [DesignatorWithOptList]
+                                                            ) [FactorDesignator]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                        LogeqRelop(
+                                                        ) [LogeqRelop]
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            IntFactor(
+                                                             5
+                                                            ) [IntFactor]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                      ) [ExprRelopExprCondFact]
+                                                    ) [CondFactCondTerm]
+                                                  ) [ConditionTermCondition]
+                                                ) [ConditionEpCondition]
+                                                OneSingleStatement(
+                                                  PrintStmt(
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        IntFactor(
+                                                         1
+                                                        ) [IntFactor]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                    SinglStmComaNo(
+                                                    ) [SinglStmComaNo]
+                                                  ) [PrintStmt]
+                                                ) [OneSingleStatement]
+                                                OneSingleStatement(
+                                                  PrintStmt(
+                                                    MinusTermExpr(
+                                                      FactorTerm(
+                                                        IntFactor(
+                                                         1
+                                                        ) [IntFactor]
+                                                      ) [FactorTerm]
+                                                    ) [MinusTermExpr]
+                                                    SinglStmComaNo(
+                                                    ) [SinglStmComaNo]
+                                                  ) [PrintStmt]
+                                                ) [OneSingleStatement]
+                                              ) [IfElseStmt]
+                                            ) [OneSingleStatement]
+                                          ) [IfStmt]
+                                        ) [OneSingleStatement]
+                                      ) [NonEmptyStatementList]
+                                      OneSingleStatement(
+                                        DesignatorSingleStatement(
+                                          DesiStmtAssignop(
+                                            DesignatorWithOptList(
+                                              FakeIdent(
+                                               a
+                                              ) [FakeIdent]
+                                              EmptyDesiList(
+                                              ) [EmptyDesiList]
+                                            ) [DesignatorWithOptList]
+                                            EqualAssignop(
+                                            ) [EqualAssignop]
+                                            ExprEPExpr(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  IntFactor(
+                                                   2
+                                                  ) [IntFactor]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [ExprEPExpr]
+                                          ) [DesiStmtAssignop]
+                                        ) [DesignatorSingleStatement]
+                                      ) [OneSingleStatement]
+                                    ) [NonEmptyStatementList]
+                                    OneSingleStatement(
+                                      DesignatorSingleStatement(
+                                        DesiStmtAssignop(
+                                          DesignatorWithOptList(
+                                            FakeIdent(
+                                             niz
+                                            ) [FakeIdent]
+                                            EmptyDesiList(
+                                            ) [EmptyDesiList]
+                                          ) [DesignatorWithOptList]
+                                          EqualAssignop(
+                                          ) [EqualAssignop]
+                                          ExprEPExpr(
+                                            TermExpr(
+                                              FactorTerm(
+                                                NewVectorExprFactor(
+                                                  Type(
+                                                   int
+                                                  ) [Type]
+                                                  TermExpr(
+                                                    FactorTerm(
+                                                      IntFactor(
+                                                       3
+                                                      ) [IntFactor]
+                                                    ) [FactorTerm]
+                                                  ) [TermExpr]
+                                                ) [NewVectorExprFactor]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                          ) [ExprEPExpr]
+                                        ) [DesiStmtAssignop]
+                                      ) [DesignatorSingleStatement]
+                                    ) [OneSingleStatement]
+                                  ) [NonEmptyStatementList]
+                                  OneSingleStatement(
+                                    DesignatorSingleStatement(
+                                      DesiStmtAssignop(
+                                        DesignatorWithOptList(
+                                          FakeIdent(
+                                           niz
+                                          ) [FakeIdent]
+                                          NonEmptyListaDesi(
+                                            EmptyDesiList(
+                                            ) [EmptyDesiList]
+                                            DesignatorLExprR(
+                                              AEADLBracket(
+                                              ) [AEADLBracket]
+                                              TermExpr(
+                                                FactorTerm(
+                                                  IntFactor(
+                                                   0
+                                                  ) [IntFactor]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [DesignatorLExprR]
+                                          ) [NonEmptyListaDesi]
+                                        ) [DesignatorWithOptList]
+                                        EqualAssignop(
+                                        ) [EqualAssignop]
+                                        ExprEPExpr(
+                                          TermExpr(
+                                            MulopTerm(
+                                              FactorTerm(
+                                                IntFactor(
+                                                 1
+                                                ) [IntFactor]
+                                              ) [FactorTerm]
+                                              MulMulop(
+                                              ) [MulMulop]
+                                              FactorDesignator(
+                                                DesignatorWithOptList(
+                                                  FakeIdent(
+                                                   a
+                                                  ) [FakeIdent]
+                                                  EmptyDesiList(
+                                                  ) [EmptyDesiList]
+                                                ) [DesignatorWithOptList]
+                                              ) [FactorDesignator]
+                                            ) [MulopTerm]
+                                          ) [TermExpr]
+                                        ) [ExprEPExpr]
+                                      ) [DesiStmtAssignop]
+                                    ) [DesignatorSingleStatement]
+                                  ) [OneSingleStatement]
+                                ) [NonEmptyStatementList]
+                                OneSingleStatement(
+                                  DesignatorSingleStatement(
+                                    DesiStmtAssignop(
+                                      DesignatorWithOptList(
+                                        FakeIdent(
+                                         niz
+                                        ) [FakeIdent]
+                                        NonEmptyListaDesi(
+                                          EmptyDesiList(
+                                          ) [EmptyDesiList]
+                                          DesignatorLExprR(
+                                            AEADLBracket(
+                                            ) [AEADLBracket]
+                                            TermExpr(
+                                              FactorTerm(
+                                                IntFactor(
+                                                 1
+                                                ) [IntFactor]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                          ) [DesignatorLExprR]
+                                        ) [NonEmptyListaDesi]
+                                      ) [DesignatorWithOptList]
+                                      EqualAssignop(
+                                      ) [EqualAssignop]
+                                      ExprEPExpr(
+                                        TermExpr(
+                                          MulopTerm(
+                                            FactorTerm(
+                                              IntFactor(
+                                               2
+                                              ) [IntFactor]
+                                            ) [FactorTerm]
+                                            MulMulop(
+                                            ) [MulMulop]
+                                            FactorDesignator(
+                                              DesignatorWithOptList(
+                                                FakeIdent(
+                                                 a
+                                                ) [FakeIdent]
+                                                EmptyDesiList(
+                                                ) [EmptyDesiList]
+                                              ) [DesignatorWithOptList]
+                                            ) [FactorDesignator]
+                                          ) [MulopTerm]
+                                        ) [TermExpr]
+                                      ) [ExprEPExpr]
+                                    ) [DesiStmtAssignop]
+                                  ) [DesignatorSingleStatement]
+                                ) [OneSingleStatement]
+                              ) [NonEmptyStatementList]
+                              OneSingleStatement(
+                                DesignatorSingleStatement(
+                                  DesiStmtAssignop(
+                                    DesignatorWithOptList(
+                                      FakeIdent(
+                                       niz
+                                      ) [FakeIdent]
+                                      NonEmptyListaDesi(
+                                        EmptyDesiList(
+                                        ) [EmptyDesiList]
+                                        DesignatorLExprR(
+                                          AEADLBracket(
+                                          ) [AEADLBracket]
+                                          TermExpr(
+                                            FactorTerm(
+                                              IntFactor(
+                                               2
+                                              ) [IntFactor]
+                                            ) [FactorTerm]
+                                          ) [TermExpr]
+                                        ) [DesignatorLExprR]
+                                      ) [NonEmptyListaDesi]
+                                    ) [DesignatorWithOptList]
+                                    EqualAssignop(
+                                    ) [EqualAssignop]
+                                    ExprEPExpr(
+                                      AddopExpr(
+                                        TermExpr(
+                                          MulopTerm(
+                                            FactorTerm(
+                                              FactorDesignator(
+                                                DesignatorWithOptList(
+                                                  FakeIdent(
+                                                   niz
+                                                  ) [FakeIdent]
+                                                  NonEmptyListaDesi(
+                                                    EmptyDesiList(
+                                                    ) [EmptyDesiList]
+                                                    DesignatorLExprR(
+                                                      AEADLBracket(
+                                                      ) [AEADLBracket]
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          IntFactor(
+                                                           1
+                                                          ) [IntFactor]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                    ) [DesignatorLExprR]
+                                                  ) [NonEmptyListaDesi]
+                                                ) [DesignatorWithOptList]
+                                              ) [FactorDesignator]
+                                            ) [FactorTerm]
+                                            MulMulop(
+                                            ) [MulMulop]
+                                            FactorDesignator(
+                                              DesignatorWithOptList(
+                                                FakeIdent(
+                                                 a
+                                                ) [FakeIdent]
+                                                EmptyDesiList(
+                                                ) [EmptyDesiList]
+                                              ) [DesignatorWithOptList]
+                                            ) [FactorDesignator]
+                                          ) [MulopTerm]
+                                        ) [TermExpr]
+                                        PlusAddop(
+                                        ) [PlusAddop]
+                                        FactorTerm(
+                                          IntFactor(
+                                           1
+                                          ) [IntFactor]
+                                        ) [FactorTerm]
+                                      ) [AddopExpr]
+                                    ) [ExprEPExpr]
+                                  ) [DesiStmtAssignop]
+                                ) [DesignatorSingleStatement]
+                              ) [OneSingleStatement]
+                            ) [NonEmptyStatementList]
+                            OneSingleStatement(
+                              IfElseStmt(
+                                ConditionEpCondition(
+                                  ConditionOrConTerm(
+                                    ConditionTermCondition(
+                                      CondFactCondTerm(
+                                        ExprCondFact(
+                                          TermExpr(
+                                            FactorTerm(
+                                              IntFactor(
+                                               1
+                                              ) [IntFactor]
+                                            ) [FactorTerm]
+                                          ) [TermExpr]
+                                        ) [ExprCondFact]
+                                      ) [CondFactCondTerm]
+                                    ) [ConditionTermCondition]
+                                    CondFactCondTerm(
+                                      ExprRelopExprCondFact(
+                                        TermExpr(
+                                          FactorTerm(
+                                            FactorDesignator(
+                                              DesignatorWithOptList(
+                                                FakeIdent(
+                                                 niz
+                                                ) [FakeIdent]
+                                                NonEmptyListaDesi(
+                                                  EmptyDesiList(
+                                                  ) [EmptyDesiList]
+                                                  DesignatorLExprR(
+                                                    AEADLBracket(
+                                                    ) [AEADLBracket]
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        IntFactor(
+                                                         2
+                                                        ) [IntFactor]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [DesignatorLExprR]
+                                                ) [NonEmptyListaDesi]
+                                              ) [DesignatorWithOptList]
+                                            ) [FactorDesignator]
+                                          ) [FactorTerm]
+                                        ) [TermExpr]
+                                        LogeqRelop(
+                                        ) [LogeqRelop]
+                                        TermExpr(
+                                          FactorTerm(
+                                            IntFactor(
+                                             4
+                                            ) [IntFactor]
+                                          ) [FactorTerm]
+                                        ) [TermExpr]
+                                      ) [ExprRelopExprCondFact]
+                                    ) [CondFactCondTerm]
+                                  ) [ConditionOrConTerm]
+                                ) [ConditionEpCondition]
+                                OneSingleStatement(
+                                  PrintStmt(
+                                    TermExpr(
+                                      FactorTerm(
+                                        FactorDesignatorWithActPars(
+                                          DesignatorWithOptList(
+                                            FakeIdent(
+                                             ord
+                                            ) [FakeIdent]
+                                            EmptyDesiList(
+                                            ) [EmptyDesiList]
+                                          ) [DesignatorWithOptList]
+                                          ActParsStart(
+                                          ) [ActParsStart]
+                                          AcrParsWithExprList(
+                                            ExprElem(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  CharFactor(
+                                                   A
+                                                  ) [CharFactor]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [ExprElem]
+                                          ) [AcrParsWithExprList]
+                                          ActParsEnd(
+                                          ) [ActParsEnd]
+                                        ) [FactorDesignatorWithActPars]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                    SinglStmComaNo(
+                                    ) [SinglStmComaNo]
+                                  ) [PrintStmt]
+                                ) [OneSingleStatement]
+                                OneSingleStatement(
+                                  PrintStmt(
+                                    TermExpr(
+                                      FactorTerm(
+                                        FactorDesignatorWithActPars(
+                                          DesignatorWithOptList(
+                                            FakeIdent(
+                                             ord
+                                            ) [FakeIdent]
+                                            EmptyDesiList(
+                                            ) [EmptyDesiList]
+                                          ) [DesignatorWithOptList]
+                                          ActParsStart(
+                                          ) [ActParsStart]
+                                          AcrParsWithExprList(
+                                            ExprElem(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  CharFactor(
+                                                   a
+                                                  ) [CharFactor]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [ExprElem]
+                                          ) [AcrParsWithExprList]
+                                          ActParsEnd(
+                                          ) [ActParsEnd]
+                                        ) [FactorDesignatorWithActPars]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                    SinglStmComaNo(
+                                    ) [SinglStmComaNo]
+                                  ) [PrintStmt]
+                                ) [OneSingleStatement]
+                              ) [IfElseStmt]
+                            ) [OneSingleStatement]
+                          ) [NonEmptyStatementList]
+                          OneSingleStatement(
+                            PrintStmt(
+                              TermExpr(
+                                FactorTerm(
+                                  FactorDesignator(
+                                    DesignatorWithOptList(
+                                      FakeIdent(
+                                       eol
+                                      ) [FakeIdent]
+                                      EmptyDesiList(
+                                      ) [EmptyDesiList]
+                                    ) [DesignatorWithOptList]
+                                  ) [FactorDesignator]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                              SinglStmComaNo(
+                              ) [SinglStmComaNo]
+                            ) [PrintStmt]
+                          ) [OneSingleStatement]
+                        ) [NonEmptyStatementList]
+                        OneSingleStatement(
+                          DesignatorSingleStatement(
+                            DesiStmtAssignop(
+                              DesignatorWithOptList(
+                                FakeIdent(
+                                 i
+                                ) [FakeIdent]
+                                EmptyDesiList(
+                                ) [EmptyDesiList]
+                              ) [DesignatorWithOptList]
+                              EqualAssignop(
+                              ) [EqualAssignop]
+                              ExprEPExpr(
+                                TermExpr(
+                                  FactorTerm(
+                                    IntFactor(
+                                     0
+                                    ) [IntFactor]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [ExprEPExpr]
+                            ) [DesiStmtAssignop]
+                          ) [DesignatorSingleStatement]
+                        ) [OneSingleStatement]
+                      ) [NonEmptyStatementList]
+                      OneSingleStatement(
+                        WhileStmt(
+                          ConditionTermCondition(
+                            CondFactCondTerm(
+                              ExprRelopExprCondFact(
+                                TermExpr(
+                                  FactorTerm(
+                                    FactorDesignator(
+                                      DesignatorWithOptList(
+                                        FakeIdent(
+                                         i
+                                        ) [FakeIdent]
+                                        EmptyDesiList(
+                                        ) [EmptyDesiList]
+                                      ) [DesignatorWithOptList]
+                                    ) [FactorDesignator]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                                LtRelop(
+                                ) [LtRelop]
+                                TermExpr(
+                                  FactorTerm(
+                                    IntFactor(
+                                     10
+                                    ) [IntFactor]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [ExprRelopExprCondFact]
+                            ) [CondFactCondTerm]
+                          ) [ConditionTermCondition]
+                          OneSingleStatement(
+                            DelimitedStatement(
+                              MultipleStatemet(
+                                NonEmptyStatementList(
+                                  NonEmptyStatementList(
+                                    EmptyStatementList(
+                                    ) [EmptyStatementList]
+                                    OneSingleStatement(
+                                      IfStmt(
+                                        ConditionEpCondition(
+                                          ConditionTermCondition(
+                                            CondFactCondTerm(
+                                              ExprRelopExprCondFact(
+                                                TermExpr(
+                                                  FactorTerm(
+                                                    FactorDesignator(
+                                                      DesignatorWithOptList(
+                                                        FakeIdent(
+                                                         i
+                                                        ) [FakeIdent]
+                                                        EmptyDesiList(
+                                                        ) [EmptyDesiList]
+                                                      ) [DesignatorWithOptList]
+                                                    ) [FactorDesignator]
+                                                  ) [FactorTerm]
+                                                ) [TermExpr]
+                                                LogeqRelop(
+                                                ) [LogeqRelop]
+                                                TermExpr(
+                                                  FactorTerm(
+                                                    IntFactor(
+                                                     3
+                                                    ) [IntFactor]
+                                                  ) [FactorTerm]
+                                                ) [TermExpr]
+                                              ) [ExprRelopExprCondFact]
+                                            ) [CondFactCondTerm]
+                                          ) [ConditionTermCondition]
+                                        ) [ConditionEpCondition]
+                                        OneSingleStatement(
+                                          DelimitedStatement(
+                                            MultipleStatemet(
+                                              NonEmptyStatementList(
+                                                NonEmptyStatementList(
+                                                  EmptyStatementList(
+                                                  ) [EmptyStatementList]
+                                                  OneSingleStatement(
+                                                    DesignatorSingleStatement(
+                                                      DesiStmtINC(
+                                                        DesignatorWithOptList(
+                                                          FakeIdent(
+                                                           i
+                                                          ) [FakeIdent]
+                                                          EmptyDesiList(
+                                                          ) [EmptyDesiList]
+                                                        ) [DesignatorWithOptList]
+                                                      ) [DesiStmtINC]
+                                                    ) [DesignatorSingleStatement]
+                                                  ) [OneSingleStatement]
+                                                ) [NonEmptyStatementList]
+                                                OneSingleStatement(
+                                                  ContinueStmt(
+                                                   continue
+                                                  ) [ContinueStmt]
+                                                ) [OneSingleStatement]
+                                              ) [NonEmptyStatementList]
+                                            ) [MultipleStatemet]
+                                          ) [DelimitedStatement]
+                                        ) [OneSingleStatement]
+                                      ) [IfStmt]
+                                    ) [OneSingleStatement]
+                                  ) [NonEmptyStatementList]
+                                  OneSingleStatement(
+                                    IfStmt(
+                                      ConditionEpCondition(
+                                        ConditionTermCondition(
+                                          CondFactCondTerm(
+                                            ExprRelopExprCondFact(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  FactorDesignator(
+                                                    DesignatorWithOptList(
+                                                      FakeIdent(
+                                                       i
+                                                      ) [FakeIdent]
+                                                      EmptyDesiList(
+                                                      ) [EmptyDesiList]
+                                                    ) [DesignatorWithOptList]
+                                                  ) [FactorDesignator]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                              LogeqRelop(
+                                              ) [LogeqRelop]
+                                              TermExpr(
+                                                FactorTerm(
+                                                  IntFactor(
+                                                   4
+                                                  ) [IntFactor]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [ExprRelopExprCondFact]
+                                          ) [CondFactCondTerm]
+                                        ) [ConditionTermCondition]
+                                      ) [ConditionEpCondition]
+                                      OneSingleStatement(
+                                        BreakStmt(
+                                         break
+                                        ) [BreakStmt]
+                                      ) [OneSingleStatement]
+                                    ) [IfStmt]
+                                  ) [OneSingleStatement]
+                                ) [NonEmptyStatementList]
+                              ) [MultipleStatemet]
+                            ) [DelimitedStatement]
+                          ) [OneSingleStatement]
+                        ) [WhileStmt]
+                      ) [OneSingleStatement]
+                    ) [NonEmptyStatementList]
+                    OneSingleStatement(
+                      IfElseStmt(
+                        ConditionEpCondition(
+                          ConditionTermCondition(
+                            CondFactCondTerm(
+                              ExprRelopExprCondFact(
+                                TermExpr(
+                                  FactorTerm(
+                                    FactorDesignator(
+                                      DesignatorWithOptList(
+                                        FakeIdent(
+                                         i
+                                        ) [FakeIdent]
+                                        EmptyDesiList(
+                                        ) [EmptyDesiList]
+                                      ) [DesignatorWithOptList]
+                                    ) [FactorDesignator]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                                LogeqRelop(
+                                ) [LogeqRelop]
+                                TermExpr(
+                                  FactorTerm(
+                                    IntFactor(
+                                     3
+                                    ) [IntFactor]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [ExprRelopExprCondFact]
+                            ) [CondFactCondTerm]
+                          ) [ConditionTermCondition]
+                        ) [ConditionEpCondition]
+                        OneSingleStatement(
+                          PrintStmt(
+                            MinusTermExpr(
+                              FactorTerm(
+                                IntFactor(
+                                 4
+                                ) [IntFactor]
+                              ) [FactorTerm]
+                            ) [MinusTermExpr]
+                            SinglStmComaNo(
+                            ) [SinglStmComaNo]
+                          ) [PrintStmt]
+                        ) [OneSingleStatement]
+                        OneSingleStatement(
+                          PrintStmt(
+                            TermExpr(
+                              FactorTerm(
+                                IntFactor(
+                                 4
+                                ) [IntFactor]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                            SinglStmComaNo(
+                            ) [SinglStmComaNo]
+                          ) [PrintStmt]
+                        ) [OneSingleStatement]
+                      ) [IfElseStmt]
+                    ) [OneSingleStatement]
+                  ) [NonEmptyStatementList]
+                  OneSingleStatement(
+                    DesignatorSingleStatement(
+                      DesiStmtAssignop(
+                        DesignatorWithOptList(
+                          FakeIdent(
+                           a
+                          ) [FakeIdent]
+                          EmptyDesiList(
+                          ) [EmptyDesiList]
+                        ) [DesignatorWithOptList]
+                        EqualAssignop(
+                        ) [EqualAssignop]
+                        ExprEPExpr(
+                          TermExpr(
+                            FactorTerm(
+                              IntFactor(
+                               3
+                              ) [IntFactor]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [ExprEPExpr]
+                      ) [DesiStmtAssignop]
+                    ) [DesignatorSingleStatement]
+                  ) [OneSingleStatement]
+                ) [NonEmptyStatementList]
+                OneSingleStatement(
+                  DesignatorSingleStatement(
+                    DesiStmtAssignop(
+                      DesignatorWithOptList(
+                        FakeIdent(
+                         i
+                        ) [FakeIdent]
+                        EmptyDesiList(
+                        ) [EmptyDesiList]
+                      ) [DesignatorWithOptList]
+                      EqualAssignop(
+                      ) [EqualAssignop]
+                      ExprEPExpr(
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             0
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [ExprEPExpr]
+                    ) [DesiStmtAssignop]
+                  ) [DesignatorSingleStatement]
+                ) [OneSingleStatement]
+              ) [NonEmptyStatementList]
+              OneSingleStatement(
+                WhileStmt(
+                  ConditionTermCondition(
+                    CondFactCondTerm(
+                      ExprRelopExprCondFact(
+                        TermExpr(
+                          FactorTerm(
+                            FactorDesignator(
+                              DesignatorWithOptList(
+                                FakeIdent(
+                                 i
+                                ) [FakeIdent]
+                                EmptyDesiList(
+                                ) [EmptyDesiList]
+                              ) [DesignatorWithOptList]
+                            ) [FactorDesignator]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        LtRelop(
+                        ) [LtRelop]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             3
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [ExprRelopExprCondFact]
+                    ) [CondFactCondTerm]
+                  ) [ConditionTermCondition]
+                  OneSingleStatement(
+                    DelimitedStatement(
+                      MultipleStatemet(
+                        NonEmptyStatementList(
+                          NonEmptyStatementList(
+                            EmptyStatementList(
+                            ) [EmptyStatementList]
+                            OneSingleStatement(
+                              DesignatorSingleStatement(
+                                DesiStmtAssignop(
+                                  DesignatorWithOptList(
+                                    FakeIdent(
+                                     niz
+                                    ) [FakeIdent]
+                                    NonEmptyListaDesi(
+                                      EmptyDesiList(
+                                      ) [EmptyDesiList]
+                                      DesignatorLExprR(
+                                        AEADLBracket(
+                                        ) [AEADLBracket]
+                                        TermExpr(
+                                          FactorTerm(
+                                            FactorDesignator(
+                                              DesignatorWithOptList(
+                                                FakeIdent(
+                                                 i
+                                                ) [FakeIdent]
+                                                EmptyDesiList(
+                                                ) [EmptyDesiList]
+                                              ) [DesignatorWithOptList]
+                                            ) [FactorDesignator]
+                                          ) [FactorTerm]
+                                        ) [TermExpr]
+                                      ) [DesignatorLExprR]
+                                    ) [NonEmptyListaDesi]
+                                  ) [DesignatorWithOptList]
+                                  EqualAssignop(
+                                  ) [EqualAssignop]
+                                  ExprEPExpr(
+                                    TermExpr(
+                                      MulopTerm(
+                                        MulopTerm(
+                                          FactorTerm(
+                                            FactorDesignator(
+                                              DesignatorWithOptList(
+                                                FakeIdent(
+                                                 niz
+                                                ) [FakeIdent]
+                                                NonEmptyListaDesi(
+                                                  EmptyDesiList(
+                                                  ) [EmptyDesiList]
+                                                  DesignatorLExprR(
+                                                    AEADLBracket(
+                                                    ) [AEADLBracket]
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        FactorDesignator(
+                                                          DesignatorWithOptList(
+                                                            FakeIdent(
+                                                             i
+                                                            ) [FakeIdent]
+                                                            EmptyDesiList(
+                                                            ) [EmptyDesiList]
+                                                          ) [DesignatorWithOptList]
+                                                        ) [FactorDesignator]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [DesignatorLExprR]
+                                                ) [NonEmptyListaDesi]
+                                              ) [DesignatorWithOptList]
+                                            ) [FactorDesignator]
+                                          ) [FactorTerm]
+                                          MulMulop(
+                                          ) [MulMulop]
+                                          IntFactor(
+                                           2
+                                          ) [IntFactor]
+                                        ) [MulopTerm]
+                                        MulMulop(
+                                        ) [MulMulop]
+                                        FactorDesignator(
+                                          DesignatorWithOptList(
+                                            FakeIdent(
+                                             a
+                                            ) [FakeIdent]
+                                            EmptyDesiList(
+                                            ) [EmptyDesiList]
+                                          ) [DesignatorWithOptList]
+                                        ) [FactorDesignator]
+                                      ) [MulopTerm]
+                                    ) [TermExpr]
+                                  ) [ExprEPExpr]
+                                ) [DesiStmtAssignop]
+                              ) [DesignatorSingleStatement]
+                            ) [OneSingleStatement]
+                          ) [NonEmptyStatementList]
+                          OneSingleStatement(
+                            DesignatorSingleStatement(
+                              DesiStmtINC(
+                                DesignatorWithOptList(
+                                  FakeIdent(
+                                   i
+                                  ) [FakeIdent]
+                                  EmptyDesiList(
+                                  ) [EmptyDesiList]
+                                ) [DesignatorWithOptList]
+                              ) [DesiStmtINC]
+                            ) [DesignatorSingleStatement]
+                          ) [OneSingleStatement]
+                        ) [NonEmptyStatementList]
+                      ) [MultipleStatemet]
+                    ) [DelimitedStatement]
+                  ) [OneSingleStatement]
+                ) [WhileStmt]
+              ) [OneSingleStatement]
+            ) [NonEmptyStatementList]
+            OneSingleStatement(
+              DesignatorSingleStatement(
+                DesiStmtAssignop(
+                  DesignatorWithOptList(
+                    FakeIdent(
+                     i
+                    ) [FakeIdent]
+                    EmptyDesiList(
+                    ) [EmptyDesiList]
+                  ) [DesignatorWithOptList]
+                  EqualAssignop(
+                  ) [EqualAssignop]
+                  ExprEPExpr(
+                    TermExpr(
+                      FactorTerm(
+                        IntFactor(
+                         0
+                        ) [IntFactor]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [ExprEPExpr]
+                ) [DesiStmtAssignop]
+              ) [DesignatorSingleStatement]
+            ) [OneSingleStatement]
+          ) [NonEmptyStatementList]
+          OneSingleStatement(
+            WhileStmt(
+              ConditionTermCondition(
+                CondFactCondTerm(
+                  ExprRelopExprCondFact(
+                    TermExpr(
+                      FactorTerm(
+                        FactorDesignator(
+                          DesignatorWithOptList(
+                            FakeIdent(
+                             i
+                            ) [FakeIdent]
+                            EmptyDesiList(
+                            ) [EmptyDesiList]
+                          ) [DesignatorWithOptList]
+                        ) [FactorDesignator]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                    LtRelop(
+                    ) [LtRelop]
+                    TermExpr(
+                      FactorTerm(
+                        IntFactor(
+                         3
+                        ) [IntFactor]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [ExprRelopExprCondFact]
+                ) [CondFactCondTerm]
+              ) [ConditionTermCondition]
+              OneSingleStatement(
+                DelimitedStatement(
+                  MultipleStatemet(
+                    NonEmptyStatementList(
+                      EmptyStatementList(
+                      ) [EmptyStatementList]
+                      OneSingleStatement(
+                        DesignatorSingleStatement(
+                          DesiStmtINC(
+                            DesignatorWithOptList(
+                              FakeIdent(
+                               i
+                              ) [FakeIdent]
+                              EmptyDesiList(
+                              ) [EmptyDesiList]
+                            ) [DesignatorWithOptList]
+                          ) [DesiStmtINC]
+                        ) [DesignatorSingleStatement]
+                      ) [OneSingleStatement]
+                    ) [NonEmptyStatementList]
+                  ) [MultipleStatemet]
+                ) [DelimitedStatement]
+              ) [OneSingleStatement]
+            ) [WhileStmt]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  18:14:38,156 - ===================================
+INFO  18:14:38,164 -  [jedan], Found const jedan: int, 1, 0 na liniji 5
+INFO  18:14:38,164 -  [i], Found Var i: int, Adr:1, Level:0 na liniji 7
+INFO  18:14:38,164 -  [ibool], Found Var ibool: bool, Adr:2, Level:0 na liniji 8
+INFO  18:14:38,164 -  [niz2], Found Var niz2: Arr of int, 3, 0 na liniji 10
+INFO  18:14:38,164 -  [niz], Found Var niz: Arr of int, 4, 0 na liniji 12
+INFO  18:14:38,165 -  [a], Found Var a: int, Adr:5, Level:0 na liniji 13
+INFO  18:14:38,165 -  [curr], Found Var curr: int, Adr:6, Level:0 na liniji 13
+INFO  18:14:38,165 - [INFO STATEMENT]: printing!!! na liniji 22
+INFO  18:14:38,165 - [INFO STATEMENT]: printing!!! na liniji 23
+INFO  18:14:38,165 - [STATEMENT INFO]: Found Var ibool: bool, Adr: 2, Level: 0 na liniji 25
+INFO  18:14:38,165 - [STATEMENT INFO]: pronadjena drodela  [prom: ibool , prom: 0]!! na liniji 25
+INFO  18:14:38,165 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 26
+INFO  18:14:38,165 - [STATEMENT INFO]: pronadjena drodela  [prom: i , prom: 0]!! na liniji 26
+INFO  18:14:38,165 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 27
+INFO  18:14:38,165 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 28
+INFO  18:14:38,165 - [STATEMENT INFO]: Found Var ibool: bool, Adr: 2, Level: 0 na liniji 28
+INFO  18:14:38,165 - [STATEMENT INFO]: pronadjena drodela  [prom: ibool , prom: 1]!! na liniji 28
+INFO  18:14:38,165 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 29
+INFO  18:14:38,165 - [STATEMENT INFO]: Found Var ibool: bool, Adr: 2, Level: 0 na liniji 32
+INFO  18:14:38,165 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 33
+INFO  18:14:38,165 - [INFO STATEMENT]: printing!!! na liniji 33
+INFO  18:14:38,165 - [INFO STATEMENT]: printing!!! na liniji 34
+INFO  18:14:38,165 - [STATEMENT INFO]: Found Var a: int, Adr: 5, Level: 0 na liniji 35
+INFO  18:14:38,165 - [STATEMENT INFO]: pronadjena drodela  [prom: a , prom: 2]!! na liniji 35
+INFO  18:14:38,165 - [STATEMENT INFO]: Found Var niz: Arr of int, Adr: 4, Level: 0 na liniji 36
+INFO  18:14:38,166 - [STATEMENT INFO]: pronadjena dodela  [niz: niz , niz: new Type[]]!! na liniji 36
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Elem [niz] na liniji 37
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Var a: int, Adr: 5, Level: 0 na liniji 37
+INFO  18:14:38,166 - [STATEMENT INFO]: pronadjena dodela  [niz: niz , prom: ]!! na liniji 37
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Elem [niz] na liniji 38
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Var a: int, Adr: 5, Level: 0 na liniji 38
+INFO  18:14:38,166 - [STATEMENT INFO]: pronadjena dodela  [niz: niz , prom: ]!! na liniji 38
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Elem [niz] na liniji 39
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Elem [niz] na liniji 39
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Var a: int, Adr: 5, Level: 0 na liniji 39
+INFO  18:14:38,166 - [STATEMENT INFO]: pronadjena dodela  [niz: niz , prom: ]!! na liniji 39
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Elem [niz] na liniji 40
+INFO  18:14:38,166 - [INFO STATEMENT]: printing!!! na liniji 40
+INFO  18:14:38,166 - [INFO STATEMENT]: printing!!! na liniji 41
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Con eol: char, Adr: 10, Level: 0 na liniji 43
+INFO  18:14:38,166 - [INFO STATEMENT]: printing!!! na liniji 43
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 44
+INFO  18:14:38,166 - [STATEMENT INFO]: pronadjena drodela  [prom: i , prom: 0]!! na liniji 44
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 45
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 46
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 48
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 51
+INFO  18:14:38,166 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 55
+INFO  18:14:38,166 - [INFO STATEMENT]: printing!!! na liniji 55
+INFO  18:14:38,166 - [INFO STATEMENT]: printing!!! na liniji 56
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Var a: int, Adr: 5, Level: 0 na liniji 60
+INFO  18:14:38,167 - [STATEMENT INFO]: pronadjena drodela  [prom: a , prom: 3]!! na liniji 60
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 61
+INFO  18:14:38,167 - [STATEMENT INFO]: pronadjena drodela  [prom: i , prom: 0]!! na liniji 61
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 62
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 63
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Elem [niz] na liniji 63
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 63
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Elem [niz] na liniji 63
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Var a: int, Adr: 5, Level: 0 na liniji 63
+INFO  18:14:38,167 - [STATEMENT INFO]: pronadjena dodela  [niz: niz , niz: ]!! na liniji 63
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 64
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 67
+INFO  18:14:38,167 - [STATEMENT INFO]: pronadjena drodela  [prom: i , prom: 0]!! na liniji 67
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 68
+INFO  18:14:38,167 - [STATEMENT INFO]: Found Var i: int, Adr: 1, Level: 0 na liniji 70
+INFO  18:14:38,167 - main kind 3 typ 0 adr -1 lev 0 na liniji 19
+INFO  18:14:38,167 -  Print count calls = 9
+INFO  18:14:38,167 -  Deklarisanih promenljivih ima = 0
+INFO  18:14:38,167 - ===================================
+INFO  18:14:38,168 - Parsiranje NIJE uspesno!!!

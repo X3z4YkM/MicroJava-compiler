@@ -1,0 +1,331 @@
+package rs.ac.bg.etf.pp1;
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+		Logger log =  Logger.getLogger(getClass());
+		boolean errorDetected = false;
+		
+		public void report_fatal_error(String message, Object info) throws java.lang.Exception
+		{
+			done_parsing();
+			report_error(message, info);
+		}
+
+		public void syntax_error(Symbol cur_token)
+		{
+			report_error("\nSintaksna greska",cur_token);
+		}
+		
+		
+		public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception
+		{
+			report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti ", cur_token);
+		}
+		
+		
+		public void report_error(String message, Object info)
+		{
+			errorDetected  = true;
+			StringBuilder msg = new StringBuilder(message);
+			if(info instanceof Symbol)
+				msg.append(" na liniji ").append(((Symbol)info).left);
+				log.error(msg.toString());
+		}
+
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+
+	Symbol symbol = this.getScanner().next_token();
+	if(symbol!=null && symbol.value != null)
+	{
+		log.info(symbol.toString() + " " + symbol.value.toString());
+	}
+	return symbol;
+:}
+
+
+
+/*====================NONTERMINALS============*/
+nonterminal Mulop, Relop, Addop, Assignop, Label;
+nonterminal ActPars, ExprList, ActParsLBR, ActParsRBR, DesignatorExtendLBR;
+nonterminal DesignatorStatement;
+nonterminal Statement, StatementList, Statements;
+nonterminal FormPars, FormParsList, EPFormPar, MethodDecList, MethodType, FormParsOpt;
+nonterminal MethodStart, MethodEnd, VarDeclElem, VarList, VarElem;
+nonterminal DeclList, ExtendOpt, VarDeclListFild, OptMethodDecList, VarDeclListFildElem;
+nonterminal FildElem, ErrFild, Fild, EPGlobalVarDecl, ProgramEnd;
+nonterminal ErrorGlobaVar, SingStmCommaIntOpt, ConditionEP;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgramName, Program, FakeIdent;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Factor, ConstElem, ElemEGlobalVar;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ClassName, ExprEP;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Literal, ConstList, Decl, GlobalVarList, VarDeclList;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodName, Condition, CondTerm, CondFact, MethodDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ListaDesi, Expr, Term, SingleStatement;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator, ElemListeDesi, Designators, DesignatorOPT, DesignatorsList, DesignatorElem;
+/*====================TERMINALS==============*/
+terminal 	String	  IDENT;
+terminal    Integer   INT;
+terminal    Boolean   BOOL;
+terminal    Character CHAR;
+terminal 	String	  BREAK;
+terminal 	String	  CONTINUE;
+terminal 	String	  RETURN;
+terminal COMMA, RBRACKET, LBRACKET, DOT, EQUAL, NEQ, LOGEQ, GT, GEQ, LT, LEQ, PLUS, MINUS;
+terminal MUL, MOD, DIV, NEW, LPAREN, RPAREN, ELSE, OR, AND, SEMI, INC, DEC, LBRACE, RBRACE;
+terminal IF, WHILE, PRINT, READ, VOID, CONST, CLASS, PROG, FOREACH, DO, EXTENDS, ASSIGN;
+/*===================DECLARATIONS===============*/
+
+precedence left ELSE;
+
+
+Program ::= (Program) PROG ProgramName DeclList LBRACE MethodDecList ProgramEnd;
+
+ProgramName ::= (ProgramName) IDENT:ident;
+
+DeclList ::= (NonEmptyDeclList) DeclList Decl
+        |  (EmptyDeclList) /* epsilon */; 
+
+Decl ::= (ClassDecl)CLASS ClassName ExtendOpt LBRACE VarDeclListFild OptMethodDecList RBRACE
+		| (GlobalDecl)EPGlobalVarDecl
+		| (ConstDecl)CONST Type ConstList SEMI;
+		
+		
+		
+ExtendOpt ::= (ClasExtend)EXTENDS Type
+			|(NoExtend);
+			
+ConstList ::=(MultipleElemConstList) ConstList COMMA ConstElem
+			| (SingleElemConstList) ConstElem;
+			
+ConstElem ::= (ConstElem)IDENT:ident EQUAL Literal;
+
+Literal ::= (IntLiteral)INT:value
+			| (BoolLiteral)BOOL:value
+			| (CharLiteral)CHAR:value;
+
+EPGlobalVarDecl ::= (VarDecl)Type GlobalVarList SEMI
+				| (ErrorGlobalVarDecl)ErrorGlobaVar SEMI;
+
+ErrorGlobaVar ::= (ErrorGlobalVarOnlySemi)error
+                        {:
+                            Symbol symbol = (Symbol)(CUP$MJParser$stack.elementAt(CUP$MJParser$top));            
+                            parser.report_error(null, null);
+                        :};
+						
+						
+GlobalVarList ::= (GlobalVectorList)GlobalVarList COMMA ElemEGlobalVar
+				| (GlobalVectorElem)ElemEGlobalVar;
+						
+ElemEGlobalVar ::= (VectorGlobalVar)IDENT:ident LBRACKET RBRACKET
+				| (ScalGlobalVar)IDENT:ident
+				| (MatrixGlobalVar) IDENT:ident LBRACKET RBRACKET LBRACKET RBRACKET
+				| (ErrorGlobalVar)error
+                        {:
+                            Symbol symbol = (Symbol)(CUP$MJParser$stack.elementAt(CUP$MJParser$top));            
+                            parser.report_error(null, null);
+                        :};
+
+VarDeclListFild ::= (NonEmptyFildDeclList)VarDeclListFild VarDeclListFildElem
+				| (EmptyVarDecListFild);
+
+VarDeclListFildElem ::= (CorFieldDecl)Type FildElem SEMI
+					| (ErrorFielDeclSemi)ErrFild SEMI
+					| (ErrorVarDecList)error
+                        {:
+                            Symbol symbol = (Symbol)(CUP$MJParser$stack.elementAt(CUP$MJParser$top));            
+                            parser.report_error(null, null);
+                        :};
+ErrFild ::= (ErrorOnlySemi)error
+             {:
+               Symbol symbol = (Symbol)(CUP$MJParser$stack.elementAt(CUP$MJParser$top));
+               parser.report_error(null, null);
+            :}; 
+			
+FildElem ::= (MultipleFieldFieldList) Fild COMMA FildElem
+			| (SingleFieldFieldList) Fild;
+			
+Fild ::= (VectorField)IDENT:ident LBRACKET RBRACKET
+		| (ScalarField)IDENT:ident;
+			
+ClassName ::= (ClassName)IDENT:ident;
+
+OptMethodDecList ::= (YesMethodDecList)LBRACE MethodDecList RBRACE
+				|(NoMethodDecList);
+
+MethodDecList ::= (NonVoidMethods)MethodDecList MethodDecl
+				|(VoidMethods);
+				
+MethodDecl ::= (MethodDecl)MethodType MethodName LPAREN FormPars RPAREN VarDeclList MethodStart StatementList MethodEnd;
+
+MethodName ::= (MethodName)IDENT:methodname;
+
+ 
+MethodStart ::= (MethodStart)LBRACE; 
+MethodEnd ::= (MethodEnd)RBRACE;
+
+MethodType ::= (NonVoidReturnType)Type
+			| (VoidReturnType)VOID;
+
+VarDeclList ::= (NonEmptyVarDeclList)VarDeclList VarDeclElem
+			|(EmptyVarDeclList);
+			
+VarDeclElem ::= (VarDeclElemWithVarList)Type VarList SEMI;
+
+VarList ::= (VarListMultipleElem)VarList COMMA VarElem
+		| (VarListOneEelem)VarElem;
+
+VarElem ::= (VarElem1)IDENT:ident LBRACKET RBRACKET
+		| (VarElem2)IDENT:ident
+		| (VarElem3) IDENT:ident LBRACKET RBRACKET LBRACKET RBRACKET;
+
+FormParsOpt ::= (YesFormParsOpt)LPAREN FormPars RPAREN
+			|(NoFormParsOpt) LPAREN RPAREN;
+
+FormPars ::= (YesFormPars)FormParsList
+			|(NoFormPars);
+			
+FormParsList ::= (VectorForParsList)FormParsList COMMA EPFormPar
+				| (FormParsListElem)EPFormPar;
+				
+EPFormPar ::= (EPFormParWithBrackets)Type IDENT:ident LBRACKET RBRACKET
+			| (EPFormParNoBrackets)Type IDENT:ident
+			| (EPFormParMatrix) Type IDENT:ident LBRACKET RBRACKET LBRACKET RBRACKET
+			| (ErrorFormPar)error
+				{:
+					Symbol symbol = (Symbol)(CUP$MJParser$stack.elementAt(CUP$MJParser$top));
+					parser.report_error(null, null);
+				:};
+				
+				
+Statement ::= (OneSingleStatement)SingleStatement;
+
+Statements ::= (MultipleStatemet)LBRACE StatementList RBRACE;
+
+StatementList ::= (NonEmptyStatementList)StatementList Statement
+				| (EmptyStatementList)/**/;
+
+				
+SingleStatement ::= (DesignatorSingleStatement)DesignatorStatement SEMI
+				| (IfStmt)IF LPAREN ConditionEP RPAREN Statement
+				| (IfElseStmt)IF LPAREN ConditionEP RPAREN Statement ELSE Statement
+				| (WhileStmt)WHILE LPAREN Condition RPAREN Statement
+				| (BreakStmt)BREAK:dummy SEMI
+				| (ContinueStmt)CONTINUE:dummy SEMI
+				| (ReturnNoExpr)RETURN:dummy SEMI
+				| (ReturnExpr)RETURN:dummy Expr SEMI
+				| (ReadStmt)READ LPAREN Designator RPAREN SEMI
+				| (PrintStmt) PRINT LPAREN Expr SingStmCommaIntOpt RPAREN SEMI
+				| (DelimitedStatement)Statements;
+
+SingStmCommaIntOpt ::= (SinglStmComaYes)COMMA INT:value
+							|(SinglStmComaNo);
+
+DesignatorStatement ::= (DesiStmtDesignator)Designator 
+					| (DesiStmtAssignop)Designator Assignop ExprEP
+					| (DesiStmtActPars)Designator LPAREN ActPars RPAREN
+					| (DesiStmtINC)Designator INC
+					| (DesiStmtDEC)Designator DEC;
+
+Designators ::= (DesignatorsOPTandList)LBRACKET DesignatorOPT DesignatorsList RBRACKET;
+
+DesignatorsList ::= (NonEmptyDesignatorsList)DesignatorsList DesignatorElem
+					|(EmptyDesignatorsList);
+
+DesignatorElem ::= (DesignatorElemCommaDesi)COMMA DesignatorOPT;
+
+DesignatorOPT ::= (DesignatorOPTYes)Designator
+				| (DesignatorOPTNo);
+
+ConditionEP ::= (ConditionEpCondition)Condition
+			|(ErrorConditioEP)error
+				{:
+					Symbol symbol = (Symbol)(CUP$MJParser$stack.elementAt(CUP$MJParser$top));
+					parser.report_error(null, null);
+				:};
+
+Condition ::= (ConditionTermCondition)CondTerm
+			| (ConditionOrConTerm)Condition OR CondTerm;
+
+CondTerm ::= (CondFactCondTerm)CondFact
+			| (CondTermAndCondFact)CondTerm AND CondFact;
+			
+CondFact ::= (ExprCondFact)Expr
+			| (ExprRelopExprCondFact)Expr Relop Expr;
+
+
+ActPars ::= (AcrParsWithExprList)ExprList 
+		| (EmptyActParsList)/*eps*/;
+
+ExprList ::= (ExprListVector)Expr COMMA ExprList
+		| (ExprElem)Expr;
+
+ExprEP ::= (ExprEPExpr)Expr
+		|(ErrorExprEP)error
+				{:
+					Symbol symbol = (Symbol)(CUP$MJParser$stack.elementAt(CUP$MJParser$top));
+					parser.report_error(null, null);
+				:};
+
+Expr ::= (TermExpr)Term
+		| (MinusTermExpr)MINUS Term
+		| (AddopExpr)Expr Addop Term;
+
+Term ::= (FactorTerm)Factor
+		| (MulopTerm)Term Mulop Factor;
+
+Factor ::= (FactorDesignator)Designator
+		| (FactorDesignatorWithActPars)Designator ActParsLBR ActPars ActParsRBR
+		| (IntFactor)INT:value
+		| (CharFactor)CHAR:value
+		| (BoolFactor)BOOL:value
+		| (NewScalarFactor)NEW Type
+		| (NewVectorExprFactor)NEW Type LBRACKET Expr RBRACKET
+		| (NewMatrixFactor)NEW Type LBRACKET Expr RBRACKET LBRACKET Expr RBRACKET
+		| (NewVectorActParsFactor)NEW Type LPAREN ActPars RPAREN
+		| (DelimitedFactor)LPAREN Expr RPAREN;
+
+ActParsLBR ::= (ActParsStart)LPAREN;
+ActParsRBR ::= (ActParsEnd)RPAREN:dummy;
+
+
+Designator ::= (DesignatorWithOptList)FakeIdent ListaDesi;
+
+FakeIdent ::= (FakeIdent)IDENT:ident;
+
+ListaDesi ::= (NonEmptyListaDesi)ListaDesi ElemListeDesi
+			|(EmptyDesiList)/*eplsilon*/;
+
+ElemListeDesi ::= (DesignatorDotIdent)DOT IDENT:ident
+				|(DesignatorLExprR)DesignatorExtendLBR Expr RBRACKET ;
+				
+DesignatorExtendLBR ::= (AEADLBracket)LBRACKET;		
+			
+Type ::= (Type)IDENT:ident;           
+
+Label ::= (Label)IDENT:ident;
+
+Assignop ::= (EqualAssignop)EQUAL;
+
+Relop ::= (LogeqRelop)LOGEQ
+		| (NeqRelop)NEQ
+		| (GtRelop)GT
+		| (GeqRelop)GEQ
+		| (LtRelop)LT
+		| (LeqRelop)LEQ;
+
+Addop ::= (PlusAddop)PLUS
+		| (MinusAddop)MINUS;
+
+Mulop ::= (MulMulop)MUL
+		| (DivMulop)DIV
+		| (ModMulop)MOD;
+		
+ProgramEnd ::= (ProgramEnd) RBRACE:dummy;

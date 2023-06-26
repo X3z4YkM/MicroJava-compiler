@@ -1,0 +1,258 @@
+INFO  13:28:57,172 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:28:57,561 - #43 program
+INFO  13:28:57,561 - #2 test_A_successful
+INFO  13:28:57,561 - #2 int
+INFO  13:28:57,566 - #2 a
+INFO  13:28:57,569 - #9 ,
+INFO  13:28:57,569 - #2 b
+INFO  13:28:57,569 - #9 ,
+INFO  13:28:57,569 - #2 c
+INFO  13:28:57,569 - #9 ,
+INFO  13:28:57,569 - #2 d
+INFO  13:28:57,569 - #9 ,
+INFO  13:28:57,569 - #2 e
+INFO  13:28:57,569 - #9 ,
+INFO  13:28:57,569 - #2 intArray
+INFO  13:28:57,570 - #11 [
+INFO  13:28:57,570 - #10 ]
+INFO  13:28:57,570 - #9 ,
+INFO  13:28:57,570 - #2 niz
+INFO  13:28:57,570 - #11 [
+INFO  13:28:57,570 - #10 ]
+INFO  13:28:57,570 - #9 ,
+INFO  13:28:57,570 - #2 nizTmp
+INFO  13:28:57,570 - #11 [
+INFO  13:28:57,570 - #10 ]
+INFO  13:28:57,570 - #9 ,
+INFO  13:28:57,570 - #2 nizIndex
+INFO  13:28:57,570 - #11 [
+INFO  13:28:57,570 - #10 ]
+INFO  13:28:57,571 - #31 ;
+INFO  13:28:57,571 - #34 {
+INFO  13:28:57,571 - #40 void
+INFO  13:28:57,574 - #2 main
+INFO  13:28:57,576 - #26 (
+INFO  13:28:57,579 - #27 )
+INFO  13:28:57,583 - #34 {
+INFO  13:28:57,587 - #2 intArray
+INFO  13:28:57,593 - #13 =
+INFO  13:28:57,600 - #25 new
+INFO  13:28:57,607 - #2 int
+INFO  13:28:57,607 - #11 [
+INFO  13:28:57,607 - #3 5
+INFO  13:28:57,608 - #10 ]
+INFO  13:28:57,608 - #31 ;
+INFO  13:28:57,608 - #11 [
+INFO  13:28:57,608 - #2 a
+INFO  13:28:57,609 - #9 ,
+INFO  13:28:57,612 - #9 ,
+INFO  13:28:57,617 - #2 c
+INFO  13:28:57,618 - #9 ,
+INFO  13:28:57,618 - #10 ]
+INFO  13:28:57,618 - #13 =
+INFO  13:28:57,618 - #2 intArray
+INFO  13:28:57,618 - #31 ;
+INFO  13:28:57,618 - #8 return
+INFO  13:28:57,619 - #31 ;
+INFO  13:28:57,619 - #35 }
+INFO  13:28:57,619 - #35 }
+INFO  13:28:57,645 - Program(
+  ProgramName(
+   test_A_successful
+  ) [ProgramName]
+  NonEmptyDeclList(
+    EmptyDeclList(
+    ) [EmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorList(
+          GlobalVectorList(
+            GlobalVectorList(
+              GlobalVectorList(
+                GlobalVectorList(
+                  GlobalVectorList(
+                    GlobalVectorList(
+                      GlobalVectorList(
+                        GlobalVectorElem(
+                          ScalGlobalVar(
+                           a
+                          ) [ScalGlobalVar]
+                        ) [GlobalVectorElem]
+                        ScalGlobalVar(
+                         b
+                        ) [ScalGlobalVar]
+                      ) [GlobalVectorList]
+                      ScalGlobalVar(
+                       c
+                      ) [ScalGlobalVar]
+                    ) [GlobalVectorList]
+                    ScalGlobalVar(
+                     d
+                    ) [ScalGlobalVar]
+                  ) [GlobalVectorList]
+                  ScalGlobalVar(
+                   e
+                  ) [ScalGlobalVar]
+                ) [GlobalVectorList]
+                VectorGlobalVar(
+                 intArray
+                ) [VectorGlobalVar]
+              ) [GlobalVectorList]
+              VectorGlobalVar(
+               niz
+              ) [VectorGlobalVar]
+            ) [GlobalVectorList]
+            VectorGlobalVar(
+             nizTmp
+            ) [VectorGlobalVar]
+          ) [GlobalVectorList]
+          VectorGlobalVar(
+           nizIndex
+          ) [VectorGlobalVar]
+        ) [GlobalVectorList]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      EmptyVarDeclList(
+      ) [EmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          NonEmptyStatementList(
+            EmptyStatementList(
+            ) [EmptyStatementList]
+            OneSingleStatement(
+              DesignatorSingleStatement(
+                DesiStmtAssignop(
+                  DesignatorWithOptList(
+                    FakeIdent(
+                     intArray
+                    ) [FakeIdent]
+                    EmptyDesiList(
+                    ) [EmptyDesiList]
+                  ) [DesignatorWithOptList]
+                  EqualAssignop(
+                  ) [EqualAssignop]
+                  ExprEPExpr(
+                    TermExpr(
+                      FactorTerm(
+                        NewVectorExprFactor(
+                          Type(
+                           int
+                          ) [Type]
+                          TermExpr(
+                            FactorTerm(
+                              IntFactor(
+                               5
+                              ) [IntFactor]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [NewVectorExprFactor]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [ExprEPExpr]
+                ) [DesiStmtAssignop]
+              ) [DesignatorSingleStatement]
+            ) [OneSingleStatement]
+          ) [NonEmptyStatementList]
+          OneSingleStatement(
+            DesignatorSingleStatement(
+              DesiStmtDesEqDes(
+                DesignatorsOPTandList(
+                  DesignatorOPTYes(
+                    DesignatorWithOptList(
+                      FakeIdent(
+                       a
+                      ) [FakeIdent]
+                      EmptyDesiList(
+                      ) [EmptyDesiList]
+                    ) [DesignatorWithOptList]
+                  ) [DesignatorOPTYes]
+                  NonEmptyDesignatorsList(
+                    NonEmptyDesignatorsList(
+                      NonEmptyDesignatorsList(
+                        EmptyDesignatorsList(
+                        ) [EmptyDesignatorsList]
+                        DesignatorElemCommaDesi(
+                          DesignatorOPTNo(
+                          ) [DesignatorOPTNo]
+                        ) [DesignatorElemCommaDesi]
+                      ) [NonEmptyDesignatorsList]
+                      DesignatorElemCommaDesi(
+                        DesignatorOPTYes(
+                          DesignatorWithOptList(
+                            FakeIdent(
+                             c
+                            ) [FakeIdent]
+                            EmptyDesiList(
+                            ) [EmptyDesiList]
+                          ) [DesignatorWithOptList]
+                        ) [DesignatorOPTYes]
+                      ) [DesignatorElemCommaDesi]
+                    ) [NonEmptyDesignatorsList]
+                    DesignatorElemCommaDesi(
+                      DesignatorOPTNo(
+                      ) [DesignatorOPTNo]
+                    ) [DesignatorElemCommaDesi]
+                  ) [NonEmptyDesignatorsList]
+                ) [DesignatorsOPTandList]
+                DesignatorWithOptList(
+                  FakeIdent(
+                   intArray
+                  ) [FakeIdent]
+                  EmptyDesiList(
+                  ) [EmptyDesiList]
+                ) [DesignatorWithOptList]
+              ) [DesiStmtDesEqDes]
+            ) [DesignatorSingleStatement]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  13:28:57,645 - ===================================
+INFO  13:28:57,658 -  [a], Found Var a: int, Adr:0, Level:0 na liniji 2
+INFO  13:28:57,658 -  [b], Found Var b: int, Adr:1, Level:0 na liniji 2
+INFO  13:28:57,658 -  [c], Found Var c: int, Adr:2, Level:0 na liniji 2
+INFO  13:28:57,658 -  [d], Found Var d: int, Adr:3, Level:0 na liniji 2
+INFO  13:28:57,658 -  [e], Found Var e: int, Adr:4, Level:0 na liniji 2
+INFO  13:28:57,659 -  [intArray], Found Var intArray: Arr of int, 5, 0 na liniji 2
+INFO  13:28:57,659 -  [niz], Found Var niz: Arr of int, 6, 0 na liniji 2
+INFO  13:28:57,659 -  [nizTmp], Found Var nizTmp: Arr of int, 7, 0 na liniji 2
+INFO  13:28:57,659 -  [nizIndex], Found Var nizIndex: Arr of int, 8, 0 na liniji 2
+INFO  13:28:57,659 - [STATEMENT INFO]: Found Var intArray: Arr of int, Adr: 5, Level: 0 na liniji 5
+INFO  13:28:57,660 - [STATEMENT INFO]: pronadjena dodela  [niz: intArray , niz: new Type[]]!! na liniji 5
+INFO  13:28:57,660 - [STATEMENT INFO]: Found Var a: int, Adr: 0, Level: 0 na liniji 6
+INFO  13:28:57,660 - [STATEMENT INFO]: Found Var c: int, Adr: 2, Level: 0 na liniji 6
+INFO  13:28:57,660 - [STATEMENT INFO]: Found Var intArray: Arr of int, Adr: 5, Level: 0 na liniji 6
+INFO  13:28:57,660 - [INFO STATEMENT] uspesno isprasirano [,,,,]= niz! na liniji 6
+INFO  13:28:57,660 - main kind 3 typ 0 adr -1 lev 0 na liniji 4
+INFO  13:28:57,660 -  Print count calls = 0
+INFO  13:28:57,660 -  Deklarisanih promenljivih ima = 0
+INFO  13:28:57,660 - ===================================
+INFO  13:28:57,695 - Parsiranje je uspesno!!!

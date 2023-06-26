@@ -1,0 +1,657 @@
+INFO  16:41:15,726 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:41:15,820 - #43 program
+INFO  16:41:15,820 - #2 test_A_successful
+INFO  16:41:15,820 - #2 int
+INFO  16:41:15,821 - #2 a
+INFO  16:41:15,822 - #9 ,
+INFO  16:41:15,822 - #2 b
+INFO  16:41:15,822 - #11 [
+INFO  16:41:15,822 - #10 ]
+INFO  16:41:15,823 - #31 ;
+INFO  16:41:15,823 - #2 char
+INFO  16:41:15,823 - #2 d
+INFO  16:41:15,823 - #11 [
+INFO  16:41:15,823 - #10 ]
+INFO  16:41:15,823 - #9 ,
+INFO  16:41:15,823 - #2 e
+INFO  16:41:15,823 - #31 ;
+INFO  16:41:15,824 - #2 bool
+INFO  16:41:15,824 - #2 state
+INFO  16:41:15,824 - #31 ;
+INFO  16:41:15,824 - #34 {
+INFO  16:41:15,824 - #2 int
+INFO  16:41:15,824 - #2 main
+INFO  16:41:15,825 - #26 (
+INFO  16:41:15,825 - #27 )
+INFO  16:41:15,826 - #2 int
+INFO  16:41:15,826 - #2 s
+INFO  16:41:15,827 - #9 ,
+INFO  16:41:15,827 - #2 s2
+INFO  16:41:15,827 - #9 ,
+INFO  16:41:15,827 - #2 s3
+INFO  16:41:15,827 - #11 [
+INFO  16:41:15,827 - #10 ]
+INFO  16:41:15,827 - #31 ;
+INFO  16:41:15,827 - #34 {
+INFO  16:41:15,828 - #2 state
+INFO  16:41:15,829 - #13 =
+INFO  16:41:15,830 - #4 true
+INFO  16:41:15,832 - #31 ;
+INFO  16:41:15,832 - #39 read
+INFO  16:41:15,832 - #26 (
+INFO  16:41:15,832 - #2 a
+INFO  16:41:15,833 - #27 )
+INFO  16:41:15,833 - #31 ;
+INFO  16:41:15,833 - #2 b
+INFO  16:41:15,833 - #13 =
+INFO  16:41:15,833 - #25 new
+INFO  16:41:15,833 - #2 int
+INFO  16:41:15,833 - #11 [
+INFO  16:41:15,833 - #3 10
+INFO  16:41:15,833 - #10 ]
+INFO  16:41:15,834 - #31 ;
+INFO  16:41:15,834 - #39 read
+INFO  16:41:15,834 - #26 (
+INFO  16:41:15,834 - #2 b
+INFO  16:41:15,834 - #11 [
+INFO  16:41:15,834 - #3 1
+INFO  16:41:15,836 - #10 ]
+INFO  16:41:15,836 - #27 )
+INFO  16:41:15,836 - #31 ;
+INFO  16:41:15,836 - #39 read
+INFO  16:41:15,836 - #26 (
+INFO  16:41:15,836 - #2 e
+INFO  16:41:15,836 - #27 )
+INFO  16:41:15,837 - #31 ;
+INFO  16:41:15,837 - #2 d
+INFO  16:41:15,837 - #13 =
+INFO  16:41:15,837 - #25 new
+INFO  16:41:15,837 - #2 char
+INFO  16:41:15,837 - #11 [
+INFO  16:41:15,837 - #3 10
+INFO  16:41:15,837 - #10 ]
+INFO  16:41:15,837 - #31 ;
+INFO  16:41:15,837 - #39 read
+INFO  16:41:15,838 - #26 (
+INFO  16:41:15,838 - #2 d
+INFO  16:41:15,838 - #11 [
+INFO  16:41:15,838 - #3 3
+INFO  16:41:15,838 - #10 ]
+INFO  16:41:15,838 - #27 )
+INFO  16:41:15,838 - #31 ;
+INFO  16:41:15,838 - #38 print
+INFO  16:41:15,838 - #26 (
+INFO  16:41:15,838 - #2 d
+INFO  16:41:15,838 - #11 [
+INFO  16:41:15,838 - #3 3
+INFO  16:41:15,838 - #10 ]
+INFO  16:41:15,838 - #27 )
+INFO  16:41:15,839 - #31 ;
+INFO  16:41:15,839 - #38 print
+INFO  16:41:15,839 - #26 (
+INFO  16:41:15,839 - #2 e
+INFO  16:41:15,839 - #27 )
+INFO  16:41:15,840 - #31 ;
+INFO  16:41:15,840 - #38 print
+INFO  16:41:15,840 - #26 (
+INFO  16:41:15,840 - #2 a
+INFO  16:41:15,840 - #27 )
+INFO  16:41:15,840 - #31 ;
+INFO  16:41:15,840 - #38 print
+INFO  16:41:15,840 - #26 (
+INFO  16:41:15,841 - #2 b
+INFO  16:41:15,841 - #11 [
+INFO  16:41:15,841 - #3 1
+INFO  16:41:15,841 - #10 ]
+INFO  16:41:15,841 - #27 )
+INFO  16:41:15,841 - #31 ;
+INFO  16:41:15,841 - #2 a
+INFO  16:41:15,841 - #32 ++
+INFO  16:41:15,841 - #31 ;
+INFO  16:41:15,841 - #2 b
+INFO  16:41:15,842 - #11 [
+INFO  16:41:15,842 - #3 1
+INFO  16:41:15,842 - #10 ]
+INFO  16:41:15,842 - #33 --
+INFO  16:41:15,842 - #31 ;
+INFO  16:41:15,842 - #8 return
+INFO  16:41:15,842 - #2 b
+INFO  16:41:15,842 - #11 [
+INFO  16:41:15,842 - #3 1
+INFO  16:41:15,842 - #10 ]
+INFO  16:41:15,842 - #20 +
+INFO  16:41:15,842 - #2 a
+INFO  16:41:15,844 - #22 *
+INFO  16:41:15,844 - #3 2
+INFO  16:41:15,845 - #31 ;
+INFO  16:41:15,845 - #35 }
+INFO  16:41:15,845 - #35 }
+INFO  16:41:15,856 - Program(
+  ProgramName(
+   test_A_successful
+  ) [ProgramName]
+  NonEmptyDeclList(
+    NonEmptyDeclList(
+      NonEmptyDeclList(
+        EmptyDeclList(
+        ) [EmptyDeclList]
+        GlobalDecl(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            GlobalVectorList(
+              GlobalVectorElem(
+                ScalGlobalVar(
+                 a
+                ) [ScalGlobalVar]
+              ) [GlobalVectorElem]
+              VectorGlobalVar(
+               b
+              ) [VectorGlobalVar]
+            ) [GlobalVectorList]
+          ) [VarDecl]
+        ) [GlobalDecl]
+      ) [NonEmptyDeclList]
+      GlobalDecl(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          GlobalVectorList(
+            GlobalVectorElem(
+              VectorGlobalVar(
+               d
+              ) [VectorGlobalVar]
+            ) [GlobalVectorElem]
+            ScalGlobalVar(
+             e
+            ) [ScalGlobalVar]
+          ) [GlobalVectorList]
+        ) [VarDecl]
+      ) [GlobalDecl]
+    ) [NonEmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+        GlobalVectorElem(
+          ScalGlobalVar(
+           state
+          ) [ScalGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      NonVoidReturnType(
+        Type(
+         int
+        ) [Type]
+      ) [NonVoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NonEmptyVarDeclList(
+        EmptyVarDeclList(
+        ) [EmptyVarDeclList]
+        VarDeclElemWithVarList(
+          Type(
+           int
+          ) [Type]
+          VarListMultipleElem(
+            VarListMultipleElem(
+              VarListOneEelem(
+                VarElem2(
+                 s
+                ) [VarElem2]
+              ) [VarListOneEelem]
+              VarElem2(
+               s2
+              ) [VarElem2]
+            ) [VarListMultipleElem]
+            VarElem1(
+             s3
+            ) [VarElem1]
+          ) [VarListMultipleElem]
+        ) [VarDeclElemWithVarList]
+      ) [NonEmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          NonEmptyStatementList(
+            NonEmptyStatementList(
+              NonEmptyStatementList(
+                NonEmptyStatementList(
+                  NonEmptyStatementList(
+                    NonEmptyStatementList(
+                      NonEmptyStatementList(
+                        NonEmptyStatementList(
+                          NonEmptyStatementList(
+                            NonEmptyStatementList(
+                              NonEmptyStatementList(
+                                NonEmptyStatementList(
+                                  EmptyStatementList(
+                                  ) [EmptyStatementList]
+                                  OneSingleStatement(
+                                    DesignatorSingleStatement(
+                                      DesiStmtAssignop(
+                                        DesignatorWithOptList(
+                                          FakeIdent(
+                                           state
+                                          ) [FakeIdent]
+                                          EmptyDesiList(
+                                          ) [EmptyDesiList]
+                                        ) [DesignatorWithOptList]
+                                        EqualAssignop(
+                                        ) [EqualAssignop]
+                                        ExprEPExpr(
+                                          TermExpr(
+                                            FactorTerm(
+                                              BoolFactor(
+                                               true
+                                              ) [BoolFactor]
+                                            ) [FactorTerm]
+                                          ) [TermExpr]
+                                        ) [ExprEPExpr]
+                                      ) [DesiStmtAssignop]
+                                    ) [DesignatorSingleStatement]
+                                  ) [OneSingleStatement]
+                                ) [NonEmptyStatementList]
+                                OneSingleStatement(
+                                  ReadStmt(
+                                    DesignatorWithOptList(
+                                      FakeIdent(
+                                       a
+                                      ) [FakeIdent]
+                                      EmptyDesiList(
+                                      ) [EmptyDesiList]
+                                    ) [DesignatorWithOptList]
+                                  ) [ReadStmt]
+                                ) [OneSingleStatement]
+                              ) [NonEmptyStatementList]
+                              OneSingleStatement(
+                                DesignatorSingleStatement(
+                                  DesiStmtAssignop(
+                                    DesignatorWithOptList(
+                                      FakeIdent(
+                                       b
+                                      ) [FakeIdent]
+                                      EmptyDesiList(
+                                      ) [EmptyDesiList]
+                                    ) [DesignatorWithOptList]
+                                    EqualAssignop(
+                                    ) [EqualAssignop]
+                                    ExprEPExpr(
+                                      TermExpr(
+                                        FactorTerm(
+                                          NewVectorExprFactor(
+                                            Type(
+                                             int
+                                            ) [Type]
+                                            TermExpr(
+                                              FactorTerm(
+                                                IntFactor(
+                                                 10
+                                                ) [IntFactor]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                          ) [NewVectorExprFactor]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [ExprEPExpr]
+                                  ) [DesiStmtAssignop]
+                                ) [DesignatorSingleStatement]
+                              ) [OneSingleStatement]
+                            ) [NonEmptyStatementList]
+                            OneSingleStatement(
+                              ReadStmt(
+                                DesignatorWithOptList(
+                                  FakeIdent(
+                                   b
+                                  ) [FakeIdent]
+                                  NonEmptyListaDesi(
+                                    EmptyDesiList(
+                                    ) [EmptyDesiList]
+                                    DesignatorLExprR(
+                                      AEADLBracket(
+                                      ) [AEADLBracket]
+                                      TermExpr(
+                                        FactorTerm(
+                                          IntFactor(
+                                           1
+                                          ) [IntFactor]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [DesignatorLExprR]
+                                  ) [NonEmptyListaDesi]
+                                ) [DesignatorWithOptList]
+                              ) [ReadStmt]
+                            ) [OneSingleStatement]
+                          ) [NonEmptyStatementList]
+                          OneSingleStatement(
+                            ReadStmt(
+                              DesignatorWithOptList(
+                                FakeIdent(
+                                 e
+                                ) [FakeIdent]
+                                EmptyDesiList(
+                                ) [EmptyDesiList]
+                              ) [DesignatorWithOptList]
+                            ) [ReadStmt]
+                          ) [OneSingleStatement]
+                        ) [NonEmptyStatementList]
+                        OneSingleStatement(
+                          DesignatorSingleStatement(
+                            DesiStmtAssignop(
+                              DesignatorWithOptList(
+                                FakeIdent(
+                                 d
+                                ) [FakeIdent]
+                                EmptyDesiList(
+                                ) [EmptyDesiList]
+                              ) [DesignatorWithOptList]
+                              EqualAssignop(
+                              ) [EqualAssignop]
+                              ExprEPExpr(
+                                TermExpr(
+                                  FactorTerm(
+                                    NewVectorExprFactor(
+                                      Type(
+                                       char
+                                      ) [Type]
+                                      TermExpr(
+                                        FactorTerm(
+                                          IntFactor(
+                                           10
+                                          ) [IntFactor]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [NewVectorExprFactor]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [ExprEPExpr]
+                            ) [DesiStmtAssignop]
+                          ) [DesignatorSingleStatement]
+                        ) [OneSingleStatement]
+                      ) [NonEmptyStatementList]
+                      OneSingleStatement(
+                        ReadStmt(
+                          DesignatorWithOptList(
+                            FakeIdent(
+                             d
+                            ) [FakeIdent]
+                            NonEmptyListaDesi(
+                              EmptyDesiList(
+                              ) [EmptyDesiList]
+                              DesignatorLExprR(
+                                AEADLBracket(
+                                ) [AEADLBracket]
+                                TermExpr(
+                                  FactorTerm(
+                                    IntFactor(
+                                     3
+                                    ) [IntFactor]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [DesignatorLExprR]
+                            ) [NonEmptyListaDesi]
+                          ) [DesignatorWithOptList]
+                        ) [ReadStmt]
+                      ) [OneSingleStatement]
+                    ) [NonEmptyStatementList]
+                    OneSingleStatement(
+                      PrintStmt(
+                        TermExpr(
+                          FactorTerm(
+                            FactorDesignator(
+                              DesignatorWithOptList(
+                                FakeIdent(
+                                 d
+                                ) [FakeIdent]
+                                NonEmptyListaDesi(
+                                  EmptyDesiList(
+                                  ) [EmptyDesiList]
+                                  DesignatorLExprR(
+                                    AEADLBracket(
+                                    ) [AEADLBracket]
+                                    TermExpr(
+                                      FactorTerm(
+                                        IntFactor(
+                                         3
+                                        ) [IntFactor]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [DesignatorLExprR]
+                                ) [NonEmptyListaDesi]
+                              ) [DesignatorWithOptList]
+                            ) [FactorDesignator]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        SinglStmComaNo(
+                        ) [SinglStmComaNo]
+                      ) [PrintStmt]
+                    ) [OneSingleStatement]
+                  ) [NonEmptyStatementList]
+                  OneSingleStatement(
+                    PrintStmt(
+                      TermExpr(
+                        FactorTerm(
+                          FactorDesignator(
+                            DesignatorWithOptList(
+                              FakeIdent(
+                               e
+                              ) [FakeIdent]
+                              EmptyDesiList(
+                              ) [EmptyDesiList]
+                            ) [DesignatorWithOptList]
+                          ) [FactorDesignator]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                      SinglStmComaNo(
+                      ) [SinglStmComaNo]
+                    ) [PrintStmt]
+                  ) [OneSingleStatement]
+                ) [NonEmptyStatementList]
+                OneSingleStatement(
+                  PrintStmt(
+                    TermExpr(
+                      FactorTerm(
+                        FactorDesignator(
+                          DesignatorWithOptList(
+                            FakeIdent(
+                             a
+                            ) [FakeIdent]
+                            EmptyDesiList(
+                            ) [EmptyDesiList]
+                          ) [DesignatorWithOptList]
+                        ) [FactorDesignator]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                    SinglStmComaNo(
+                    ) [SinglStmComaNo]
+                  ) [PrintStmt]
+                ) [OneSingleStatement]
+              ) [NonEmptyStatementList]
+              OneSingleStatement(
+                PrintStmt(
+                  TermExpr(
+                    FactorTerm(
+                      FactorDesignator(
+                        DesignatorWithOptList(
+                          FakeIdent(
+                           b
+                          ) [FakeIdent]
+                          NonEmptyListaDesi(
+                            EmptyDesiList(
+                            ) [EmptyDesiList]
+                            DesignatorLExprR(
+                              AEADLBracket(
+                              ) [AEADLBracket]
+                              TermExpr(
+                                FactorTerm(
+                                  IntFactor(
+                                   1
+                                  ) [IntFactor]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [DesignatorLExprR]
+                          ) [NonEmptyListaDesi]
+                        ) [DesignatorWithOptList]
+                      ) [FactorDesignator]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                  SinglStmComaNo(
+                  ) [SinglStmComaNo]
+                ) [PrintStmt]
+              ) [OneSingleStatement]
+            ) [NonEmptyStatementList]
+            OneSingleStatement(
+              DesignatorSingleStatement(
+                DesiStmtINC(
+                  DesignatorWithOptList(
+                    FakeIdent(
+                     a
+                    ) [FakeIdent]
+                    EmptyDesiList(
+                    ) [EmptyDesiList]
+                  ) [DesignatorWithOptList]
+                ) [DesiStmtINC]
+              ) [DesignatorSingleStatement]
+            ) [OneSingleStatement]
+          ) [NonEmptyStatementList]
+          OneSingleStatement(
+            DesignatorSingleStatement(
+              DesiStmtDEC(
+                DesignatorWithOptList(
+                  FakeIdent(
+                   b
+                  ) [FakeIdent]
+                  NonEmptyListaDesi(
+                    EmptyDesiList(
+                    ) [EmptyDesiList]
+                    DesignatorLExprR(
+                      AEADLBracket(
+                      ) [AEADLBracket]
+                      TermExpr(
+                        FactorTerm(
+                          IntFactor(
+                           1
+                          ) [IntFactor]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [DesignatorLExprR]
+                  ) [NonEmptyListaDesi]
+                ) [DesignatorWithOptList]
+              ) [DesiStmtDEC]
+            ) [DesignatorSingleStatement]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnExpr(
+           return
+            AddopExpr(
+              TermExpr(
+                FactorTerm(
+                  FactorDesignator(
+                    DesignatorWithOptList(
+                      FakeIdent(
+                       b
+                      ) [FakeIdent]
+                      NonEmptyListaDesi(
+                        EmptyDesiList(
+                        ) [EmptyDesiList]
+                        DesignatorLExprR(
+                          AEADLBracket(
+                          ) [AEADLBracket]
+                          TermExpr(
+                            FactorTerm(
+                              IntFactor(
+                               1
+                              ) [IntFactor]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [DesignatorLExprR]
+                      ) [NonEmptyListaDesi]
+                    ) [DesignatorWithOptList]
+                  ) [FactorDesignator]
+                ) [FactorTerm]
+              ) [TermExpr]
+              PlusAddop(
+              ) [PlusAddop]
+              MulopTerm(
+                FactorTerm(
+                  FactorDesignator(
+                    DesignatorWithOptList(
+                      FakeIdent(
+                       a
+                      ) [FakeIdent]
+                      EmptyDesiList(
+                      ) [EmptyDesiList]
+                    ) [DesignatorWithOptList]
+                  ) [FactorDesignator]
+                ) [FactorTerm]
+                MulMulop(
+                ) [MulMulop]
+                IntFactor(
+                 2
+                ) [IntFactor]
+              ) [MulopTerm]
+            ) [AddopExpr]
+          ) [ReturnExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  16:41:15,857 - ===================================
+INFO  16:41:15,868 -  [a], Found Var a: int, Adr:0, Level:0 na liniji 2
+INFO  16:41:15,868 -  [b], Found Var b: Arr of int, 1, 0 na liniji 2
+INFO  16:41:15,869 -  [d], Found Var d: Arr of char, 2, 0 na liniji 3
+INFO  16:41:15,869 -  [e], Found Var e: char, Adr:3, Level:0 na liniji 3
+INFO  16:41:15,869 -  [state], Found Var state: bool, Adr:4, Level:0 na liniji 4
+INFO  16:41:15,869 -  [s], Found Var s: int, Adr: 0, Level: 1 na liniji 6
+INFO  16:41:15,869 -  [s2], Found Var s2: int, Adr: 1, Level: 1 na liniji 6
+INFO  16:41:15,869 -  [s3], Found Var  s3: Arr of int, Adr: 2, Level: 1 in method [main] na liniji 6
+INFO  16:41:15,869 - [STATEMENT INFO]: Found Var state: bool, Adr: 4, Level: 0 na liniji 8
+INFO  16:41:21,345 - [STATEMENT INFO]: pronadjena drodela  [prom: state , prom: 1]!! na liniji 8
+INFO  16:41:21,345 - [STATEMENT INFO]: Found Var a: int, Adr: 0, Level: 0 na liniji 9
+INFO  16:41:21,345 - [INFO STATEMENT]: reading!!! na liniji 9
+INFO  16:41:21,346 - [STATEMENT INFO]: Found Var b: Arr of int, Adr: 1, Level: 0 na liniji 10
+INFO  16:41:21,346 - [STATEMENT INFO]: pronadjena dodela  [niz: b , niz: new Type[]]!! na liniji 10
+INFO  16:41:21,346 - [STATEMENT INFO]: Found Elem [b] na liniji 11
+INFO  16:41:21,346 - [INFO STATEMENT]: reading!!! na liniji 11
+INFO  16:41:21,346 - [STATEMENT INFO]: Found Var e: char, Adr: 3, Level: 0 na liniji 12
+INFO  16:41:21,346 - [INFO STATEMENT]: reading!!! na liniji 12
+INFO  16:41:21,346 - [STATEMENT INFO]: Found Var d: Arr of char, Adr: 2, Level: 0 na liniji 13
+INFO  16:41:21,346 - [STATEMENT INFO]: pronadjena dodela  [niz: d , niz: new Type[]]!! na liniji 13
+INFO  16:41:21,346 - [STATEMENT INFO]: Found Elem [d] na liniji 14
+INFO  16:41:21,346 - [INFO STATEMENT]: reading!!! na liniji 14
+INFO  16:41:21,346 - [STATEMENT INFO]: Found Elem [d] na liniji 15
+INFO  16:41:21,346 - [INFO STATEMENT]: printing!!! na liniji 15
+INFO  16:41:21,346 - [STATEMENT INFO]: Found Var e: char, Adr: 3, Level: 0 na liniji 16
+INFO  16:41:21,346 - [INFO STATEMENT]: printing!!! na liniji 16
+INFO  16:41:21,346 - [STATEMENT INFO]: Found Var a: int, Adr: 0, Level: 0 na liniji 17
+INFO  16:41:21,346 - [INFO STATEMENT]: printing!!! na liniji 17
+INFO  16:41:21,346 - [STATEMENT INFO]: Found Elem [b] na liniji 18
+INFO  16:41:21,347 - [INFO STATEMENT]: printing!!! na liniji 18
+INFO  16:41:21,347 - [STATEMENT INFO]: Found Var a: int, Adr: 0, Level: 0 na liniji 19
+INFO  16:41:21,347 - [STATEMENT INFO]: Found Elem [b] na liniji 20
+INFO  16:41:21,347 - [STATEMENT INFO]: Found Elem [b] na liniji 21
+INFO  16:41:21,347 - [STATEMENT INFO]: Found Var a: int, Adr: 0, Level: 0 na liniji 21
+INFO  16:41:21,347 - main kind 3 typ 1 adr -1 lev 3 na liniji 6
+INFO  16:41:21,347 -  Print count calls = 4
+INFO  16:41:21,347 -  Deklarisanih promenljivih ima = 3
+INFO  16:41:21,347 - ===================================
+INFO  16:41:21,371 - Parsiranje je uspesno!!!

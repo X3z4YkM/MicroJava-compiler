@@ -1,0 +1,26 @@
+
+  pos: instruction operands
+     | expressionstack
+-----------------------------
+    0: enter       0 0 
+     | 
+    3: const_5     
+     | 5 
+    4: newarray    1 
+     | 2 
+    6: putstatic   5 
+     | 
+    9: const_3     
+     | 3 
+   10: putstatic   0 
+     | 
+   13: getstatic   0 
+     | 3 
+   16: const_5     
+     | 3 5 
+   17: print           3
+     | 
+   18: exit        
+     | 
+   19: return      
+Completion took 15 ms

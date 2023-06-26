@@ -1,0 +1,24 @@
+INFO  16:06:04,660 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:06:04,952 - #43 program
+INFO  16:06:04,952 - #2 test_A_successful
+INFO  16:06:04,952 - #2 int
+INFO  16:06:04,956 - #2 b
+INFO  16:06:04,958 - #11 [
+INFO  16:06:04,959 - #10 ]
+INFO  16:06:04,959 - #11 [
+INFO  16:06:04,959 - #10 ]
+INFO  16:06:04,959 - #13 =
+ERROR 16:06:04,959 - 
+Sintaksna greska na liniji 2
+INFO  16:06:04,959 - #25 new
+INFO  16:06:04,959 - #2 int
+INFO  16:06:04,959 - #11 [
+INFO  16:06:04,960 - #3 2
+INFO  16:06:04,960 - #10 ]
+INFO  16:06:04,960 - #11 [
+INFO  16:06:04,960 - #3 3
+INFO  16:06:04,960 - #10 ]
+INFO  16:06:04,960 - #31 ;
+INFO  16:06:04,960 - #34 {
+INFO  16:06:04,960 - #40 void
+INFO  16:06:04,960 - #2 main

@@ -1,0 +1,133 @@
+INFO  19:42:02,843 - Compiling source file: C:\Users\misko\Desktop\PP1_Projekat\workspace\MJCompiler\test\program.mj
+INFO  19:42:03,143 - #43 program
+INFO  19:42:03,143 - #2 test_A_successful
+INFO  19:42:03,143 - #2 int
+INFO  19:42:03,148 - #2 b
+INFO  19:42:03,150 - #11 [
+INFO  19:42:03,151 - #10 ]
+INFO  19:42:03,151 - #11 [
+INFO  19:42:03,151 - #10 ]
+INFO  19:42:03,151 - #31 ;
+INFO  19:42:03,151 - #34 {
+INFO  19:42:03,151 - #40 void
+INFO  19:42:03,154 - #2 main
+INFO  19:42:03,157 - #26 (
+INFO  19:42:03,159 - #27 )
+INFO  19:42:03,162 - #34 {
+INFO  19:42:03,164 - #2 b
+INFO  19:42:03,169 - #13 =
+INFO  19:42:03,174 - #25 new
+INFO  19:42:03,179 - #2 int
+INFO  19:42:03,179 - #11 [
+INFO  19:42:03,179 - #3 2
+INFO  19:42:03,179 - #10 ]
+INFO  19:42:03,180 - #11 [
+INFO  19:42:03,180 - #3 2
+INFO  19:42:03,180 - #10 ]
+INFO  19:42:03,180 - #31 ;
+INFO  19:42:03,180 - #8 return
+INFO  19:42:03,180 - #31 ;
+INFO  19:42:03,181 - #35 }
+INFO  19:42:03,181 - #35 }
+INFO  19:42:03,198 - Program(
+  ProgramName(
+   test_A_successful
+  ) [ProgramName]
+  NonEmptyDeclList(
+    EmptyDeclList(
+    ) [EmptyDeclList]
+    GlobalDecl(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalVectorElem(
+          MatrixGlobalVar(
+           b
+          ) [MatrixGlobalVar]
+        ) [GlobalVectorElem]
+      ) [VarDecl]
+    ) [GlobalDecl]
+  ) [NonEmptyDeclList]
+  NonVoidMethods(
+    VoidMethods(
+    ) [VoidMethods]
+    MethodDecl(
+      VoidReturnType(
+      ) [VoidReturnType]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      EmptyVarDeclList(
+      ) [EmptyVarDeclList]
+      MethodStart(
+      ) [MethodStart]
+      NonEmptyStatementList(
+        NonEmptyStatementList(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          OneSingleStatement(
+            DesignatorSingleStatement(
+              DesiStmtAssignop(
+                DesignatorWithOptList(
+                  FakeIdent(
+                   b
+                  ) [FakeIdent]
+                  EmptyDesiList(
+                  ) [EmptyDesiList]
+                ) [DesignatorWithOptList]
+                EqualAssignop(
+                ) [EqualAssignop]
+                ExprEPExpr(
+                  TermExpr(
+                    FactorTerm(
+                      NewMatrixFactor(
+                        Type(
+                         int
+                        ) [Type]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             2
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        TermExpr(
+                          FactorTerm(
+                            IntFactor(
+                             2
+                            ) [IntFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [NewMatrixFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [ExprEPExpr]
+              ) [DesiStmtAssignop]
+            ) [DesignatorSingleStatement]
+          ) [OneSingleStatement]
+        ) [NonEmptyStatementList]
+        OneSingleStatement(
+          ReturnNoExpr(
+           return
+          ) [ReturnNoExpr]
+        ) [OneSingleStatement]
+      ) [NonEmptyStatementList]
+      MethodEnd(
+      ) [MethodEnd]
+    ) [MethodDecl]
+  ) [NonVoidMethods]
+  ProgramEnd(
+  ) [ProgramEnd]
+) [Program]
+INFO  19:42:03,199 - ===================================
+INFO  19:42:03,224 -  [b], Found Var b: Matrix of int, Adr:0, Level:0 na liniji 2
+INFO  19:42:03,224 - [STATEMENT INFO]: Found Var b: Matrix of int, Adr: 0, Level: 0 na liniji 5
+INFO  19:42:55,469 - [STATEMENT INFO]: pronadjena dodela  [matrix: b , matrix: new Type[][]]!! na liniji 5
+INFO  19:42:55,469 - main kind 3 typ 0 adr -1 lev 0 na liniji 4
+INFO  19:42:55,470 -  Print count calls = 0
+INFO  19:42:55,470 -  Deklarisanih promenljivih ima = 0
+INFO  19:42:55,470 - ===================================
+INFO  19:42:55,493 - Parsiranje je uspesno!!!
