@@ -1,8 +1,0 @@
-INDEX VERSION 1.131+C:\Users\misko\Desktop\PP1_Projekat\workspace\.metadata\.plugins\org.eclipse.jdt.core
-3024886296.index
-963485355.index
-570380218.index
-2792787403.index
-3026519941.index
-267254768.index
-485005741.index
