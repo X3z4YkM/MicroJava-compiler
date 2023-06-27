@@ -305,39 +305,75 @@ public class CodeGenerator extends VisitorAdaptor
 		 * adr: _______________ | | | | | |___|___|___|___|
 		 */
 
-		Code.put(Code.dup_x1); // stack:..adr, col, adr
+		Code.put(Code.dup);
+		Code.put(Code.arraylength); // stack: col,adrM, lenAdrM
+		
+		Code.loadConst(-1); // stack: col,adrM, lenAdrM, -1
+		
+		
+		int loop = Code.pc;
+		Code.put(Code.const_1); // stack: col,adrM, lenAdrM, -1, 1
+		Code.put(Code.add); // stack: col,adrM, lenAdrM, 0
+		
+		Code.put(Code.dup2); //// stack: col,adrM, lenAdrM, 0, lenAdrM, 0
+		int temp = Code.pc + 1; 
+		Code.putFalseJump(Code.gt, 0);// stack: col,adrM, lenAdrM, 0
+		
+		Code.put(Code.dup_x1);// stack: col,adrM,0,lenAdrM, 0
 		Code.put(Code.pop);
-		Code.put(Code.pop); // stack:.. adrMatrice
-
-		int row = ((IntFactor) ((FactorTerm) ((TermExpr) newMatrixFactor.getExpr()).getTerm())
-				.getFactor()).getValue();
-		int col = ((IntFactor) ((FactorTerm) ((TermExpr) newMatrixFactor.getExpr1()).getTerm())
-				.getFactor()).getValue();
-
-		for (int i = 0; i < row; i++)
+		Code.put(Code.pop);// stack: col,adrM,0
+		
+		Code.put(Code.dup_x2);// stack: index, col, adrM,index
+		Code.put(Code.dup_x2);// stack: index, index, col, adrM,index
+		Code.put(Code.pop);	// stack: index, index, col, adrM
+		
+		Code.put(Code.dup_x2);// stack: index, adrM, index, col, adrM
+		Code.put(Code.dup_x2);// stack: index, adrM, adrM, index, col, adrM
+		Code.put(Code.pop);// stack: index, adrM, adrM, index, col
+		
+		Code.put(Code.dup_x2);// stack: index, adrM, col, adrM, index, col
+		Code.put(Code.dup_x2);// stack: index, adrM, col, col,adrM, index, col
+		Code.put(Code.pop);// stack: index, adrM, col, col, adrM, index
+		
+		Code.put(Code.dup_x2); // stack: index, adrM, col,index, col, adrM, index
+		Code.put(Code.pop);  // stack: index, adrM, col,  index, col, adrM
+		Code.put(Code.dup_x2); // stack: index, adrM, col, adrM, index, col, adrM
+		Code.put(Code.pop); // stack: index, adrM, col, adrM, index, col
+		
+		Code.put(Code.newarray);
+		if (type == MyTable.charType)
 		{
-			Code.put(Code.dup); // stack: .. adrMatrice, adrMatrice
-			Code.loadConst(i); // stack: adrMatrix, i,
-
-			Code.loadConst(col);
-			Code.put(Code.newarray);
-			if (type == MyTable.charType)
-			{
-				Code.put(0);
-			} else
-			{
-				Code.put(1);
-			} // stack: adrMatrix, adrMatrix, i, adrNizKolone
-
-			if (type == MyTable.charType)
-			{
-				Code.put(Code.bastore); // cuvanje u adrMatrix[i]= adrNizKolone
-			} else
-			{
-				Code.put(Code.astore);
-			}
-			// stack: adrMatrix
-		}
+			Code.put(0);
+		} else
+		{
+			Code.put(1);
+		} // stack: index, adrM, col, adrM, index, adrNizKolone
+		
+		if (type == MyTable.charType)
+		{
+			Code.put(Code.bastore); // cuvanje u adrMatrix[i]= adrNizKolone
+		} else
+		{
+			Code.put(Code.astore);
+		} // stack: index, adrM, col
+		
+		Code.put(Code.dup_x2); // stack:col, index, adrM, col
+		Code.put(Code.pop);// stack:col, index, adrM
+		
+		Code.put(Code.dup_x1);// stack:col, adrM, index, adrM
+		Code.put(Code.arraylength);// stack:col, adrM, index, lenAdrM
+		Code.put(Code.dup_x1);// stack:col, adrM, lenAdrM, index, lenAdrM
+		Code.put(Code.pop);// stack:col, adrM, lenAdrM, index
+		
+		Code.putJump(loop);
+		
+		Code.fixup(temp);
+		
+		Code.put(Code.pop);
+		Code.put(Code.pop);
+		Code.put(Code.dup_x1);
+		Code.put(Code.pop);
+		Code.put(Code.pop);
 
 	}
 

@@ -48,7 +48,7 @@ program test301
 		print(nizch[jedan * 2]);
 		mat_ch = new char[3][3];
 		mat_ch[0][0] = 'm';
-		mat_ch[1][0] = mat_ch[0][0];
+		mat_ch[nula+1][0] = mat_ch[0][0];
 		mat_ch[0][0] = 'k';
 	
 	
@@ -65,5 +65,3 @@ program test301
 		return 1;
 	}
 }
-
-

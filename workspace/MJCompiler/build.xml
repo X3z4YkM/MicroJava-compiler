@@ -74,7 +74,7 @@
 			<java classname="rs.etf.pp1.mj.runtime.Run">
 				<arg value="test/program.obj"/>
 				<redirector input="test/input.txt" output="test/izlaz.out" error="test/izlaz.err"></redirector>
-				<!--<arg value="-debug"/>-->
+			
 				<classpath>
 					<pathelement path="lib/mj-runtime-1.1.jar"/>
 				</classpath>
